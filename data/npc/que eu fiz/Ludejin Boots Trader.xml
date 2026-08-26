@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Ludejin Boots Trader" script="default.lua" walkinterval="2000" floorchange="0">
+	<health now="150" max="150"/>
+	<look type="290" head="57" body="59" legs="40" feet="76" corpse="2212"/>
+	<parameters>
+		<parameter key="module_shop" value="1"/>
+		<parameter key="shop_sellable" value="
+			saiyan boots,2195,1000;
+			vilage boots,2541,1000;
+			human boots,3982,500;
+			boots,2644,1000;
+			brolly boots,2642,2000;
+			c17 boots,2645,2500;
+			future trunks boots,2641,3000;
+			super c17 boots,2358,4000;
+			bardock boots,2643,5000;
+			majin boots,2646,10000;
+			goku boots,7457,100000;
+			elite boots,2525,150000;
+			hercules boots,2524,1500;"/>
+		<parameter key="shop_buyable" value="boots,2644,1500;"/>
+		<parameter key="message_greet" value="Hello |PLAYERNAME|. Say {trade}, to see my offer!"/>
+		<parameter key="message_sendtrade" value="Huh it's my offer.."/>
+		<parameter key="message_oncloseshop" value="Good luck while running and hitting!"/>
+	</parameters>
+</npc>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Goku" script="goku2.lua" walkinterval="0" speechbubble="1" >
+	<health now="150" max="150"/>
+	<look type="354" head="132" body="79" legs="97" feet="132" corpse="2212"/>
+
+</npc>

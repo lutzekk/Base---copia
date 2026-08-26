@@ -1,0 +1,9 @@
+<npc name="Metal Freeza" script="data/npc/scripts/mf.lua" walkinterval="0" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="119" head="132" body="79" legs="97" feet="132" addons="3"/>
+        <parameters>
+                <parameter key="message_greet" value="Do you want Fight?" />
+                <parameter key="message_farewell" value="Bye." />
+                <parameter key="message_walkaway" value="Bye." />
+        </parameters>
+</npc>

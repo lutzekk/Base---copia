@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Premium Account Seller" script="data/npc/scripts/premiumaccount.lua" walkinterval="0" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="153" head="58" body="58" legs="76" feet="76" addons="3"/>
+    <parameters>
+            <parameter key="message_greet" value="Ola jovem |PLAYERNAME|! Eu vendo premium account por points adquiridos no site. Se quiser comprar fale {30 dias}/10 points , {60 dias}/19 points, {90 dias}/27 points.."/>
+            <parameter key="message_farewell" value="Ate logo, |PLAYERNAME|!"/>
+            <parameter key="module_keywords" value="1" />
+            <parameter key="keywords" value="hi;" />
+            <parameter key="keyword_reply1" value="Ola jovem |PLAYERNAME|! Eu vendo premium account por points adquiridos no site. Se quiser comprar fale {30 dias}/10 points , {60 dias}/19 points, {90 dias}/27 points.." />
+    </parameters>
+</npc>
+

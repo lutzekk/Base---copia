@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shaders>
+    <shader id="1" name="line" premium="no" />
+	    <shader id="2" name="test" premium="no" />
+
+</shaders>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Ludejin Weapons Trader" script="default.lua" walkinterval="2000" floorchange="0">
+	<health now="150" max="150"/>
+	<look type="290" head="132" body="79" legs="97" feet="132" corpse="2212"/>
+	<parameters>
+		<parameter key="module_shop" value="1"/>
+		<parameter key="shop_sellable" value="power,2685,3000;"/>
+		<parameter key="shop_buyable" value="
+			staff,2398,2000;
+			castet,2432,5000;
+			roshi staff,2448,50000;
+			full staff,2434,30000;
+			nunhacko,2391,500000;
+			strong staff,7421,5000000;"/>
+		<parameter key="message_greet" value="Hello |PLAYERNAME|. Say {trade}, to see my offer!"/>
+		<parameter key="message_sendtrade" value="Huh it's my offer.."/>
+		<parameter key="message_oncloseshop" value="My prices is low!"/>
+	</parameters>
+</npc>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Gun Trader" script="default.lua" walkinterval="2000" floorchange="0">
+	<health now="150" max="150"/>
+	<look type="708" head="132" body="79" legs="97" feet="132" corpse="2212"/>
+	<parameters>
+		<parameter key="module_shop" value="1"/>
+		<parameter key="shop_sellable" value="
+			greeen gun,2181,400;
+			gun,2182,100;
+			stronge gun,2183,1000;
+			uzi,2185,500;
+			sniper,2186,700"/>
+		<parameter key="shop_buyable" value="gun,2182,300"/>
+		<parameter key="message_greet" value="Hello |PLAYERNAME|. Say {trade}, to see my offer!"/>
+		<parameter key="message_sendtrade" value="Huh it's my offer.."/>
+		<parameter key="message_oncloseshop" value="Good luck while running and hitting!"/>
+	</parameters>
+</npc>

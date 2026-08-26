@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Ludejin Armor Trader" script="default.lua" walkinterval="2000" floorchange="0">
+	<health now="150" max="150"/>
+	<look type="290" head="132" body="79" legs="97" feet="132" corpse="2212"/>
+
+	<parameters>
+		<parameter key="module_shop" value="1"/>
+		<parameter key="shop_sellable" value="
+			tunic,2467,5000;
+			elven jacket,2505,10000;
+			black coat,2651,15000;
+			fighter armor,2535,50000;
+			fat armor,2650,2500;
+			jacket of master roshi,2485,3000;
+			tao armor,2484,4000;
+			roshi turtle,3983,5000;
+			goku coat,2645,10000;
+			sport jacket,2465,100000;
+			scale armor,2503,150000;	
+			goten armor,2654,1500;		
+			piccolo armor,2489,15000;	
+			black power armor,2465,15000;	
+			red power armor,2500,150000;		
+			raditz armor,2486,15000;           
+			soldier armor,2660,15000;          
+			ice armor,2523,60000;              
+			future trunks armor,2531,80000;   
+			vilage armor,2513,100000;           
+			saiyan armor,2466,120000;           
+			c17 armor,2476,1500000;             
+			c18 armor,2508,1500000;             
+			gohan armor,2487,2000000;          
+			elite vilage armor,2509,2500000;  
+			c16 armor,2664,2500000;           
+			bardock armor,2658,3000000;         
+			ussj armor,2483,2500000;           
+			magma armor,3969,3500000;          
+			majin armor,2463,4000000;          
+			piccolo robe,3969,4500000;        
+			frozen armor,2657,5000000;        
+			goku armor,2472,7500000;  
+			tsuful armor,2542,8000000;
+			great saiyam armor,2389,7500000;"/>
+		<parameter key="shop_buyable" value="tunic,2467,5000;"/>
+		<parameter key="message_greet" value="Hello |PLAYERNAME|. Say {trade}, to see my offer!"/>
+		<parameter key="message_sendtrade" value="Huh it's my offer.."/>
+		<parameter key="message_oncloseshop" value="Good luck while running and hitting!"/>
+	</parameters>
+</npc>

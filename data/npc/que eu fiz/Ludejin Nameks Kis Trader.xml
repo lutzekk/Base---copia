@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Ludejin Nameks Kis Trader" script="default.lua" walkinterval="2000" floorchange="0">
+	<health now="150" max="150"/>
+	<look type="290" head="132" body="79" legs="97" feet="132" corpse="2212"/>
+	<parameters>
+		<parameter key="module_shop" value="1"/>
+		<parameter key="shop_sellable" value="
+			namek power,3278,5000;
+			makankosappo power,7449,10000;
+			light,2396,5;
+			blue,2442,5;
+			dark,2411,5;
+			makanko,2395,5;
+			strong,2393,100;"/>
+		<parameter key="shop_buyable" value="small,2376,2000;"/>
+		<parameter key="message_greet" value="Hello |PLAYERNAME|. Say {trade}, to see my offer!"/>
+		<parameter key="message_sendtrade" value="Huh it's my offer.."/>
+		<parameter key="message_oncloseshop" value="Good luck while running and hitting!"/>
+	</parameters>
+</npc>

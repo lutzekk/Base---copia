@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <monster name="Buu LvL 3" nameDescription="a buu" race="blood" experience="900" speed="295" manacost="0">
+    <health now="60000" max="60000"/>
+    <look type="114" head="0" body="0" legs="0" feet="0" corpse="2844"/>
+    <targetchange interval="60000" chance="0"/>
+    <strategy attack="0" defense="0"/>
+    <flags>
+      <flag attackable="1"/>
+      <flag hostile="1"/>
+      <flag illusionable="0"/>
+      <flag convinceable="0"/>
+      <flag pushable="0"/>
+     <flag canpushitems="1"/>
+      <flag staticattack="50"/>
+      <flag lightlevel="0"/>
+      <flag lightcolor="0"/>
+      <flag targetdistance="1"/>
+      <flag runonhealth="0"/>
+    </flags>
+    <attacks>
+<attack name="melee" interval="1000" min="-4000" max="-5500"/>
+<attack name="rozowe fala" chance="50" interval="3000" min="-4000" max="-7000"/>
+<attack name="noga buu fala" chance="50"  interval="5000" min="-3000" max="-7000"/>
+<attack name="buu kula" chance="50" interval="7000" min="-3000" max="-7000"/>
+<attack name="duza buu kula" chance="50" interval="9000" min="-3000" max="-7000"/>
+<attack name="jinruizetsumetsukogechi" chance="50" interval="12000" min="-3000" max="-7000"/>
+<attack name="renzoku energy dan" chance="50" interval="4000" min="-1000" max="-3000"/>
+    </attacks>
+      <immunities>
+      <immunity physical="0"/>
+      <immunity energy="0"/>
+      <immunity fire="0"/>
+      <immunity poison="0"/>
+      <immunity lifedrain="0"/>
+      <immunity paralyze="0"/>
+      <immunity outfit="0"/>
+      <immunity drunk="0"/>
+      <immunity invisible="0"/>
+    </immunities>
+    <loot>
+      <item id="2148" countmax="40" chance1="50000" chancemax="0"/>
+<item id="2673" countmax="2" chance1="1000" chancemax="0"/>
+<item id="2991" chance="50000">
+<inside>
+   <item id="2539" chance="1000"/>
+  
+
+
+   </inside>
+</item>
+    </loot>
+  </monster>

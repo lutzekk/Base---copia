@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wings>
+<!--	<wing id="1" clientid="368" name="Widow Queen" speed="20" />
+	<wing id="2" clientid="369" name="Racing Bird" speed="20" />
+	<wing id="3" clientid="370" name="War Bear" speed="20" /> -->
+	<aura id="4" clientid="1573" name="Saiyan" speed="300"   />
+	<aura id="5" clientid="1574" name="Blue1" speed="300"   />
+	<aura id="6" clientid="1575" name="Blue2" speed="300"   />
+	<aura id="7" clientid="1576" name="Blue3" speed="300"   />
+	<aura id="8" clientid="1577" name="Blue4" speed="300"   />
+	<aura id="9" clientid="1579" name="Blue5" speed="300"   />
+	<aura id="10" clientid="1580" name="Blue6" speed="300"   />
+	<aura id="11" clientid="1581" name="Red1" speed="300"   />
+	<aura id="12" clientid="1582" name="Red2" speed="100"   />
+	<aura id="13" clientid="1583" name="Red3" speed="300"   />
+	<aura id="14" clientid="1584" name="Red4" speed="300"   />
+	<aura id="15" clientid="1586" name="Red5" speed="300"   />
+	<aura id="16" clientid="1587" name="Red6" speed="300"   />
+	<aura id="17" clientid="1588" name="Verde1" speed="300"   />
+	<aura id="18" clientid="1589" name="Verde2" speed="300"   />
+	<aura id="19" clientid="1590" name="Verde3" speed="300"   />
+	<aura id="20" clientid="1591" name="Verde4" speed="300"   />
+	<aura id="21" clientid="1593" name="Verde5" speed="300"   />
+	<aura id="22" clientid="1594" name="Verde6" speed="300"   />
+	<aura id="23" clientid="1595" name="Amarilla1" speed="300"   />
+	<aura id="24" clientid="1596" name="Amarilla2" speed="300"   />
+	<aura id="25" clientid="1597" name="Amarilla3" speed="300"   />
+	<aura id="26" clientid="1598" name="Amarilla4" speed="300"   />
+	<aura id="27" clientid="1600" name="Amarilla5" speed="300"   />
+	<aura id="28" clientid="1601" name="Amarilla6" speed="300"   />
+	<aura id="29" clientid="1602" name="Purple1" speed="300"   />
+	<aura id="30" clientid="1603" name="Purple2" speed="100"   />
+	<aura id="31" clientid="1604" name="Purple3" speed="300"   />
+	<aura id="32" clientid="1605" name="Purple4" speed="300"   />
+	<aura id="33" clientid="1607" name="Purple5" speed="300"   />
+	<aura id="34" clientid="1608" name="Purple6" speed="300"   />
+	<aura id="35" clientid="1613" name="Negro1" speed="300"   />
+	<aura id="36" clientid="1614" name="Negro2" speed="300"   />
+	<aura id="37" clientid="1615" name="Negro3" speed="300"   />
+	<aura id="38" clientid="1616" name="Negro4" speed="300"   />
+	<aura id="39" clientid="1617" name="Negro5" speed="300"   />
+	<aura id="40" clientid="1618" name="Negro6" speed="300"   />
+	<aura id="41" clientid="1619" name="Blanco" speed="300"   />
+	<aura id="42" clientid="1620" name="Blanco2" speed="300"   />
+	<aura id="43" clientid="1621" name="Blanco3" speed="300"   />
+	<aura id="44" clientid="1622" name="Blanco4" speed="300"   />
+	<aura id="45" clientid="1623" name="Blanco5" speed="300"   />
+	<aura id="46" clientid="1624" name="Blanco6" speed="300"   />
+	<aura id="47" clientid="1625" name="Furie" speed="300"   />
+	<aura id="48" clientid="1626" name="Green" speed="300"   />
+	<aura id="49" clientid="1627" name="Blue" speed="300"   />
+	<aura id="50" clientid="1628" name="Blue2" speed="300"   />
+	<aura id="51" clientid="1629" name="Redv1" speed="300"   />
+	<aura id="52" clientid="1630" name="Redv2" speed="300"   />
+	<aura id="53" clientid="1631" name="Redv3" speed="300"   />
+	<aura id="54" clientid="1632" name="Redv4" speed="300"   />
+	<aura id="55" clientid="1633" name="Purplev2" speed="300"   />
+	<aura id="56" clientid="1645" name="Mariposa" speed="300"   />
+	<aura id="57" clientid="1646" name="Azteca" speed="300"   />
+	<aura id="58" clientid="1647" name="Vampiro" speed="300"   />
+
+</wings>

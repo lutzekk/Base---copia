@@ -1,0 +1,5 @@
+<npc name="Sr Kaio" script="sagadbz2.lua" walkinterval="5000" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="75" head="132" body="79" legs="97" feet="132" addons="3"/>
+ 
+</npc>

@@ -1,0 +1,9 @@
+<npc name="Gohan" script="data/npc/scripts/gohanssj2.lua" walkinterval="5000" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="81" head="132" body="79" legs="97" feet="132" addons="3"/>
+        <parameters>
+                <parameter key="message_greet" value="Ok |PLAYERNAME|! Do you want Finish Cell Saga??" />
+                <parameter key="message_farewell" value="Bye." />
+                <parameter key="message_walkaway" value="Bye." />
+        </parameters>
+</npc>

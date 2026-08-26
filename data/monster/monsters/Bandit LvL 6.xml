@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <monster name="Bandit LvL 6" nameDescription="a bandit" race="blood" experience="130" speed="295" manacost="0">
+    <health now="500" max="500"/>
+    <look type="12" head="0" body="0" legs="0" feet="0" corpse="6068"/>
+    <targetchange interval="60000" chance="0"/>
+    <strategy attack="0" defense="0"/>
+    <flags>
+      <flag attackable="1"/>
+      <flag hostile="1"/>
+      <flag illusionable="0"/>
+      <flag convinceable="0"/>
+      <flag pushable="0"/>
+     <flag canpushitems="1"/>
+      <flag staticattack="50"/>
+      <flag lightlevel="0"/>
+      <flag lightcolor="0"/>
+      <flag targetdistance="1"/>
+      <flag runonhealth="0"/>
+    </flags>
+    <attacks>
+<attack name="melee" interval="1000" min="-80" max="-135"/>
+<attack name="gund" chance="50" interval="5000" min="-100" max="-140"/>
+    </attacks>
+      <immunities>
+      <immunity physical="0"/>
+      <immunity energy="0"/>
+      <immunity fire="0"/>
+      <immunity poison="0"/>
+      <immunity lifedrain="0"/>
+      <immunity paralyze="0"/>
+      <immunity outfit="0"/>
+      <immunity drunk="0"/>
+      <immunity invisible="0"/>
+    </immunities>
+    <loot>
+     <item id="2425" chance="1000"/>
+<item id="4850" chance="20000"/>
+<item id="5879" chance="3000"/>
+<item id="2166" chance="5000"/>
+<item id="1987" chance="50000">
+<inside>
+   <item id="2426" chance="1500"/>
+   <item id="2183" chance="1000"/>
+   <item id="2665" chance="1000"/>
+   <item id="2651" chance="1000"/>
+   <item id="2394" chance="1000"/>
+   <item id="2686" chance="1000"/>
+   <item id="2689" chance="1000"/>
+   <item id="2685" chance="1000"/>
+</inside>
+</item>
+    </loot>
+  </monster>

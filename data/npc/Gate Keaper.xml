@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Gate Keaper" script="gate.lua" walkinterval="0" floorchange="0" speechbubble="1">
+	<health now="150" max="150"/>
+	<look type="287" head="114" body="119" legs="114" feet="114" corpse="2212"/>
+			<parameters>
+		<parameter key="message_greet" value="|PLAYERNAME|, where do you want to {travel}?" />
+	</parameters>
+</npc>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<creaturescripts>
+
+
+
+
+
+
+
+	<event type="extendedopcode" name="SpellbarOpcode" script="spellbar_opcode.lua"/>
+
+	<event type="healthchange" name="rewardcraft" script="archivements/dmg.lua"/>
+	<event type="login" name="CheckSkills" script="archivements/hp.lua"/>
+	<event type="kill" name="mision" script="misiones.lua"/>
+
+
+<!--Pass-->
+
+<event type="extendedopcode" name="PassReceive" script="pass/pass_receive.lua"/>
+	<event type="kill" name="PassKill" script="pass/pass_kill.lua"/>
+<!--fin
+	<event type="login" name="rewardss" script="vipexp.lua"/> -->
+
+<!--Party Members-->
+<event type="think" name="partyUpdate" interval="3000" script="partyUpdate.lua" />
+<!--Fin-->
+	<!-- <event type="extendedopcode" name="onShop" event="script" value="shop.lua"/> -->
+	<event type="login" name="PlayerLogin" script="login.lua" />
+	<event type="logout" name="PlayerLogout" script="logout.lua" />
+	<event type="login" name="RegenerateStamina" script="regeneratestamina.lua" />
+	<event type="death" name="PlayerDeath" script="playerdeath.lua" />
+	<event type="death" name="DropLoot" script="droploot.lua" />
+	<event type="extendedopcode" name="ExtendedOpcode" script="extendedopcode.lua" />
+<!---	<event type="healthchange" name="criticalHitSystemX" script="critical_hit_system.lua"/> -->
+	<event type="kill" name="boss" script="boss.lua"/>
+		<event type="kill" name="saga" script="saga.lua"/>
+
+	<event type="healthchange" name="defense" script="defense.lua"/>
+	<!--<event type="extendedopcode" name="CraftingExtended" script="crafting/1_crafting.lua" />-->
+
+
+	<!--<event type="healthchange" name="energy" script="energy.lua"/>-->
+	
+	<event type="login" name="inicial" script="inicial.lua"/> 
+	<event type="healthchange" name="skillTries" script="skillTries.lua"/>
+	<event type="Modalwindow" name="ModalWindowHelper" script="modalwindowhelper.lua" />
+
+	<!--<event type="Modalwindow" name="skillPoints_modal" script="sp.lua"/>
+    <event type="advance" name="skillPoints_advance" script="sp.lua"/>
+    <event type="login" name="skillPoints_register" script="sp.lua"/>-->
+
+	<event type="healthchange" name="stat_system_healthchange" script="stat_system_healthchange.lua"/> 
+<!--<event type="healthchange" name="stat_system_magic" script="stat_system_healthchange.lua"/> -->
+<!--	<event type="healthchange" name="stat_system_magic" script="stat_system_magic.lua"/> -->
+    <event type="advance" name="stat_system_advance" script="stat_system_advance.lua"/> 
+    <event type="modalwindow" name="stat_system_modal" script="stat_system_modal.lua"/> 
+
+	<event type="modalwindow" name="travel" script="travel.lua"/>
+	<event type="modalwindow" name="gate" script="gate.lua"/>
+	<event type="kill" name="AutoLoot" script="autoloot.lua" />
+
+
+
+
+
+</creaturescripts>

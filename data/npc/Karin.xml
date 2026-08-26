@@ -1,0 +1,5 @@
+<npc name="Mestre Karin" script="karin.lua" walkinterval="0" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="630" head="132" body="79" legs="97" feet="132" addons="3"/>
+ 
+</npc>

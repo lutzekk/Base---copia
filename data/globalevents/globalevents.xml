@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<globalevents>
+	<globalevent type="startup" name="ServerStartup" script="startup.lua" />
+	<globalevent type="record" name="PlayerRecord" script="record.lua" />
+	<globalevent name="Server Save" time="09:55:00" script="serversave.lua" />
+	<globalevent name="dragonBall" interval="3600000" script="dragonballs\dragonBalls.lua"/>
+	<globalevent name="skill_points" interval="1000" script="def.lua"/>	
+	<globalevent name="bossCave" interval="3000000" script="bossCave.lua"/>
+
+
+
+	<!--
+	<globalevent name="timer_example" time="12:00:00" script="my_script.lua" />
+	-->
+</globalevents>

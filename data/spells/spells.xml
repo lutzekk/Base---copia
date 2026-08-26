@@ -1,0 +1,853 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spells>
+<rune name="Magic Wall"   id="2315"   charges="1" aggressive="1" needtarget="0" mana="1000"  maglv="30" exhaustion="500" cooldown="1500" enabled="1"  soul="0"  allowfaruse="1" script="magic_shield.lua"></rune>
+<!-- RUNAS -->
+<rune name="xParalyze"			id="2303"	charges="1" 	 needtarget="1" 		mana="6000"		maglv="70" exhaustion="1000" enabled="1" allowfaruse="1" script="runes/paralyze.lua"></rune>
+<rune name="xKaioken Wave"		id="2305"	charges="1" aggressive="0"	 needtarget="1" 		mana="2000"		maglv="30" exhaustion="1000" enabled="1" allowfaruse="1" script="runes/kaioken wave.lua"></rune>
+<rune name="xBig Kaioken Wave"	id="2304"	charges="1"	aggressive="0"	needtarget="1" 		mana="5000"		maglv="60" exhaustion="1000" enabled="1" allowfaruse="1" script="runes/big kaioken wave.lua"></rune>
+<rune name="awBarrier"			id="2278"   charges="1" aggressive="0"					mana="3000"		maglv="40" exhaustion="1000" enabled="1" allowfaruse="1" script="runes/barrier.lua"></rune>
+<rune name="xgda"				id="2313"	charges="1"	aggressive="0" needtarget="1" mana="8000"		maglv="100" exhaustion="1000" enabled="1" allowfaruse="1" script="runes/gda.lua"></rune>
+<rune name="xBurning wave"		id="2272"	charges="1" aggressive="0"					mana="7000"		maglv="80" exhaustion="1000" enabled="1" allowfaruse="1" script="runes/burning wave.lua"></rune>
+<rune name="xChobakuretsumaha"		id="2270"	charges="1"  needtarget="1" aggressive="0"			mana="5000"		maglv="60"  exhaustion="1000" enabled="1" allowfaruse="1" script="runes/chobakuretsumaha.lua"></rune>
+<rune name="xawBig Bang Attack"		id="2311"	charges="1" needtarget="1" aggressive="0"			mana="8000"		maglv="100" exhaustion="1000" enabled="1" allowfaruse="1" script="runes/big bang attack.lua"></rune>
+<rune name="xFinal Flash"		id="2268"	charges="1" needtarget="1" aggressive="0"			mana="5000"		maglv="60" exhaustion="1000" enabled="1" allowfaruse="1" script="runes/final flash.lua"></rune>
+<rune name="xBolt"				id="2287"	charges="1" needtarget="1" 		mana="250"		maglv="5" exhaustion="1000" enabled="1" allowfaruse="1" script="runes/bolt.lua"></rune>
+<rune name="xTaioken"   id="2315"   charges="1" aggressive="1" needtarget="0" mana="1000"  maglv="30" exhaustion="1000" enabled="1"  soul="0"  allowfaruse="1" script="runes/taioken.lua"></rune>
+<rune name="Speed Up"			id="2284"	charges="1" aggressive="0" needtarget="1" mana="500"		maglv="10" exhaustion="1000" enabled="1" allowfaruse="1" script="runes/speed up.lua"></rune>
+<rune name="xRessurection"		id="2282"   charges="1" aggressive="0" needtarget="1" mana="7000"		maglv="80" exhaustion="1000" enabled="1" allowfaruse="1" script="runes/ressurection.lua"></rune>
+<rune name="xKienzan"			id="2295"	charges="1" aggressive="0"					mana="2000"		maglv="30" exhaustion="1000" enabled="1" allowfaruse="1"  script="runes/kienzan.lua"></rune>
+<rune name="Kxamehameha"			id="2275"	charges="1" needtarget="1" 			mana="1000"		maglv="35" exhaustion="1000" enabled="1" allowfaruse="1" script="runes/kamehameha.lua"></rune>
+<rune name="xMasenko"			id="2276"	charges="1"	aggressive="0"					mana="6000"		maglv="70" exhaustion="1000" enabled="1" allowfaruse="1" script="runes/masenko.lua"></rune>
+<rune name="xawDragon Fist"		id="2277"	charges="1" needtarget="1" aggressive="0"			mana="7000"		maglv="80" exhaustion="1000" enabled="1" allowfaruse="1" script="runes/dragon fist.lua"></rune>
+<rune name="xBig Bolt"			id="2269"	charges="1" needtarget="1" 		mana="750"		maglv="15" exhaustion="1000" enabled="1" allowfaruse="1" script="runes/boltek.lua"></rune>
+<rune name="xFull spirit"		id="2310"	charges="1" needtarget="1" aggressive="0"			mana="6000"		maglv="70" exhaustion="1000" enabled="1" allowfaruse="1" script="runes/full spirit.lua"></rune>
+<rune name="xHeller"			id="2309"	charges="1" aggressive="0" needtarget="1" mana="1000"		maglv="20" exhaustion="1000" enabled="1" allowfaruse="1" script="runes/heller.lua"></rune>
+<rune name="xBig Heller"			id="2308"	charges="1" aggressive="0" needtarget="1" mana="4000"		maglv="50" exhaustion="1000" enabled="1" allowfaruse="1" script="runes/big heller.lua"></rune>
+<rune name="xKi Blast"			id="2288"	charges="1" aggressive="0"	 needtarget="1" 		mana="7000"		maglv="80" exhaustion="1000" enabled="1" allowfaruse="1" script="runes/ki blast.lua"></rune>
+<rune name="xdunk shot"			id="2283"	charges="1" needtarget="1" aggressive="0"			mana="8000"		maglv="100" exhaustion="1000" enabled="1" allowfaruse="1" script="runes/dunk shot.lua"></rune>
+<rune name="xawExplosion"			id="2297"	charges="1" aggressive="0"					mana="7000"		maglv="80" exhaustion="1000" enabled="1" allowfaruse="1" script="runes/explosion.lua"></rune>
+<rune name="xMisty Kiwave"		id="2296"	charges="1" needtarget="1" aggressive="0"			mana="8000"		maglv="100" exhaustion="1000" enabled="1" allowfaruse="1" script="runes/misty kiwave.lua"></rune>
+<rune name="xPunch"			id="2292"	charges="1" aggressive="0"					mana="5000"		maglv="70" exhaustion="1000" enabled="1" allowfaruse="1"  script="runes/punch.lua"></rune>
+<rune name="xDrain"			id="2291"	charges="1" needtarget="1" aggressive="0"			mana="6000"		maglv="70" exhaustion="1000" enabled="1" allowfaruse="1" script="runes/drain.lua"></rune>
+<rune name="xFlash"			id="2302"	charges="1" needtarget="1" aggressive="0"			mana="5000"		maglv="60" exhaustion="1000" enabled="1" allowfaruse="1" script="runes/flash.lua"></rune>
+<rune name="xlightbomb"			id="2290"	charges="1" needtarget="1" aggressive="0"			mana="3000"		maglv="40" exhaustion="1000" enabled="1" allowfaruse="1" script="runes/lightbomb.lua"></rune>
+<rune name="xsmall ressurection"	id="2298"	charges="1" aggressive="0" needtarget="1" mana="1000"		maglv="20" exhaustion="1000" enabled="1" allowfaruse="1" script="runes/small ressurection.lua"></rune>
+<rune name="xbig ressurection"		id="2306"	charges="1" aggressive="0" needtarget="1" mana="4000"		maglv="50" exhaustion="1000" enabled="1" allowfaruse="1" script="runes/big ressurection.lua"></rune>
+<rune name="xbreath"			id="2289"	charges="1"	aggressive="0"					mana="6000"		maglv="70" exhaustion="1000" enabled="1" allowfaruse="1" script="runes/breath.lua"></rune>
+<rune name="xdush"				id="2299"	charges="1" aggressive="0"					mana="8000"		maglv="100" exhaustion="1000" enabled="1" allowfaruse="1" script="runes/dush.lua"></rune>
+<rune name="xawnova"				id="2293"	charges="1" needtarget="1" aggressive="0"			mana="8000"		maglv="100" exhaustion="1000" enabled="1" allowfaruse="1" script="runes/nova.lua"></rune>
+<rune name="xfingerki"			id="2294"	charges="1"	 needtarget="1" aggressive="0"			mana="5000"		maglv="60" exhaustion="1000" enabled="1" allowfaruse="1" script="runes/fingerki.lua"></rune>
+<rune name="xfreezadush"			id="2303"	charges="1"	aggressive="0"	 				mana="6000"		maglv="70" exhaustion="1000" enabled="1" allowfaruse="1" script="runes/freezadush.lua"></rune>
+<rune name="xxChocolinare"		id="2281"	charges="1" needtarget="1" aggressive="0"			mana="5000"		maglv="60" exhaustion="1000" enabled="1" allowfaruse="1" script="runes/chocolinare.lua"></rune>
+<rune name="xOne Hand Ki Wave"		id="2300"	charges="1" needtarget="1" aggressive="0"			mana="6000"		maglv="70" exhaustion="1000" enabled="1" allowfaruse="1" script="runes/teleport.lua"></rune>
+<rune name="xcelljr"			id="2301"	charges="1" needtarget="1" aggressive="0"		 	mana="7000"		maglv="80" exhaustion="1000" enabled="1" allowfaruse="1" script="runes/celljr.lua"></rune>
+<rune name="xMega Speed"			id="2312"	charges="1" aggressive="0" needtarget="1" mana="500"		maglv="10" exhaustion="1000" enabled="1" allowfaruse="1" script="runes/mega speed.lua"></rune>
+<rune name="xNamek Heal"			id="2280"	charges="1" aggressive="0" needtarget="1" mana="1000"		maglv="20" exhaustion="1000" enabled="1" allowfaruse="1" script="runes/namek heal.lua"></rune>
+<rune name="xDunk Ball"			id="2314"	charges="1" aggressive="0"					mana="2000"		maglv="30" exhaustion="1000" enabled="1" allowfaruse="1"  script="runes/dunk ball.lua"></rune>
+<rune name="xVis Kienzan"		id="2286"	charges="1" aggressive="0"					mana="3000"		maglv="40" exhaustion="1000" enabled="1" allowfaruse="1"  script="runes/vis kienzan.lua"></rune>
+<rune name="xFury Flash"			id="2267"	charges="1" needtarget="1" aggressive="0"			mana="3000"		maglv="40" exhaustion="1000" enabled="1" allowfaruse="1" script="runes/fury flash.lua"></rune>
+<rune name="xOld Namek Heal"		id="2273"	charges="1" aggressive="0" needtarget="1" mana="2000"		maglv="50" exhaustion="1000" enabled="1" allowfaruse="1" script="runes/old namek heal.lua"></rune>
+<rune name="xTwo Hands Fury"		id="2266"	charges="1" aggressive="0"					mana="5000"		maglv="60" exhaustion="1000" enabled="1" allowfaruse="1" script="runes/two hands fury.lua"></rune>
+<rune name="xawTornado"			id="2316"	charges="1" aggressive="0"					mana="7000"		maglv="80" exhaustion="1000" enabled="1" allowfaruse="1" script="runes/tornado.lua"></rune>
+<rune name="xUltra Flash"		id="2307"	charges="1" needtarget="1" aggressive="0"			mana="7000"		maglv="80" exhaustion="1000" enabled="1" allowfaruse="1" script="runes/ultra flash.lua"></rune>
+<rune name="xZnire"			id="2285"	charges="1"	needtarget="1" aggressive="0"			mana="7000"		maglv="80" exhaustion="1000" enabled="1" allowfaruse="1" script="runes/znire.lua"></rune>
+<rune name="xKi Sword"			id="2261"	charges="1"	needtarget="1" aggressive="0"			mana="7000"		maglv="80" exhaustion="1000" enabled="1" allowfaruse="1" script="runes/ki sword.lua"></rune>
+<rune name="xNamek Power Flash"	id="2271"	charges="1"	aggressive="0"	needtarget="1" 		mana="8000"		maglv="100" exhaustion="1000" enabled="1" allowfaruse="1" script="runes/namek power flash.lua"></rune>
+<rune name="xKikoho"	id="2279"	charges="1"	aggressive="1"	needtarget="1" 		mana="8000"		maglv="100" exhaustion="1000" enabled="1" allowfaruse="1" script="runes/kikoho.lua"></rune>
+
+
+<!--FIN-->
+<instant name="Find Person" words="sense" aggressive="0" params="1" level="1" maglv="20" mana="10" soul="0" cooldown="1500" prem="0" enabled="1" script="support/find_person.lua"></instant>
+
+<instant name="power down" words="power down" aggressive="0" params="0" level="0" maglv="0" mana="0" soul="0" cooldown="1500" prem="0" enabled="1" script="power down.lua"></instant>
+
+<instant name="Speed Up" 		words="speed up" 			selftarget="1" aggressive="0"  level="50" 				maglv="20"  mana="2000" soul="0" exhaustion="500" prem="0" enabled="1" script="speed up.lua"></instant>
+
+<instant name="Mini Speed Up" 		words="mini speed up" 			selftarget="1" aggressive="0"  level="15" 				maglv="10"  mana="2000" soul="0" exhaustion="500" prem="0" enabled="1" script="mini speed up.lua"></instant>
+
+<instant name="Regeneration" 		words="regeneration" 			selftarget="1" aggressive="0"  level="50" 		cooldown="2000"		maglv="20"  mana="4000" soul="0" exhaustion="0" prem="0" enabled="1" script="regeneration.lua"></instant>
+
+
+<instant name="arrow" 				words="arrow" needtarget="1" 				direction="1" lvl="300" 				maglv="300"	mana="2000" soul="0" exhaustion="1" prem="0" enabled="1" script="arrow.lua">
+<vocation name="none" />
+</instant>
+<instant name="goku" 		words="goku" 			selftarget="1" aggressive="0"  level="1" 				maglv="1"  mana="0" soul="0" exhaustion="0" prem="0" enabled="1" script="especial/goku.lua">
+<vocation name="none" />
+</instant>
+
+<instant name="Grounder" 		words="Grounder" 	blocktype="solid"		needtarget="0" aggressive="0"  level="1" 				maglv="1"  mana="0" soul="0" exhaustion="0" prem="0" enabled="1" script="especial/trap.lua">
+<vocation name="" />
+</instant>
+
+<instant name="test" 		words="test" 	blocktype="solid"		selftarget="1" aggressive="0"  level="1" 				maglv="1"  mana="0" soul="0" exhaustion="0" prem="0" enabled="1" script="especial/krillin.lua">
+<vocation name="" />
+</instant>
+
+<instant name="god" 		words="god" 			selftarget="0" aggressive="0"  level="1" 				maglv="1"  mana="0" soul="0" exhaustion="0" prem="0" enabled="1" script="especial/god.lua">
+<vocation name="none" />
+</instant>
+
+<instant name="trap2" 		words="trap2" 	blocktype="solid"		selftarget="0" aggressive="0"  level="1" 				maglv="1"  mana="0" soul="0" exhaustion="0" range="4" blockwalls="1" needtarget="1" exhaustion="500" prem="0" enabled="1" script="especial/trap2.lua">
+<vocation name="" />
+</instant>
+
+
+
+<instant name="Small Regeneration" 		words="Small Regeneration" 			selftarget="1" aggressive="0"  level="1" 				maglv="10"  mana="2000" soul="0" exhaustion="500" prem="0" enabled="1" script="small regeneration.lua">
+</instant>
+
+
+
+<instant name="Deconcentration" words="Deconcentration" 			needtarget="1" aggressive="0"  level="200" 				maglv="20"  mana="2000" soul="0" exhaustion="500" prem="0" enabled="1" script="debuff.lua">
+<vocation name="" />
+</instant>
+
+<!--// level 10 \\-->
+<instant group="attack" name="Kiaiho" words="Kiaiho" level="10" maglv="10"  mana="250" premium="0" range="1" needtarget="0" needweapon="0" cooldown="1500" needlearn="0" script="level 10/kiaiho.lua">
+<vocation name="goku1" /><vocation name="goku2" /><vocation name="goku3" /><vocation name="goku4" /><vocation name="goku5" /><vocation name="goku6" /><vocation name="goku7" /><vocation name="goku8" /><vocation name="goku9" /><vocation name="goku10" /><vocation name="goku11" />
+<vocation name="Vegetto1" /><vocation name="Vegetto2" /><vocation name="Vegetto3" /><vocation name="Vegetto4" /><vocation name="Vegetto5" /><vocation name="Vegetto G6" /><vocation name="Vegetto G7" /><vocation name="Vegetto G8" /><vocation name="Vegetto G9" /><vocation name="Vegetto G10" /><vocation name="Vegetto G11" />
+<vocation name="Shin1" /><vocation name="Shin2" /><vocation name="Shin3" /><vocation name="Shin4" /><vocation name="Shin5" /><vocation name="Shin G6" /><vocation name="Shin G7" /><vocation name="Shin G8" /><vocation name="Shin G9" /><vocation name="Shin G10" /><vocation name="Shin G11" />
+<vocation name="Freezer1" /><vocation name="Freezer2" /><vocation name="Freezer3" /><vocation name="Freezer4" /><vocation name="Freezer5" /><vocation name="Freezer G6" /><vocation name="Freezer G7" /><vocation name="Freezer G8" /><vocation name="Freezer G9" /><vocation name="Freezer G10" /><vocation name="Freezer G11" />
+<vocation name="Cell1" /><vocation name="Cell2" /><vocation name="Cell3" /><vocation name="Cell4" /><vocation name="Cell5" /><vocation name="Cell G6" /><vocation name="Cell G7" /><vocation name="Cell G8" /><vocation name="Cell G9" /><vocation name="Cell G10" /><vocation name="Cell G11" />
+<vocation name="Bardock1" /><vocation name="Bardock2" /><vocation name="Bardock3" /><vocation name="Bardock4" /><vocation name="Bardock5" /><vocation name="Bardock G6" /><vocation name="Bardock G7" /><vocation name="Bardock G8" /><vocation name="Bardock G9" /><vocation name="Bardock G10" /><vocation name="Bardock G11" />
+<vocation name="Kame1" /><vocation name="Kame2" /><vocation name="Kame3" /><vocation name="Kame4" /><vocation name="Kame5" /><vocation name="Kame G6" /><vocation name="Kame G7" /><vocation name="Kame G8" /><vocation name="Kame G9" /><vocation name="Kame G10" /><vocation name="Kame G11" />
+</instant>
+
+<instant group="attack" name="Dodonpa" words="Dodonpa" level="10" maglv="10"  mana="250" premium="0" range="1" needtarget="0" needweapon="0" cooldown="1500" needlearn="0" script="level 10/dodonpa.lua">
+<vocation name="Ten Shin Han1" /><vocation name="Ten Shin Han2" /><vocation name="Ten Shin Han3" /><vocation name="Ten Shin Han4" /><vocation name="Ten Shin Han5" /><vocation name="Ten Shin Han G6" /><vocation name="Ten Shin Han G7" /><vocation name="Ten Shin Han G8" /><vocation name="Ten Shin Han G9" /><vocation name="Ten Shin Han G10" /><vocation name="Ten Shin Han G11" />
+</instant>
+
+<instant group="attack" name="Bakurichimacha" words="Bakurichimacha" direction="1" level="10" maglv="10"  mana="250" premium="0" range="1" needtarget="0" needweapon="0" cooldown="1500" needlearn="0" script="level 10/bakurichimacha.lua">
+<vocation name="Piccolo1" /><vocation name="Piccolo2" /><vocation name="Piccolo3" /><vocation name="Piccolo4" /><vocation name="Piccolo5" /><vocation name="Piccolo G6" /><vocation name="Piccolo G7" /><vocation name="Piccolo G8" /><vocation name="Piccolo G9" /><vocation name="Piccolo G10" /><vocation name="Piccolo G11" />
+</instant>
+
+<instant group="attack" name="Renzoku Energy Dan" words="Renzoku Energy Dan" needtarget="1" level="10" maglv="10" mana="250" soul="0" exhaustion="500" cooldown="1000" prem="0" enabled="1" script="level 10/renzoku energy dan.lua">
+<vocation name="vegeta1" /><vocation name="vegeta2" /><vocation name="vegeta3" /><vocation name="vegeta4" /><vocation name="vegeta5" /><vocation name="vegeta G6" /><vocation name="vegeta G7" /><vocation name="vegeta G8" /><vocation name="vegeta G9" /><vocation name="vegeta G10" /><vocation name="vegeta G11" />
+<vocation name="Gohan1" /><vocation name="Gohan2" /><vocation name="Gohan3" /><vocation name="Gohan4" /><vocation name="Gohan5" /><vocation name="Gohan G6" /><vocation name="Gohan G7" /><vocation name="Gohan G8" /><vocation name="Gohan G9" /><vocation name="Gohan G10" /><vocation name="Gohan G11" />
+<vocation name="Trunks1" /><vocation name="Trunks2" /><vocation name="Trunks3" /><vocation name="Trunks4" /><vocation name="Trunks5" /><vocation name="Trunks G6" /><vocation name="Trunks G7" /><vocation name="Trunks G8" /><vocation name="Trunks G9" /><vocation name="Trunks G10" /><vocation name="Trunks G11" />
+<vocation name="Goten1" /><vocation name="Goten2" /><vocation name="Goten3" /><vocation name="Goten4" /><vocation name="Goten5" /><vocation name="Goten G6" /><vocation name="Goten G7" /><vocation name="Goten G8" /><vocation name="Goten G9" /><vocation name="Goten G10" /><vocation name="Goten G11" />
+<vocation name="Goten1" /><vocation name="Goten2" /><vocation name="Goten3" /><vocation name="Goten4" /><vocation name="Goten5" /><vocation name="Goten G6" /><vocation name="Goten G7" /><vocation name="Goten G8" /><vocation name="Goten G9" /><vocation name="Goten G10" /><vocation name="Goten G11" />
+<vocation name="Chibi Trunks1" /><vocation name="Chibi Trunks2" /><vocation name="Chibi Trunks3" /><vocation name="Chibi Trunks4" /><vocation name="Chibi Trunks5" /><vocation name="Chibi Trunks G6" /><vocation name="Chibi Trunks G7" /><vocation name="Chibi Trunks G8" /><vocation name="Chibi Trunks G9" /><vocation name="Chibi Trunks G10" /><vocation name="Chibi Trunks G11" />
+<vocation name="Krillin1" /><vocation name="Krillin2" /><vocation name="Krillin3" /><vocation name="Krillin4" /><vocation name="Krillin5" /><vocation name="Krillin G6" /><vocation name="Krillin G7" /><vocation name="Krillin G8" /><vocation name="Krillin G9" /><vocation name="Krillin G10" /><vocation name="Krillin G11" />
+<vocation name="Dende1" /><vocation name="Dende2" /><vocation name="Dende3" /><vocation name="Dende4" /><vocation name="Dende5" /><vocation name="Dende G6" /><vocation name="Dende G7" /><vocation name="Dende G8" /><vocation name="Dende G9" /><vocation name="Dende G10" /><vocation name="Dende G11" />
+<vocation name="Cooler1" /><vocation name="Cooler2" /><vocation name="Cooler3" /><vocation name="Cooler4" /><vocation name="Cooler5" /><vocation name="Cooler G6" /><vocation name="Cooler G7" /><vocation name="Cooler G8" /><vocation name="Cooler G9" /><vocation name="Cooler G10" /><vocation name="Cooler G11" />
+<vocation name="C171" /><vocation name="C172" /><vocation name="C173" /><vocation name="C174" /><vocation name="C175" /><vocation name="C17 G6" /><vocation name="C17 G7" /><vocation name="C17 G8" /><vocation name="C17 G9" /><vocation name="C17 G10" /><vocation name="C17 G11" />
+<vocation name="C181" /><vocation name="C182" /><vocation name="C183" /><vocation name="C184" /><vocation name="C185" /><vocation name="C18 G6" /><vocation name="C18 G7" /><vocation name="C18 G8" /><vocation name="C18 G9" /><vocation name="C18 G10" /><vocation name="C18 G11" />
+<vocation name="Majin Buu1" /><vocation name="Majin Buu2" /><vocation name="Majin Buu3" /><vocation name="Majin Buu4" /><vocation name="Majin Buu5" /><vocation name="Majin Buu G6" /><vocation name="Majin Buu G7" /><vocation name="Majin Buu G8" /><vocation name="Majin Buu G9" /><vocation name="Majin Buu G10" /><vocation name="Majin Buu G11" />
+<vocation name="Bebi1" /><vocation name="Bebi2" /><vocation name="Bebi3" /><vocation name="Bebi4" /><vocation name="Bebi5" /><vocation name="Bebi G6" /><vocation name="Bebi G7" /><vocation name="Bebi G8" /><vocation name="Bebi G9" /><vocation name="Bebi G10" /><vocation name="Bebi G11" />
+<vocation name="Uub1" /><vocation name="Uub2" /><vocation name="Uub3" /><vocation name="Uub4" /><vocation name="Uub5" /><vocation name="Uub G6" /><vocation name="Uub G7" /><vocation name="Uub G8" /><vocation name="Uub G9" /><vocation name="Uub G10" /><vocation name="Uub G11" />
+<vocation name="Brolly1" /><vocation name="Brolly2" /><vocation name="Brolly3" /><vocation name="Brolly4" /><vocation name="Brolly5" /><vocation name="Brolly G6" /><vocation name="Brolly G7" /><vocation name="Brolly G8" /><vocation name="Brolly G9" /><vocation name="Brolly G10" /><vocation name="Brolly G11" />
+</instant>
+
+<instant group="attack" name="Fire Punch" words="Fire Punch" needtarget="1" level="10" maglv="10" mana="250" soul="0" cooldown="1500" exhaustion="500" prem="0" enabled="1" script="level 10/fire punch.lua">
+<vocation name="none" />
+</instant>
+
+<instant group="attack" name="Hidden Punch" words="Hidden Punch" needtarget="1" level="10" maglv="10" mana="250" soul="0" cooldown="1500" exhaustion="500" prem="0" enabled="1" script="level 10/hidden punch.lua">
+<vocation name="Janemba1" /><vocation name="Janemba2" /><vocation name="Janemba3" /><vocation name="Janemba4" /><vocation name="Janemba5" /><vocation name="Janemba G6" /><vocation name="Janemba G7" /><vocation name="Janemba G8" /><vocation name="Janemba G9" /><vocation name="Janemba G10" /><vocation name="Janemba G11" />
+</instant>
+
+<instant group="attack" name="Double Sword" words="Double Sword" needtarget="1" level="10" maglv="10" mana="250" soul="0" cooldown="1500" exhaustion="500" prem="0" enabled="1" script="level 10/Double sword.lua">
+<vocation name="none" />
+</instant>
+
+<instant group="attack" name="Ki Blast" words="Ki Blast" needtarget="1" level="10" maglv="10" mana="250" soul="0" cooldown="1500" exhaustion="500" prem="0" enabled="1" script="level 10/ki blast.lua">
+<vocation name="none" />
+</instant>
+
+<instant group="attack" name="Bolt" words="Bolt" needtarget="1" level="10" maglv="10" mana="250" soul="0" exhaustion="500" cooldown="1500" prem="0" enabled="1" script="level 10/bolt.lua">
+<vocation name="none" />
+</instant>
+
+<instant group="attack" name="Quick Rush" words="Quick Rush" needtarget="1" level="10" maglv="10" mana="250" soul="0" cooldown="1500" exhaustion="500" prem="0" enabled="1" script="level 10/quick rush.lua">
+<vocation name="none" />
+</instant>
+
+<!--// level 30 \\-->
+<instant group="attack" name="Taiyoken" words="Taiyoken" direction="1" level="30" maglv="30" mana="500" soul="0" cooldown="1500" prem="0" enabled="1" script="level 30/taiyoken.lua">
+<vocation name="goku1" /><vocation name="goku2" /><vocation name="goku3" /><vocation name="goku4" /><vocation name="goku5" /><vocation name="goku6" /><vocation name="goku7" /><vocation name="goku8" /><vocation name="goku9" /><vocation name="goku10" /><vocation name="goku11" />
+<vocation name="Krillin1" /><vocation name="Krillin2" /><vocation name="Krillin3" /><vocation name="Krillin4" /><vocation name="Krillin5" /><vocation name="Krillin G6" /><vocation name="Krillin G7" /><vocation name="Krillin G8" /><vocation name="Krillin G9" /><vocation name="Krillin G10" /><vocation name="Krillin G11" />
+<vocation name="Cell1" /><vocation name="Cell2" /><vocation name="Cell3" /><vocation name="Cell4" /><vocation name="Cell5" /><vocation name="Cell G6" /><vocation name="Cell G7" /><vocation name="Cell G8" /><vocation name="Cell G9" /><vocation name="Cell G10" /><vocation name="Cell G11" />
+<vocation name="Ten Shin Han1" /><vocation name="Ten Shin Han2" /><vocation name="Ten Shin Han3" /><vocation name="Ten Shin Han4" /><vocation name="Ten Shin Han5" /><vocation name="Ten Shin Han G6" /><vocation name="Ten Shin Han G7" /><vocation name="Ten Shin Han G8" /><vocation name="Ten Shin Han G9" /><vocation name="Ten Shin Han G10" /><vocation name="Ten Shin Han G11" />
+<vocation name="Kame1" /><vocation name="Kame2" /><vocation name="Kame3" /><vocation name="Kame4" /><vocation name="Kame5" /><vocation name="Kame G6" /><vocation name="Kame G7" /><vocation name="Kame G8" /><vocation name="Kame G9" /><vocation name="Kame G10" /><vocation name="Kame G11" />
+</instant>
+
+<instant group="attack" name="Style of a Sword" words="style of a sword" direction="1" level="30" maglv="30" mana="500" soul="0" cooldown="1500" prem="0" enabled="1" script="level 30/Style of a sword.lua">
+<vocation name="none" />
+</instant>
+
+<instant group="attack" name="Mystic Attack" words="Mystic Attack" direction="1" level="30" maglv="30" mana="500" soul="0" cooldown="1500" prem="0" enabled="1" script="level 30/mystic attack.lua">
+<vocation name="Goten1" /><vocation name="Goten2" /><vocation name="Goten3" /><vocation name="Goten4" /><vocation name="Goten5" /><vocation name="Goten G6" /><vocation name="Goten G7" /><vocation name="Goten G8" /><vocation name="Goten G9" /><vocation name="Goten G10" /><vocation name="Goten G11" />
+<vocation name="Goten1" /><vocation name="Goten2" /><vocation name="Goten3" /><vocation name="Goten4" /><vocation name="Goten5" /><vocation name="Goten G6" /><vocation name="Goten G7" /><vocation name="Goten G8" /><vocation name="Goten G9" /><vocation name="Goten G10" /><vocation name="Goten G11" />
+<vocation name="Chibi Trunks1" /><vocation name="Chibi Trunks2" /><vocation name="Chibi Trunks3" /><vocation name="Chibi Trunks4" /><vocation name="Chibi Trunks5" /><vocation name="Chibi Trunks G6" /><vocation name="Chibi Trunks G7" /><vocation name="Chibi Trunks G8" /><vocation name="Chibi Trunks G9" /><vocation name="Chibi Trunks G10" /><vocation name="Chibi Trunks G11" />
+<vocation name="Piccolo1" /><vocation name="Piccolo2" /><vocation name="Piccolo3" /><vocation name="Piccolo4" /><vocation name="Piccolo5" /><vocation name="Piccolo G6" /><vocation name="Piccolo G7" /><vocation name="Piccolo G8" /><vocation name="Piccolo G9" /><vocation name="Piccolo G10" /><vocation name="Piccolo G11" />
+<vocation name="Dende1" /><vocation name="Dende2" /><vocation name="Dende3" /><vocation name="Dende4" /><vocation name="Dende5" /><vocation name="Dende G6" /><vocation name="Dende G7" /><vocation name="Dende G8" /><vocation name="Dende G9" /><vocation name="Dende G10" /><vocation name="Dende G11" />
+<vocation name="Freezer1" /><vocation name="Freezer2" /><vocation name="Freezer3" /><vocation name="Freezer4" /><vocation name="Freezer5" /><vocation name="Freezer G6" /><vocation name="Freezer G7" /><vocation name="Freezer G8" /><vocation name="Freezer G9" /><vocation name="Freezer G10" /><vocation name="Freezer G11" />
+</instant>
+
+<instant group="attack" name="Shockwave Punch" words="Shockwave Punch" needtarget="1" level="30" maglv="30" mana="500" soul="0" exhaustion="500" prem="0" enabled="1" script="level 30/Shockwave Punch.lua">
+<vocation name="none" />
+</instant>
+
+<instant group="attack" name="Time Skip Attack" words="Time Skip Attack" needtarget="1" level="30" maglv="30" mana="500" soul="0" exhaustion="500" prem="0" enabled="1" script="level 30/Time Skip Attack.lua">
+<vocation name="none" />
+</instant>
+
+<instant group="attack" name="Galactic Donut" words="Galactic Donut" needtarget="1" level="30" maglv="30" mana="500" soul="0" exhaustion="500" prem="0" enabled="1" script="level 30/galactic donut.lua">
+<vocation name="Goten1" /><vocation name="Goten2" /><vocation name="Goten3" /><vocation name="Goten4" /><vocation name="Goten5" /><vocation name="Goten G6" /><vocation name="Goten G7" /><vocation name="Goten G8" /><vocation name="Goten G9" /><vocation name="Goten G10" /><vocation name="Goten G11" />
+<vocation name="Chibi Trunks1" /><vocation name="Chibi Trunks2" /><vocation name="Chibi Trunks3" /><vocation name="Chibi Trunks4" /><vocation name="Chibi Trunks5" /><vocation name="Chibi Trunks G6" /><vocation name="Chibi Trunks G7" /><vocation name="Chibi Trunks G8" /><vocation name="Chibi Trunks G9" /><vocation name="Chibi Trunks G10" /><vocation name="Chibi Trunks G11" />
+<vocation name="Majin Buu1" /><vocation name="Majin Buu2" /><vocation name="Majin Buu3" /><vocation name="Majin Buu4" /><vocation name="Majin Buu5" /><vocation name="Majin Buu G6" /><vocation name="Majin Buu G7" /><vocation name="Majin Buu G8" /><vocation name="Majin Buu G9" /><vocation name="Majin Buu G10" /><vocation name="Majin Buu G11" />
+</instant>
+
+<instant group="attack" name="Sword Bash" words="Sword Bash" needtarget="1" level="30" maglv="30" mana="500" soul="0" exhaustion="500" prem="0" enabled="1" script="level 30/sword bash.lua">
+<vocation name="Trunks1" /><vocation name="Trunks2" /><vocation name="Trunks3" /><vocation name="Trunks4" /><vocation name="Trunks5" /><vocation name="Trunks G6" /><vocation name="Trunks G7" /><vocation name="Trunks G8" /><vocation name="Trunks G9" /><vocation name="Trunks G10" /><vocation name="Trunks G11" />
+</instant>
+
+<instant group="attack" name="Demon Bash" words="Demon Bash" needtarget="1" level="30" maglv="30" mana="500" soul="0" exhaustion="500" prem="0" enabled="1" script="level 30/demon bash.lua">
+<vocation name="Janemba1" /><vocation name="Janemba2" /><vocation name="Janemba3" /><vocation name="Janemba4" /><vocation name="Janemba5" /><vocation name="Janemba G6" /><vocation name="Janemba G7" /><vocation name="Janemba G8" /><vocation name="Janemba G9" /><vocation name="Janemba G10" /><vocation name="Janemba G11" />
+</instant>
+
+<instant group="attack" name="Bakuhatsuha" words="Bakuhatsuha" level="30" maglv="30"  mana="500" premium="0" range="1" needtarget="0" needweapon="0" cooldown="1500" needlearn="0" script="level 30/bakuhatsuha.lua">
+<vocation name="Bardock1" /><vocation name="Bardock2" /><vocation name="Bardock3" /><vocation name="Bardock4" /><vocation name="Bardock5" /><vocation name="Bardock G6" /><vocation name="Bardock G7" /><vocation name="Bardock G8" /><vocation name="Bardock G9" /><vocation name="Bardock G10" /><vocation name="Bardock G11" />
+</instant>
+
+<instant group="attack" name="Barrier" words="Barrier" level="30" maglv="30"  mana="500" premium="0" range="1" needtarget="0" needweapon="0" cooldown="1500" needlearn="0" script="level 30/barrier.lua">
+<vocation name="vegeta1" /><vocation name="vegeta2" /><vocation name="vegeta3" /><vocation name="vegeta4" /><vocation name="vegeta5" /><vocation name="vegeta G6" /><vocation name="vegeta G7" /><vocation name="vegeta G8" /><vocation name="vegeta G9" /><vocation name="vegeta G10" /><vocation name="vegeta G11" />
+<vocation name="Vegetto1" /><vocation name="Vegetto2" /><vocation name="Vegetto3" /><vocation name="Vegetto4" /><vocation name="Vegetto5" /><vocation name="Vegetto G6" /><vocation name="Vegetto G7" /><vocation name="Vegetto G8" /><vocation name="Vegetto G9" /><vocation name="Vegetto G10" /><vocation name="Vegetto G11" />
+<vocation name="Gohan1" /><vocation name="Gohan2" /><vocation name="Gohan3" /><vocation name="Gohan4" /><vocation name="Gohan5" /><vocation name="Gohan G6" /><vocation name="Gohan G7" /><vocation name="Gohan G8" /><vocation name="Gohan G9" /><vocation name="Gohan G10" /><vocation name="Gohan G11" />
+<vocation name="Shin1" /><vocation name="Shin2" /><vocation name="Shin3" /><vocation name="Shin4" /><vocation name="Shin5" /><vocation name="Shin G6" /><vocation name="Shin G7" /><vocation name="Shin G8" /><vocation name="Shin G9" /><vocation name="Shin G10" /><vocation name="Shin G11" />
+<vocation name="Freezer1" /><vocation name="Freezer2" /><vocation name="Freezer3" /><vocation name="Freezer4" /><vocation name="Freezer5" /><vocation name="Freezer G6" /><vocation name="Freezer G7" /><vocation name="Freezer G8" /><vocation name="Freezer G9" /><vocation name="Freezer G10" /><vocation name="Freezer G11" />
+<vocation name="Cooler1" /><vocation name="Cooler2" /><vocation name="Cooler3" /><vocation name="Cooler4" /><vocation name="Cooler5" /><vocation name="Cooler G6" /><vocation name="Cooler G7" /><vocation name="Cooler G8" /><vocation name="Cooler G9" /><vocation name="Cooler G10" /><vocation name="Cooler G11" />
+<vocation name="C171" /><vocation name="C172" /><vocation name="C173" /><vocation name="C174" /><vocation name="C175" /><vocation name="C17 G6" /><vocation name="C17 G7" /><vocation name="C17 G8" /><vocation name="C17 G9" /><vocation name="C17 G10" /><vocation name="C17 G11" />
+<vocation name="C181" /><vocation name="C182" /><vocation name="C183" /><vocation name="C184" /><vocation name="C185" /><vocation name="C18 G6" /><vocation name="C18 G7" /><vocation name="C18 G8" /><vocation name="C18 G9" /><vocation name="C18 G10" /><vocation name="C18 G11" />
+<vocation name="Bebi1" /><vocation name="Bebi2" /><vocation name="Bebi3" /><vocation name="Bebi4" /><vocation name="Bebi5" /><vocation name="Bebi G6" /><vocation name="Bebi G7" /><vocation name="Bebi G8" /><vocation name="Bebi G9" /><vocation name="Bebi G10" /><vocation name="Bebi G11" />
+<vocation name="Uub1" /><vocation name="Uub2" /><vocation name="Uub3" /><vocation name="Uub4" /><vocation name="Uub5" /><vocation name="Uub G6" /><vocation name="Uub G7" /><vocation name="Uub G8" /><vocation name="Uub G9" /><vocation name="Uub G10" /><vocation name="Uub G11" />
+<vocation name="Brolly1" /><vocation name="Brolly2" /><vocation name="Brolly3" /><vocation name="Brolly4" /><vocation name="Brolly5" /><vocation name="Brolly G6" /><vocation name="Brolly G7" /><vocation name="Brolly G8" /><vocation name="Brolly G9" /><vocation name="Brolly G10" /><vocation name="Brolly G11" />
+</instant>
+
+<instant group="attack" name="Explosive Wave" words="Explosive Wave" level="30" maglv="30"  mana="500" premium="0" range="1" needtarget="0" needweapon="0" cooldown="1500" needlearn="0" script="level 30/explosive wave.lua">
+<vocation name="none" />
+</instant>
+
+<instant group="attack" name="Heat Barrier" words="Heat Barrier" level="30" maglv="30"  mana="500" premium="0" range="1" needtarget="0" needweapon="0" cooldown="1500" needlearn="0" script="level 30/Heat Barrier.lua">
+<vocation name="none" />
+</instant>
+
+<!--// level 50 \\-->
+<instant group="attack" name="Kienzan" words="Kienzan" needtarget="1"  level="50" maglv="50" mana="1000" soul="0" cooldown="1500" prem="0" enabled="1" script="level 50/kienzan.lua">
+<vocation name="goku1" /><vocation name="goku2" /><vocation name="goku3" /><vocation name="goku4" /><vocation name="goku5" /><vocation name="goku6" /><vocation name="goku7" /><vocation name="goku8" /><vocation name="goku9" /><vocation name="goku10" /><vocation name="goku11" />
+<vocation name="Krillin1" /><vocation name="Krillin2" /><vocation name="Krillin3" /><vocation name="Krillin4" /><vocation name="Krillin5" /><vocation name="Krillin G6" /><vocation name="Krillin G7" /><vocation name="Krillin G8" /><vocation name="Krillin G9" /><vocation name="Krillin G10" /><vocation name="Krillin G11" />
+<vocation name="Shin1" /><vocation name="Shin2" /><vocation name="Shin3" /><vocation name="Shin4" /><vocation name="Shin5" /><vocation name="Shin G6" /><vocation name="Shin G7" /><vocation name="Shin G8" /><vocation name="Shin G9" /><vocation name="Shin G10" /><vocation name="Shin G11" />
+<vocation name="Cell1" /><vocation name="Cell2" /><vocation name="Cell3" /><vocation name="Cell4" /><vocation name="Cell5" /><vocation name="Cell G6" /><vocation name="Cell G7" /><vocation name="Cell G8" /><vocation name="Cell G9" /><vocation name="Cell G10" /><vocation name="Cell G11" />
+</instant>
+
+<instant group="attack" name="Ki repulsion" words="Ki repulsion" direction="0" level="50" maglv="50"  mana="1000" soul="0" cooldown="1500" needlearn="0" prem="0" enabled="1" script="level 50/ki repulsion.lua">
+</instant>
+
+
+<instant group="attack" name="Crusher Ball" words="Crusher Ball" needtarget="1"  level="50" maglv="50" mana="1000" soul="0" cooldown="1500" prem="0" enabled="1" script="level 50/Crusher ball.lua">
+<vocation name="Bardock1" /><vocation name="Bardock2" /><vocation name="Bardock3" /><vocation name="Bardock4" /><vocation name="Bardock5" /><vocation name="Bardock G6" /><vocation name="Bardock G7" /><vocation name="Bardock G8" /><vocation name="Bardock G9" /><vocation name="Bardock G10" /><vocation name="Bardock G11" />
+</instant>
+
+<instant group="attack" name="God splitter" words="God Splitter" needtarget="1"  level="50" maglv="50" mana="1000" soul="0" cooldown="1500" prem="0" enabled="1" script="level 50/Crusher ball.lua">
+<vocation name="none" />
+</instant>
+
+<instant group="attack" name="Spirit Ball" words="Spirit Ball" needtarget="1"  level="50" maglv="50" mana="1000" soul="0" cooldown="1500" prem="0" enabled="1" script="level 50/spirit ball.lua">
+<vocation name="none" />
+</instant>
+
+<instant group="attack" name="Double Sword Style" words="double sword style" needtarget="1"  level="50" maglv="50" mana="1000" soul="0" cooldown="1500" prem="0" enabled="1" script="level 50/Double Sword style.lua">
+<vocation name="none" />
+</instant>
+
+<instant group="attack" name="Ki Blast Rush" words="Ki Blast Rush" needtarget="1"  level="50" maglv="50" mana="1000" soul="0" cooldown="1500" prem="0" enabled="1" script="level 50/Ki Blast Rush.lua">
+<vocation name="none" />
+<vocation name="Gohan1" /><vocation name="Gohan2" /><vocation name="Gohan3" /><vocation name="Gohan4" /><vocation name="Gohan5" /><vocation name="Gohan G6" /><vocation name="Gohan G7" /><vocation name="Gohan G8" /><vocation name="Gohan G9" /><vocation name="Gohan G10" /><vocation name="Gohan G11" />
+<vocation name="Vegetto1" /><vocation name="Vegetto2" /><vocation name="Vegetto3" /><vocation name="Vegetto4" /><vocation name="Vegetto5" /><vocation name="Vegetto G6" /><vocation name="Vegetto G7" /><vocation name="Vegetto G8" /><vocation name="Vegetto G9" /><vocation name="Vegetto G10" /><vocation name="Vegetto G11" />
+
+</instant>
+
+<instant group="attack" name="Demon Ball" words="Demon Ball" needtarget="1"  level="50" maglv="50" mana="1000" soul="0" cooldown="1500" prem="0" enabled="1" script="level 50/demon ball.lua">
+<vocation name="Janemba1" /><vocation name="Janemba2" /><vocation name="Janemba3" /><vocation name="Janemba4" /><vocation name="Janemba5" /><vocation name="Janemba G6" /><vocation name="Janemba G7" /><vocation name="Janemba G8" /><vocation name="Janemba G9" /><vocation name="Janemba G10" /><vocation name="Janemba G11" />
+</instant>
+
+<instant group="attack" name="Black Power Ball" words="Black Power Ball" needtarget="1"  level="50" maglv="50" mana="1000" soul="0" cooldown="1500" prem="0" enabled="1" script="level 50/demon ball.lua">
+<vocation name="none" />
+</instant>
+
+<instant group="attack" name="Burning Attack" words="Burning Attack" needtarget="1"  level="50" maglv="50" mana="1000" soul="0" cooldown="1500" prem="0" enabled="1" script="level 50/burning attack.lua">
+<vocation name="Trunks1" /><vocation name="Trunks2" /><vocation name="Trunks3" /><vocation name="Trunks4" /><vocation name="Trunks5" /><vocation name="Trunks G6" /><vocation name="Trunks G7" /><vocation name="Trunks G8" /><vocation name="Trunks G9" /><vocation name="Trunks G10" /><vocation name="Trunks G11" />
+</instant>
+
+<instant group="attack" name="Energy Blast Volley" words="Energy Blast Volley" needtarget="1"  level="50" maglv="50" mana="1000" soul="0" cooldown="1500" prem="0" enabled="1" script="level 50/energy blast volley.lua">
+<vocation name="Goten1" /><vocation name="Goten2" /><vocation name="Goten3" /><vocation name="Goten4" /><vocation name="Goten5" /><vocation name="Goten G6" /><vocation name="Goten G7" /><vocation name="Goten G8" /><vocation name="Goten G9" /><vocation name="Goten G10" /><vocation name="Goten G11" />
+<vocation name="Chibi Trunks1" /><vocation name="Chibi Trunks2" /><vocation name="Chibi Trunks3" /><vocation name="Chibi Trunks4" /><vocation name="Chibi Trunks5" /><vocation name="Chibi Trunks G6" /><vocation name="Chibi Trunks G7" /><vocation name="Chibi Trunks G8" /><vocation name="Chibi Trunks G9" /><vocation name="Chibi Trunks G10" /><vocation name="Chibi Trunks G11" />
+</instant>
+
+<instant group="attack" name="Omega Blaster" words="Omega Blaster" needtarget="1"  level="50" maglv="50" mana="1000" soul="0" cooldown="1500" prem="0" enabled="1" script="level 50/omega blaster.lua">
+<vocation name="Brolly1" /><vocation name="Brolly2" /><vocation name="Brolly3" /><vocation name="Brolly4" /><vocation name="Brolly5" /><vocation name="Brolly G6" /><vocation name="Brolly G7" /><vocation name="Brolly G8" /><vocation name="Brolly G9" /><vocation name="Brolly G10" /><vocation name="Brolly G11" />
+</instant>
+
+<instant group="attack" name="Jinruizetsumetsukogechi" words="Jinruizetsumetsukogechi" needtarget="0"  level="50" maglv="50" mana="1000" soul="0" cooldown="1500" prem="0" enabled="1" script="level 50/jinruizetsumetsukogechi.lua">
+<vocation name="Majin Buu1" /><vocation name="Majin Buu2" /><vocation name="Majin Buu3" /><vocation name="Majin Buu4" /><vocation name="Majin Buu5" /><vocation name="Majin Buu G6" /><vocation name="Majin Buu G7" /><vocation name="Majin Buu G8" /><vocation name="Majin Buu G9" /><vocation name="Majin Buu G10" /><vocation name="Majin Buu G11" />
+<vocation name="Uub1" /><vocation name="Uub2" /><vocation name="Uub3" /><vocation name="Uub4" /><vocation name="Uub5" /><vocation name="Uub G6" /><vocation name="Uub G7" /><vocation name="Uub G8" /><vocation name="Uub G9" /><vocation name="Uub G10" /><vocation name="Uub G11" />
+</instant>
+
+<instant group="attack" name="Fire Cannon" words="Fire Cannon" direction="1" level="50" maglv="50"  mana="1000" soul="0" cooldown="1500" prem="0" enabled="1" script="level 50/fire cannon.lua">
+<vocation name="none" />
+</instant>
+
+<instant group="attack" name="Mini Sun" words="Mini Sun" needtarget="1"  level="50" maglv="50" mana="1000" soul="0" cooldown="1500" prem="0" enabled="1" script="level 50/Mini Sun.lua">
+<vocation name="none" />
+</instant>
+
+<instant group="attack" name="Garikku Ho" words="Garikku Ho" direction="1" level="50" maglv="50"  mana="1000" soul="0" cooldown="1500" prem="0" enabled="1" script="level 50/garikku ho.lua">
+<vocation name="vegeta1" /><vocation name="vegeta2" /><vocation name="vegeta3" /><vocation name="vegeta4" /><vocation name="vegeta5" /><vocation name="vegeta G6" /><vocation name="vegeta G7" /><vocation name="vegeta G8" /><vocation name="vegeta G9" /><vocation name="vegeta G10" /><vocation name="vegeta G11" />
+<vocation name="Trunks1" /><vocation name="Trunks2" /><vocation name="Trunks3" /><vocation name="Trunks4" /><vocation name="Trunks5" /><vocation name="Trunks G6" /><vocation name="Trunks G7" /><vocation name="Trunks G8" /><vocation name="Trunks G9" /><vocation name="Trunks G10" /><vocation name="Trunks G11" />
+<vocation name="Bebi1" /><vocation name="Bebi2" /><vocation name="Bebi3" /><vocation name="Bebi4" /><vocation name="Bebi5" /><vocation name="Bebi G6" /><vocation name="Bebi G7" /><vocation name="Bebi G8" /><vocation name="Bebi G9" /><vocation name="Bebi G10" /><vocation name="Bebi G11" />
+</instant>
+
+<instant group="attack" name="Finger Beam" words="Finger Beam" direction="1" level="50" maglv="50"  mana="1000" soul="0" cooldown="1500" prem="0" enabled="1" script="level 50/garikku ho.lua">
+<vocation name="none" />
+</instant>
+
+<instant group="attack" name="Destruction" words="Destruction" direction="0" level="50" maglv="50"  mana="1000" soul="0" cooldown="1500" prem="0" enabled="1" script="level 50/destruction.lua">
+<vocation name="C171" /><vocation name="C172" /><vocation name="C173" /><vocation name="C174" /><vocation name="C175" /><vocation name="C17 G6" /><vocation name="C17 G7" /><vocation name="C17 G8" /><vocation name="C17 G9" /><vocation name="C17 G10" /><vocation name="C17 G11" />
+<vocation name="C181" /><vocation name="C182" /><vocation name="C183" /><vocation name="C184" /><vocation name="C185" /><vocation name="C18 G6" /><vocation name="C18 G7" /><vocation name="C18 G8" /><vocation name="C18 G9" /><vocation name="C18 G10" /><vocation name="C18 G11" />
+</instant>
+
+<instant group="attack" name="Auto Destruction" words="Auto Destruction" direction="0" level="50" maglv="50"  mana="1000" soul="0" cooldown="1500" prem="0" enabled="1" script="level 50/auto destruction.lua">
+<vocation name="none" />
+</instant>
+
+<instant group="attack" name="Mafuba" words="Mafuba" direction="0" level="50" maglv="50"  mana="1000" soul="0" cooldown="1500" prem="0" enabled="1" script="level 50/mafuba.lua">
+<vocation name="Ten Shin Han1" /><vocation name="Ten Shin Han2" /><vocation name="Ten Shin Han3" /><vocation name="Ten Shin Han4" /><vocation name="Ten Shin Han5" /><vocation name="Ten Shin Han G6" /><vocation name="Ten Shin Han G7" /><vocation name="Ten Shin Han G8" /><vocation name="Ten Shin Han G9" /><vocation name="Ten Shin Han G10" /><vocation name="Ten Shin Han G11" />
+<vocation name="Kame1" /><vocation name="Kame2" /><vocation name="Kame3" /><vocation name="Kame4" /><vocation name="Kame5" /><vocation name="Kame G6" /><vocation name="Kame G7" /><vocation name="Kame G8" /><vocation name="Kame G9" /><vocation name="Kame G10" /><vocation name="Kame G11" />
+</instant>
+
+<instant group="attack" name="Wolfgang Penetrator" words="Wolfgang Penetrator" direction="1" level="50" maglv="50"  mana="2000" soul="0" cooldown="1500" prem="0" enabled="1" script="level 50/kamehamehaa.lua">
+<vocation name="none" />
+</instant>
+
+<!--// level 75 \\-->
+<instant group="attack" name="Kamehameha" words="Kamehameha" direction="1" level="75" maglv="65"  mana="2000" soul="0" cooldown="1500" prem="0" enabled="1" script="level 75/kamehameha.lua">
+<vocation name="goku1" /><vocation name="goku2" /><vocation name="goku3" /><vocation name="goku4" /><vocation name="goku5" /><vocation name="goku6" /><vocation name="goku7" /><vocation name="goku8" /><vocation name="goku9" /><vocation name="goku10" /><vocation name="goku11" />
+<vocation name="Krillin1" /><vocation name="Krillin2" /><vocation name="Krillin3" /><vocation name="Krillin4" /><vocation name="Krillin5" /><vocation name="Krillin G6" /><vocation name="Krillin G7" /><vocation name="Krillin G8" /><vocation name="Krillin G9" /><vocation name="Krillin G10" /><vocation name="Krillin G11" />
+<vocation name="Cell1" /><vocation name="Cell2" /><vocation name="Cell3" /><vocation name="Cell4" /><vocation name="Cell5" /><vocation name="Cell G6" /><vocation name="Cell G7" /><vocation name="Cell G8" /><vocation name="Cell G9" /><vocation name="Cell G10" /><vocation name="Cell G11" />
+<vocation name="Ten Shin Han1" /><vocation name="Ten Shin Han2" /><vocation name="Ten Shin Han3" /><vocation name="Ten Shin Han4" /><vocation name="Ten Shin Han5" /><vocation name="Ten Shin Han G6" /><vocation name="Ten Shin Han G7" /><vocation name="Ten Shin Han G8" /><vocation name="Ten Shin Han G9" /><vocation name="Ten Shin Han G10" /><vocation name="Ten Shin Han G11" />
+<vocation name="Majin Buu1" /><vocation name="Majin Buu2" /><vocation name="Majin Buu3" /><vocation name="Majin Buu4" /><vocation name="Majin Buu5" /><vocation name="Majin Buu G6" /><vocation name="Majin Buu G7" /><vocation name="Majin Buu G8" /><vocation name="Majin Buu G9" /><vocation name="Majin Buu G10" /><vocation name="Majin Buu G11" />
+<vocation name="Uub1" /><vocation name="Uub2" /><vocation name="Uub3" /><vocation name="Uub4" /><vocation name="Uub5" /><vocation name="Uub G6" /><vocation name="Uub G7" /><vocation name="Uub G8" /><vocation name="Uub G9" /><vocation name="Uub G10" /><vocation name="Uub G11" />
+<vocation name="Kame1" /><vocation name="Kame2" /><vocation name="Kame3" /><vocation name="Kame4" /><vocation name="Kame5" /><vocation name="Kame G6" /><vocation name="Kame G7" /><vocation name="Kame G8" /><vocation name="Kame G9" /><vocation name="Kame G10" /><vocation name="Kame G11" />
+</instant>
+
+<instant group="attack" name="Masenko" words="Masenko" direction="1" level="75" maglv="65"  mana="2000" soul="0" cooldown="1500" prem="0" enabled="1" script="level 75/masenko.lua">
+<vocation name="Gohan1" /><vocation name="Gohan2" /><vocation name="Gohan3" /><vocation name="Gohan4" /><vocation name="Gohan5" /><vocation name="Gohan G6" /><vocation name="Gohan G7" /><vocation name="Gohan G8" /><vocation name="Gohan G9" /><vocation name="Gohan G10" /><vocation name="Gohan G11" />
+<vocation name="Dende1" /><vocation name="Dende2" /><vocation name="Dende3" /><vocation name="Dende4" /><vocation name="Dende5" /><vocation name="Dende G6" /><vocation name="Dende G7" /><vocation name="Dende G8" /><vocation name="Dende G9" /><vocation name="Dende G10" /><vocation name="Dende G11" />
+</instant>
+
+<instant group="attack" name="Hellensturm" words="Hellensturm" direction="1" level="75" maglv="65"  mana="2000" soul="0" cooldown="1500" prem="0" enabled="1" script="level 75/hellensturm.lua">
+<vocation name="none" /><vocation id="301" /><vocation id="302" /><vocation id="303" /><vocation id="304" /><vocation id="305" /><vocation id="307" /><vocation id="308" />
+<vocation name="C171" /><vocation name="C172" /><vocation name="C173" /><vocation name="C174" /><vocation name="C175" /><vocation name="C17 G6" /><vocation name="C17 G7" /><vocation name="C17 G8" /><vocation name="C17 G9" /><vocation name="C17 G10" /><vocation name="C17 G11" />
+<vocation name="C181" /><vocation name="C182" /><vocation name="C183" /><vocation name="C184" /><vocation name="C185" /><vocation name="C18 G6" /><vocation name="C18 G7" /><vocation name="C18 G8" /><vocation name="C18 G9" /><vocation name="C18 G10" /><vocation name="C18 G11" />
+</instant>
+
+<instant group="attack" name="Sword Furie" words="Sword Furie" direction="0" level="75" maglv="65"  mana="2000" soul="0" cooldown="1500" prem="0" enabled="1" script="level 75/sword furie.lua">
+<vocation name="none" />
+<vocation name="none" />
+</instant>
+
+<instant group="attack" name="Eraser Cannon" words="Eraser Cannon" direction="1" level="75" maglv="65"  mana="2000" soul="0" cooldown="1500" prem="0" enabled="1" script="level 75/eraser cannon.lua">
+<vocation name="Bardock1" /><vocation name="Bardock2" /><vocation name="Bardock3" /><vocation name="Bardock4" /><vocation name="Bardock5" /><vocation name="Bardock G6" /><vocation name="Bardock G7" /><vocation name="Bardock G8" /><vocation name="Bardock G9" /><vocation name="Bardock G10" /><vocation name="Bardock G11" />
+<vocation name="Brolly1" /><vocation name="Brolly2" /><vocation name="Brolly3" /><vocation name="Brolly4" /><vocation name="Brolly5" /><vocation name="Brolly G6" /><vocation name="Brolly G7" /><vocation name="Brolly G8" /><vocation name="Brolly G9" /><vocation name="Brolly G10" /><vocation name="Brolly G11" />
+</instant>
+
+<instant group="attack" name="Resist Cannon" words="Resist Cannon" direction="1" level="75" maglv="65"  mana="2000" soul="0" cooldown="1500" prem="0" enabled="1" script="level 75/eraser cannon.lua">
+<vocation name="Cooler1" /><vocation name="Cooler2" /><vocation name="Cooler3" /><vocation name="Cooler4" /><vocation name="Cooler5" /><vocation name="Cooler G6" /><vocation name="Cooler G7" /><vocation name="Cooler G8" /><vocation name="Cooler G9" /><vocation name="Cooler G10" /><vocation name="Cooler G11" />
+</instant>
+
+<instant group="attack" name="Big Bang Attack" words="Big Bang Attack" needtarget="1" level="75" maglv="65" mana="2000" soul="0" cooldown="1500" exhaustion="500" prem="0" enabled="1" script="level 75/big bang attack.lua">
+<vocation name="vegeta1" /><vocation name="vegeta2" /><vocation name="vegeta3" /><vocation name="vegeta4" /><vocation name="vegeta5" /><vocation name="vegeta G6" /><vocation name="vegeta G7" /><vocation name="vegeta G8" /><vocation name="vegeta G9" /><vocation name="vegeta G10" /><vocation name="vegeta G11" />
+<vocation name="Vegetto1" /><vocation name="Vegetto2" /><vocation name="Vegetto3" /><vocation name="Vegetto4" /><vocation name="Vegetto5" /><vocation name="Vegetto G6" /><vocation name="Vegetto G7" /><vocation name="Vegetto G8" /><vocation name="Vegetto G9" /><vocation name="Vegetto G10" /><vocation name="Vegetto G11" />
+<vocation name="Goten1" /><vocation name="Goten2" /><vocation name="Goten3" /><vocation name="Goten4" /><vocation name="Goten5" /><vocation name="Goten G6" /><vocation name="Goten G7" /><vocation name="Goten G8" /><vocation name="Goten G9" /><vocation name="Goten G10" /><vocation name="Goten G11" />
+<vocation name="Chibi Trunks1" /><vocation name="Chibi Trunks2" /><vocation name="Chibi Trunks3" /><vocation name="Chibi Trunks4" /><vocation name="Chibi Trunks5" /><vocation name="Chibi Trunks G6" /><vocation name="Chibi Trunks G7" /><vocation name="Chibi Trunks G8" /><vocation name="Chibi Trunks G9" /><vocation name="Chibi Trunks G10" /><vocation name="Chibi Trunks G11" />
+</instant>
+
+<instant group="attack" name="Daichiretsuzan" words="Daichiretsuzan" needtarget="1" level="75" maglv="65" mana="2000" soul="0" cooldown="1500" exhaustion="500" prem="0" enabled="1" script="level 75/daichiretsuzan.lua">
+<vocation name="Freezer1" /><vocation name="Freezer2" /><vocation name="Freezer3" /><vocation name="Freezer4" /><vocation name="Freezer5" /><vocation name="Freezer G6" /><vocation name="Freezer G7" /><vocation name="Freezer G8" /><vocation name="Freezer G9" /><vocation name="Freezer G10" /><vocation name="Freezer G11" />
+<vocation name="Bebi1" /><vocation name="Bebi2" /><vocation name="Bebi3" /><vocation name="Bebi4" /><vocation name="Bebi5" /><vocation name="Bebi G6" /><vocation name="Bebi G7" /><vocation name="Bebi G8" /><vocation name="Bebi G9" /><vocation name="Bebi G10" /><vocation name="Bebi G11" />
+<vocation name="Janemba1" /><vocation name="Janemba2" /><vocation name="Janemba3" /><vocation name="Janemba4" /><vocation name="Janemba5" /><vocation name="Janemba G6" /><vocation name="Janemba G7" /><vocation name="Janemba G8" /><vocation name="Janemba G9" /><vocation name="Janemba G10" /><vocation name="Janemba G11" />
+</instant>
+
+<instant group="attack" name="Energy Fist" words="Energy Fist" needtarget="1" level="75" maglv="65" mana="2000" soul="0" exhaustion="500" cooldown="1500" prem="0" enabled="1" script="level 75/energy fist.lua">
+<vocation name="none" />
+</instant>
+
+<instant group="attack" name="Cruel Sun" words="Cruel Sun" needtarget="1" level="75" maglv="65" mana="2000" soul="0" exhaustion="500" prem="0" cooldown="1500" enabled="1" script="level 75/Cruel Sun.lua">
+<vocation name="none" />
+</instant>
+
+<instant group="attack" name="Chobakuretsumaha" words="Chobakuretsumaha" needtarget="1" level="75" maglv="65" mana="2000" soul="0" cooldown="1500" exhaustion="500" prem="0" enabled="1" script="level 75/chobakuretsumaha.lua">
+<vocation name="Piccolo1" /><vocation name="Piccolo2" /><vocation name="Piccolo3" /><vocation name="Piccolo4" /><vocation name="Piccolo5" /><vocation name="Piccolo G6" /><vocation name="Piccolo G7" /><vocation name="Piccolo G8" /><vocation name="Piccolo G9" /><vocation name="Piccolo G10" /><vocation name="Piccolo G11" />
+</instant>
+
+<instant group="attack" name="Vital Point Attack" words="Vital Point Attack" needtarget="1" level="75" maglv="65" mana="2000" soul="0" cooldown="1500" exhaustion="500" prem="0" enabled="1" script="level 75/Vital Point Attack.lua">
+<vocation name="none" />
+</instant>
+
+<instant group="attack" name="Destruction Attack" words="Destruction Attack" needtarget="1" level="75" maglv="65" mana="2000" soul="0" cooldown="1500" exhaustion="500" prem="0" enabled="1" script="level 75/destruction attack.lua">
+<vocation name="none" />
+</instant>
+
+<instant group="attack" name="Energy Wave" words="Energy Wave" needtarget="0" level="75" maglv="65" mana="2000" soul="0" exhaustion="500" cooldown="1500" prem="0" enabled="1" script="level 75/energy wave.lua">
+<vocation name="Shin1" /><vocation name="Shin2" /><vocation name="Shin3" /><vocation name="Shin4" /><vocation name="Shin5" /><vocation name="Shin G6" /><vocation name="Shin G7" /><vocation name="Shin G8" /><vocation name="Shin G9" /><vocation name="Shin G10" /><vocation name="Shin G11" />
+</instant>
+
+<instant group="attack" name="Energy Kicks" words="Energy Kicks" needtarget="1" level="75" maglv="65" mana="2000" soul="0" exhaustion="500" cooldown="1500" prem="0" enabled="1" script="level 75/energy kicks.lua">
+<vocation name="none" />
+</instant>
+
+<instant group="attack" name="Powered Fists" words="Powered Fists" needtarget="1" level="75" maglv="65" mana="2000" soul="0" exhaustion="500" cooldown="1500" prem="0" enabled="1" script="level 75/powered fists.lua">
+<vocation name="none" />
+</instant>
+
+<!--// level 150 \\-->
+<instant group="attack" name="Ryuken" words="Ryuken" needtarget="1" level="150" maglv="80" mana="3000" soul="0" exhaustion="500" prem="0" cooldown="1500" enabled="1" script="level 150/ryuken.lua">
+<vocation name="goku1" /><vocation name="goku2" /><vocation name="goku3" /><vocation name="goku4" /><vocation name="goku5" /><vocation name="goku6" /><vocation name="goku7" /><vocation name="goku8" /><vocation name="goku9" /><vocation name="goku10" /><vocation name="goku11" />
+
+</instant>
+
+<instant group="attack" name="Powered Energy Waves" words="Powered Energy Waves" needtarget="1" level="150" maglv="80" mana="3000" soul="0" cooldown="1500" exhaustion="500" prem="0" enabled="1" script="level 150/powered energy waves.lua">
+<vocation name="Ten Shin Han1" /><vocation name="Ten Shin Han2" /><vocation name="Ten Shin Han3" /><vocation name="Ten Shin Han4" /><vocation name="Ten Shin Han5" /><vocation name="Ten Shin Han G6" /><vocation name="Ten Shin Han G7" /><vocation name="Ten Shin Han G8" /><vocation name="Ten Shin Han G9" /><vocation name="Ten Shin Han G10" /><vocation name="Ten Shin Han G11" />
+</instant>
+
+<instant group="attack" name="Makosen" words="Makosen" needtarget="1" level="150" maglv="80" mana="3000" soul="0" exhaustion="500" prem="0" cooldown="1500" enabled="1" script="level 150/makosen.lua">
+<vocation name="Krillin1" /><vocation name="Krillin2" /><vocation name="Krillin3" /><vocation name="Krillin4" /><vocation name="Krillin5" /><vocation name="Krillin G6" /><vocation name="Krillin G7" /><vocation name="Krillin G8" /><vocation name="Krillin G9" /><vocation name="Krillin G10" /><vocation name="Krillin G11" />
+<vocation name="Dende1" /><vocation name="Dende2" /><vocation name="Dende3" /><vocation name="Dende4" /><vocation name="Dende5" /><vocation name="Dende G6" /><vocation name="Dende G7" /><vocation name="Dende G8" /><vocation name="Dende G9" /><vocation name="Dende G10" /><vocation name="Dende G11" />
+<vocation name="Shin1" /><vocation name="Shin2" /><vocation name="Shin3" /><vocation name="Shin4" /><vocation name="Shin5" /><vocation name="Shin G6" /><vocation name="Shin G7" /><vocation name="Shin G8" /><vocation name="Shin G9" /><vocation name="Shin G10" /><vocation name="Shin G11" />
+</instant>
+
+<instant group="attack" name="Father Kamehameha" words="Father Kamehameha" needtarget="0" level="150" maglv="80" mana="3000" soul="0" cooldown="1500" exhaustion="500" prem="0" enabled="1" script="level 150/fatherKamehameha.lua">
+<vocation name="none" /> 
+<vocation name="Gohan1" /><vocation name="Gohan2" /><vocation name="Gohan3" /><vocation name="Gohan4" /><vocation name="Gohan5" /><vocation name="Gohan G6" /><vocation name="Gohan G7" /><vocation name="Gohan G8" /><vocation name="Gohan G9" /><vocation name="Gohan G10" /><vocation name="Gohan G11" />
+</instant>
+
+<instant group="attack" name="Super Kamehameha" words="Super Kamehameha" needtarget="0" level="150" maglv="80" mana="3000" soul="0" cooldown="1500" exhaustion="500" prem="0" enabled="1" script="level 150/fatherKamehameha.lua">
+<vocation name="Kame1" /><vocation name="Kame2" /><vocation name="Kame3" /><vocation name="Kame4" /><vocation name="Kame5" /><vocation name="Kame G6" /><vocation name="Kame G7" /><vocation name="Kame G8" /><vocation name="Kame G9" /><vocation name="Kame G10" /><vocation name="Kame G11" />
+</instant>
+
+<instant group="attack" name="Super Galick Gun" words="Super Galick Gun" needtarget="1" level="150" maglv="80" mana="3000" soul="0" cooldown="1500" exhaustion="500" prem="0" enabled="1" script="level 150/super galick gun.lua">
+<vocation name="vegeta1" /><vocation name="vegeta2" /><vocation name="vegeta3" /><vocation name="vegeta4" /><vocation name="vegeta5" /><vocation name="vegeta G6" /><vocation name="vegeta G7" /><vocation name="vegeta G8" /><vocation name="vegeta G9" /><vocation name="vegeta G10" /><vocation name="vegeta G11" />
+<vocation name="Bebi1" /><vocation name="Bebi2" /><vocation name="Bebi3" /><vocation name="Bebi4" /><vocation name="Bebi5" /><vocation name="Bebi G6" /><vocation name="Bebi G7" /><vocation name="Bebi G8" /><vocation name="Bebi G9" /><vocation name="Bebi G10" /><vocation name="Bebi G11" />
+</instant>
+
+<instant group="attack" name="Sword Throw" words="Sword Throw" needtarget="1" level="150" maglv="80" mana="3000" soul="0" exhaustion="500" prem="0" cooldown="1500" enabled="1" script="level 150/sword throw.lua">
+<vocation name="Janemba1" /><vocation name="Janemba2" /><vocation name="Janemba3" /><vocation name="Janemba4" /><vocation name="Janemba5" /><vocation name="Janemba G6" /><vocation name="Janemba G7" /><vocation name="Janemba G8" /><vocation name="Janemba G9" /><vocation name="Janemba G10" /><vocation name="Janemba G11" />
+</instant>
+
+<instant group="attack" name="Great Dragon Shock" words="Great Dragon Shock" needtarget="1" level="100" maglv="80" mana="2000" soul="0" exhaustion="500" cooldown="1500" prem="0" enabled="1" script="level 150/Great Dragon Shock.lua">
+<vocation name="none" />
+</instant>
+
+<instant group="attack" name="Android Attack" words="Android Attack" needtarget="1" level="150" maglv="80" mana="3000" soul="0" exhaustion="500" prem="0" cooldown="1500" enabled="1" script="level 150/android attack.lua">
+<vocation name="none" />
+</instant>
+
+<instant group="attack" name="Tsubi Kienzan" words="Tsubi Kienzan" needtarget="1" level="150" maglv="80" mana="3000" soul="0" exhaustion="500" cooldown="1500" prem="0" enabled="1" script="level 150/tsubi kienzan.lua">
+<vocation name="Freezer1" /><vocation name="Freezer2" /><vocation name="Freezer3" /><vocation name="Freezer4" /><vocation name="Freezer5" /><vocation name="Freezer G6" /><vocation name="Freezer G7" /><vocation name="Freezer G8" /><vocation name="Freezer G9" /><vocation name="Freezer G10" /><vocation name="Freezer G11" />
+<vocation name="Cooler1" /><vocation name="Cooler2" /><vocation name="Cooler3" /><vocation name="Cooler4" /><vocation name="Cooler5" /><vocation name="Cooler G6" /><vocation name="Cooler G7" /><vocation name="Cooler G8" /><vocation name="Cooler G9" /><vocation name="Cooler G10" /><vocation name="Cooler G11" />
+<vocation name="C181" /><vocation name="C182" /><vocation name="C183" /><vocation name="C184" /><vocation name="C185" /><vocation name="C18 G6" /><vocation name="C18 G7" /><vocation name="C18 G8" /><vocation name="C18 G9" /><vocation name="C18 G10" /><vocation name="C18 G11" />
+<vocation name="Cell1" /><vocation name="Cell2" /><vocation name="Cell3" /><vocation name="Cell4" /><vocation name="Cell5" /><vocation name="Cell G6" /><vocation name="Cell G7" /><vocation name="Cell G8" /><vocation name="Cell G9" /><vocation name="Cell G10" /><vocation name="Cell G11" />
+</instant>
+
+<instant group="attack" name="Super Ghost Kamikadze Attack" words="Super Ghost Kamikadze Attack" needtarget="1" level="150" maglv="80" mana="3000" soul="0" cooldown="1500" exhaustion="500" prem="0" enabled="1" script="level 150/super ghost kamikadze attack.lua">
+<vocation name="Goten1" /><vocation name="Goten2" /><vocation name="Goten3" /><vocation name="Goten4" /><vocation name="Goten5" /><vocation name="Goten G6" /><vocation name="Goten G7" /><vocation name="Goten G8" /><vocation name="Goten G9" /><vocation name="Goten G10" /><vocation name="Goten G11" />
+<vocation name="Chibi Trunks1" /><vocation name="Chibi Trunks2" /><vocation name="Chibi Trunks3" /><vocation name="Chibi Trunks4" /><vocation name="Chibi Trunks5" /><vocation name="Chibi Trunks G6" /><vocation name="Chibi Trunks G7" /><vocation name="Chibi Trunks G8" /><vocation name="Chibi Trunks G9" /><vocation name="Chibi Trunks G10" /><vocation name="Chibi Trunks G11" />
+<vocation name="Majin Buu1" /><vocation name="Majin Buu2" /><vocation name="Majin Buu3" /><vocation name="Majin Buu4" /><vocation name="Majin Buu5" /><vocation name="Majin Buu G6" /><vocation name="Majin Buu G7" /><vocation name="Majin Buu G8" /><vocation name="Majin Buu G9" /><vocation name="Majin Buu G10" /><vocation name="Majin Buu G11" />
+</instant>
+
+<instant group="attack" name="Destruction Wrath" words="Destruction Wrath" direction="0" level="150" maglv="80" mana="3000" soul="0" exhaustion="500" cooldown="1500" prem="0" enabled="1" script="level 150/destruction wrath.lua">
+<vocation name="none" />
+</instant>
+
+<instant group="attack" name="Todesball" words="Todesball" needtarget="1" level="150" maglv="80" mana="3000" soul="0" exhaustion="500" prem="0" cooldown="1500" enabled="1" script="level 150/todesball.lua">
+<vocation name="C171" /><vocation name="C172" /><vocation name="C173" /><vocation name="C174" /><vocation name="C175" /><vocation name="C17 G6" /><vocation name="C17 G7" /><vocation name="C17 G8" /><vocation name="C17 G9" /><vocation name="C17 G10" /><vocation name="C17 G11" />
+</instant>
+
+<instant group="attack" name="Final Flash" words="Final Flash" direction="1" level="150" maglv="80"  mana="3000" soul="0" cooldown="1500" prem="0" cooldown="1500" enabled="1" script="level 150/final flash.lua">
+<vocation name="Vegetto1" /><vocation name="Vegetto2" /><vocation name="Vegetto3" /><vocation name="Vegetto4" /><vocation name="Vegetto5" /><vocation name="Vegetto G6" /><vocation name="Vegetto G7" /><vocation name="Vegetto G8" /><vocation name="Vegetto G9" /><vocation name="Vegetto G10" /><vocation name="Vegetto G11" />
+
+</instant>
+
+<instant group="attack" name="Makankosappo" words="Makankosappo" direction="1" level="150" maglv="80"  mana="3000" soul="0" cooldown="1500" prem="0" cooldown="1500" enabled="1" script="level 150/makankosappo.lua">
+<vocation name="Piccolo1" /><vocation name="Piccolo2" /><vocation name="Piccolo3" /><vocation name="Piccolo4" /><vocation name="Piccolo5" /><vocation name="Piccolo G6" /><vocation name="Piccolo G7" /><vocation name="Piccolo G8" /><vocation name="Piccolo G9" /><vocation name="Piccolo G10" /><vocation name="Piccolo G11" />
+</instant>
+
+<instant group="attack" name="Ki Granade" words="Ki Granade" needtarget="1" level="200" maglv="100" mana="3000" soul="0" exhaustion="500" prem="0" cooldown="1500" needlearn="1" enabled="1" script="level 150/ki granade.lua">
+<vocation name="none" />
+</instant>
+
+<instant group="attack" name="Ki Flash" words="Ki Flash" direction="1" level="150" maglv="80"  mana="2000" soul="0" cooldown="1500" prem="0" cooldown="1500" needlearn="1" enabled="1" script="level 150/ki flash.lua">
+<vocation name="none" />
+</instant>
+
+<instant group="attack" name="Ki Explosion" words="Ki Explosion" direction="0" level="150" maglv="80"  mana="3000" soul="0" cooldown="1500" cooldown="1500" needlearn="1" prem="0" enabled="1" script="level 150/ki explosion.lua">
+<vocation name="none" />
+</instant>
+
+<instant group="attack" name="Energy Blast" words="Energy Blast" direction="0" level="150" maglv="80"  mana="3000" soul="0" cooldown="1500" cooldown="1500" prem="0" enabled="1" script="level 150/energy blast.lua">
+<vocation name="none" />
+</instant>
+
+<instant group="attack" name="Gigantic Shout" words="Gigantic Shout" direction="0" level="150" maglv="80"  mana="3000" soul="0" cooldown="1500" cooldown="1500" prem="0" enabled="1" script="level 150/gigantic shout.lua">
+<vocation name="none" />
+</instant>
+
+<instant group="attack" name="ShockWave" words="ShockWave" needtarget="0" level="150" maglv="65" mana="2000" soul="0" exhaustion="500" prem="0" cooldown="1500" enabled="1" script="level 150/shockwave.lua">
+<vocation name="none" />
+</instant>
+
+<instant group="attack" name="Kiai" words="Kiai" direction="0" level="150" maglv="80"  mana="3000" soul="0" cooldown="1500" prem="0" enabled="1" cooldown="1500" script="level 150/kiai.lua">
+<vocation name="none" />
+</instant>
+
+<instant group="attack" name="Kakarot" words="Kakarot" direction="0" level="150" maglv="80"  mana="3000" soul="0" cooldown="1500" prem="0" enabled="1" script="level 150/kakarot.lua">
+<vocation name="Brolly1" /><vocation name="Brolly2" /><vocation name="Brolly3" /><vocation name="Brolly4" /><vocation name="Brolly5" /><vocation name="Brolly G6" /><vocation name="Brolly G7" /><vocation name="Brolly G8" /><vocation name="Brolly G9" /><vocation name="Brolly G10" /><vocation name="Brolly G11" />
+</instant>
+
+<instant group="attack" name="Sledgehammer" words="Sledgehammer" direction="0" level="150" maglv="80"  mana="3000" soul="0" cooldown="1500" prem="0" enabled="1" script="level 150/sledgehammer.lua">
+<vocation name="none" />
+</instant>
+
+<instant group="attack" name="Furie" words="Furie" direction="0" level="150" maglv="80"  mana="3000" soul="0" cooldown="1500" prem="0" enabled="1" script="level 150/furie.lua">
+<vocation name="Uub1" /><vocation name="Uub2" /><vocation name="Uub3" /><vocation name="Uub4" /><vocation name="Uub5" /><vocation name="Uub G6" /><vocation name="Uub G7" /><vocation name="Uub G8" /><vocation name="Uub G9" /><vocation name="Uub G10" /><vocation name="Uub G11" />
+</instant>
+
+
+<instant group="attack" name="Destructive Sun" words="Destructive Sun" direction="0" level="150" maglv="80"  mana="3000" soul="0" cooldown="1500" prem="0" enabled="1" script="level 150/Destructive Sun.lua">
+<vocation name="none" />
+</instant>
+
+<instant group="attack" name="Videl Rush" words="Videl Rush" needtarget="1" level="150" maglv="80" mana="3000" soul="0" exhaustion="500" cooldown="1500" prem="0" enabled="1" script="level 150/videl rush.lua">
+<vocation name="none" />
+</instant>
+
+<instant group="attack" name="Final Revenger" words="Final Revenger" needtarget="1" level="150" maglv="80" mana="3000" soul="0" cooldown="1500" exhaustion="500" prem="0" enabled="1" script="level 150/final revenger.lua">
+<vocation name="Bardock1" /><vocation name="Bardock2" /><vocation name="Bardock3" /><vocation name="Bardock4" /><vocation name="Bardock5" /><vocation name="Bardock G6" /><vocation name="Bardock G7" /><vocation name="Bardock G8" /><vocation name="Bardock G9" /><vocation name="Bardock G10" /><vocation name="Bardock G11" />
+</instant>
+
+<instant group="attack" name="Time Explosion" words="Time Explosion" direction="0" level="150" maglv="80"  mana="3000" soul="0" cooldown="1500" prem="0" enabled="1" script="level 150/time explosion.lua">
+<vocation name="none" />
+</instant>
+
+<!--// level 200 \\-->
+<instant group="attack" name="Genki Dama" words="Genki Dama" needtarget="1" level="200" maglv="100" mana="3000" soul="0" exhaustion="500" cooldown="1500" prem="0" enabled="1" script="level 200/genki dama.lua">
+<vocation name="goku1" /><vocation name="goku2" /><vocation name="goku3" /><vocation name="goku4" /><vocation name="goku5" /><vocation name="goku6" /><vocation name="goku7" /><vocation name="goku8" /><vocation name="goku9" /><vocation name="goku10" /><vocation name="goku11" />
+
+</instant>
+
+<instant group="attack" name="Danger Triangle" words="Danger Triangle" needtarget="1" level="200" maglv="100" mana="3000" soul="0" cooldown="1500" exhaustion="500" prem="0" enabled="1" script="level 200/danger triangle.lua">
+<vocation name="none" />
+</instant>
+
+<instant group="attack" name="Divine Lasso" words="Divine Lasso" needtarget="1" level="200" maglv="100" mana="3000" soul="0" exhaustion="500" cooldown="1500" prem="0" enabled="1" script="level 200/divine lasso.lua">
+<vocation name="none" />
+</instant>
+
+<instant group="attack" name="Final Spirit Cannon" words="Final Spirit Cannon" needtarget="1" level="200" maglv="100" mana="3000" soul="0" cooldown="1500" exhaustion="500" prem="0" enabled="1" script="level 200/final spirit cannon.lua">
+<vocation name="Bardock1" /><vocation name="Bardock2" /><vocation name="Bardock3" /><vocation name="Bardock4" /><vocation name="Bardock5" /><vocation name="Bardock G6" /><vocation name="Bardock G7" /><vocation name="Bardock G8" /><vocation name="Bardock G9" /><vocation name="Bardock G10" /><vocation name="Bardock G11" />
+</instant>
+
+<instant group="attack" name="Nova" words="Nova" needtarget="1" level="200" maglv="80" mana="3000" soul="0" exhaustion="500" prem="0" cooldown="1500" enabled="1" script="level 200/nova.lua">
+<vocation name="none" />
+</instant>
+
+<instant group="attack" name="Six Way Crossroads" words="six way crossroads" needtarget="1" level="200" maglv="100" mana="3000" soul="0" cooldown="1500" exhaustion="500" prem="0" enabled="1" script="level 200/six way crossroads.lua">
+<vocation name="none" />
+</instant>
+
+<instant group="attack" name="Android Barrier" words="Android Barrier" needtarget="0" level="200" maglv="100" mana="3000" soul="0" exhaustion="1100" cooldown="1500" prem="0" enabled="1" script="level 200/android barrier.lua">
+<vocation name="C171" /><vocation name="C172" /><vocation name="C173" /><vocation name="C174" /><vocation name="C175" /><vocation name="C17 G6" /><vocation name="C17 G7" /><vocation name="C17 G8" /><vocation name="C17 G9" /><vocation name="C17 G10" /><vocation name="C17 G11" />
+</instant>
+
+<instant group="attack" name="Demon Rage" words="Demon Rage" needtarget="0" level="200" maglv="100" mana="3000" soul="0" exhaustion="500" prem="0" cooldown="1500" enabled="1" script="level 200/demon rage.lua">
+<vocation name="Janemba1" /><vocation name="Janemba2" /><vocation name="Janemba3" /><vocation name="Janemba4" /><vocation name="Janemba5" /><vocation name="Janemba G6" /><vocation name="Janemba G7" /><vocation name="Janemba G8" /><vocation name="Janemba G9" /><vocation name="Janemba G10" /><vocation name="Janemba G11" />
+</instant>
+
+<instant group="attack" name="Burning Sun" words="Burning Sun" needtarget="1" level="200" maglv="100" mana="3000" soul="0" exhaustion="500" prem="0" cooldown="1500" enabled="1" script="level 200/Burning sun.lua">
+<vocation name="none" />
+</instant>
+
+<instant group="attack" name="Hakai" words="Hakai" needtarget="1" level="200" maglv="100" mana="3000" soul="0" exhaustion="500" prem="0" enabled="1" cooldown="1500" script="level 200/hakai.lua">
+<vocation name="none" />
+</instant>
+
+<instant group="attack" name="Revenge Death Ball" words="Revenge Death Ball" needtarget="1" level="200" maglv="100"  mana="3000" soul="0" cooldown="1500" prem="0" enabled="1" script="level 200/revenge death ball.lua">
+<vocation name="Bebi1" /><vocation name="Bebi2" /><vocation name="Bebi3" /><vocation name="Bebi4" /><vocation name="Bebi5" /><vocation name="Bebi G6" /><vocation name="Bebi G7" /><vocation name="Bebi G8" /><vocation name="Bebi G9" /><vocation name="Bebi G10" /><vocation name="Bebi G11" />
+</instant>
+
+<instant group="attack" name="Vanishing Ball" words="Vanishing Ball" needtarget="1" level="200" maglv="100" mana="3000" soul="0" exhaustion="500" prem="0" cooldown="1500" enabled="1" script="level 200/vanishing ball.lua">
+<vocation name="Majin Buu1" /><vocation name="Majin Buu2" /><vocation name="Majin Buu3" /><vocation name="Majin Buu4" /><vocation name="Majin Buu5" /><vocation name="Majin Buu G6" /><vocation name="Majin Buu G7" /><vocation name="Majin Buu G8" /><vocation name="Majin Buu G9" /><vocation name="Majin Buu G10" /><vocation name="Majin Buu G11" />
+<vocation name="Uub1" /><vocation name="Uub2" /><vocation name="Uub3" /><vocation name="Uub4" /><vocation name="Uub5" /><vocation name="Uub G6" /><vocation name="Uub G7" /><vocation name="Uub G8" /><vocation name="Uub G9" /><vocation name="Uub G10" /><vocation name="Uub G11" />
+</instant>
+
+<instant group="attack" name="Triple Kienzan" words="Triple Kienzan" needtarget="1" level="200" maglv="100" mana="3000" soul="0" exhaustion="500" prem="0" cooldown="1500" enabled="1" script="level 200/triple kienzan.lua">
+<vocation name="Krillin1" /><vocation name="Krillin2" /><vocation name="Krillin3" /><vocation name="Krillin4" /><vocation name="Krillin5" /><vocation name="Krillin G6" /><vocation name="Krillin G7" /><vocation name="Krillin G8" /><vocation name="Krillin G9" /><vocation name="Krillin G10" /><vocation name="Krillin G11" />
+<vocation name="C181" /><vocation name="C182" /><vocation name="C183" /><vocation name="C184" /><vocation name="C185" /><vocation name="C18 G6" /><vocation name="C18 G7" /><vocation name="C18 G8" /><vocation name="C18 G9" /><vocation name="C18 G10" /><vocation name="C18 G11" />
+</instant>
+
+<instant group="attack" name="Invisible Strikes" words="Invisible Strikes" needtarget="1" level="200" maglv="100" mana="3000" soul="0" exhaustion="500" prem="0" cooldown="1500" enabled="1" script="level 200/Invisible Strikes.lua">
+<vocation name="none" />
+</instant>
+
+<instant group="attack" name="Hell Granade" words="Hell Granade" needtarget="1" level="200" maglv="100" mana="3000" soul="0" exhaustion="500" prem="0" enabled="1" cooldown="1500" script="level 200/hell granade.lua">
+<vocation name="Piccolo1" /><vocation name="Piccolo2" /><vocation name="Piccolo3" /><vocation name="Piccolo4" /><vocation name="Piccolo5" /><vocation name="Piccolo G6" /><vocation name="Piccolo G7" /><vocation name="Piccolo G8" /><vocation name="Piccolo G9" /><vocation name="Piccolo G10" /><vocation name="Piccolo G11" />
+<vocation name="Dende1" /><vocation name="Dende2" /><vocation name="Dende3" /><vocation name="Dende4" /><vocation name="Dende5" /><vocation name="Dende G6" /><vocation name="Dende G7" /><vocation name="Dende G8" /><vocation name="Dende G9" /><vocation name="Dende G10" /><vocation name="Dende G11" />
+<vocation name="Cell1" /><vocation name="Cell2" /><vocation name="Cell3" /><vocation name="Cell4" /><vocation name="Cell5" /><vocation name="Cell G6" /><vocation name="Cell G7" /><vocation name="Cell G8" /><vocation name="Cell G9" /><vocation name="Cell G10" /><vocation name="Cell G11" />
+</instant>
+
+<instant group="attack" name="Gigantic Hammer" words="Gigantic Hammer" needtarget="1" level="200" maglv="100" mana="3000" soul="0" exhaustion="500" prem="0" cooldown="1500" enabled="1" script="level 200/gigantic hammer.lua">
+<vocation name="Brolly1" /><vocation name="Brolly2" /><vocation name="Brolly3" /><vocation name="Brolly4" /><vocation name="Brolly5" /><vocation name="Brolly G6" /><vocation name="Brolly G7" /><vocation name="Brolly G8" /><vocation name="Brolly G9" /><vocation name="Brolly G10" /><vocation name="Brolly G11" />
+</instant>
+
+<instant group="attack" name="Crush Cannon" words="Crush Cannon" needtarget="1" level="200" maglv="100" mana="3000" soul="0" exhaustion="500" prem="0" cooldown="1500" enabled="1" script="level 200/crush cannon.lua">
+<vocation name="none" />
+</instant>
+
+<instant group="attack" name="Thunder Shock" words="Thunder Shock" needtarget="1" level="200" maglv="100" mana="3000" soul="0" exhaustion="500" prem="0" cooldown="1500" enabled="1" script="level 200/crush cannon.lua">
+<vocation name="Kame1" /><vocation name="Kame2" /><vocation name="Kame3" /><vocation name="Kame4" /><vocation name="Kame5" /><vocation name="Kame G6" /><vocation name="Kame G7" /><vocation name="Kame G8" /><vocation name="Kame G9" /><vocation name="Kame G10" /><vocation name="Kame G11" />
+</instant>
+
+
+<instant group="attack" name="Phantom Fist" words="Phantom Fist" needtarget="1" level="200" maglv="100" mana="3000" soul="0" exhaustion="500" prem="0" cooldown="1500" enabled="1" script="level 200/Phantom Fist.lua">
+<vocation name="none" />
+</instant>
+
+<instant group="attack" name="Destruction Blast" words="Destruction Blast" needtarget="1" level="200" maglv="100" mana="3000" soul="0" exhaustion="500" cooldown="1500" prem="0" enabled="1" script="level 200/destruction blast.lua">
+<vocation name="Ten Shin Han1" /><vocation name="Ten Shin Han2" /><vocation name="Ten Shin Han3" /><vocation name="Ten Shin Han4" /><vocation name="Ten Shin Han5" /><vocation name="Ten Shin Han G6" /><vocation name="Ten Shin Han G7" /><vocation name="Ten Shin Han G8" /><vocation name="Ten Shin Han G9" /><vocation name="Ten Shin Han G10" /><vocation name="Ten Shin Han G11" />
+</instant>
+
+<instant group="attack" name="Saiyan Destruction" words="Saiyan Destruction" level="200"  maglv="100"  mana="3000" premium="0" range="1" needtarget="0" needweapon="0" cooldown="1500" needlearn="0" script="level 200/saiyan destruction.lua">
+<vocation name="none" />
+</instant>
+
+<instant group="attack" name="Self Destruction" words="Self Destruction" level="200"  maglv="100"  mana="3000" premium="0" range="1" needtarget="0" needweapon="0" cooldown="1500" needlearn="0" script="level 200/self destruction.lua">
+<vocation name="vegeta1" /><vocation name="vegeta2" /><vocation name="vegeta3" /><vocation name="vegeta4" /><vocation name="vegeta5" /><vocation name="vegeta G6" /><vocation name="vegeta G7" /><vocation name="vegeta G8" /><vocation name="vegeta G9" /><vocation name="vegeta G10" /><vocation name="vegeta G11" />
+<vocation name="C171" /><vocation name="C172" /><vocation name="C173" /><vocation name="C174" /><vocation name="C175" /><vocation name="C17 G6" /><vocation name="C17 G7" /><vocation name="C17 G8" /><vocation name="C17 G9" /><vocation name="C17 G10" /><vocation name="C17 G11" />
+</instant>
+
+<instant group="attack" name="Explosion Blast" words="Explosion Blast" level="200"  maglv="100"  mana="3000" premium="0" needtarget="1" needweapon="0" cooldown="1500" needlearn="0" script="level 200/explosionblast.lua">
+<vocation name="Vegetto1" /><vocation name="Vegetto2" /><vocation name="Vegetto3" /><vocation name="Vegetto4" /><vocation name="Vegetto5" /><vocation name="Vegetto G6" /><vocation name="Vegetto G7" /><vocation name="Vegetto G8" /><vocation name="Vegetto G9" /><vocation name="Vegetto G10" /><vocation name="Vegetto G11" />
+<vocation name="Gohan1" /><vocation name="Gohan2" /><vocation name="Gohan3" /><vocation name="Gohan4" /><vocation name="Gohan5" /><vocation name="Gohan G6" /><vocation name="Gohan G7" /><vocation name="Gohan G8" /><vocation name="Gohan G9" /><vocation name="Gohan G10" /><vocation name="Gohan G11" />
+<vocation name="Goten1" /><vocation name="Goten2" /><vocation name="Goten3" /><vocation name="Goten4" /><vocation name="Goten5" /><vocation name="Goten G6" /><vocation name="Goten G7" /><vocation name="Goten G8" /><vocation name="Goten G9" /><vocation name="Goten G10" /><vocation name="Goten G11" />
+<vocation name="Chibi Trunks1" /><vocation name="Chibi Trunks2" /><vocation name="Chibi Trunks3" /><vocation name="Chibi Trunks4" /><vocation name="Chibi Trunks5" /><vocation name="Chibi Trunks G6" /><vocation name="Chibi Trunks G7" /><vocation name="Chibi Trunks G8" /><vocation name="Chibi Trunks G9" /><vocation name="Chibi Trunks G10" /><vocation name="Chibi Trunks G11" />
+<vocation name="Shin1" /><vocation name="Shin2" /><vocation name="Shin3" /><vocation name="Shin4" /><vocation name="Shin5" /><vocation name="Shin G6" /><vocation name="Shin G7" /><vocation name="Shin G8" /><vocation name="Shin G9" /><vocation name="Shin G10" /><vocation name="Shin G11" />
+</instant>
+
+<instant group="attack" name="Big Bang Cannon" words="Big Bang Cannon" level="200"  maglv="100"  mana="3000" premium="0" needtarget="1" needweapon="0" cooldown="1500" needlearn="0" script="level 200/explosionblast.lua">
+<vocation name="none" />
+</instant>
+
+<instant group="attack" name="Burning Storm" words="Burning Storm" needtarget="1" level="200" maglv="100" mana="3000" soul="0" exhaustion="500" prem="0" enabled="1" script="level 2000/burning storm.lua">
+<vocation name="Trunks1" /><vocation name="Trunks2" /><vocation name="Trunks3" /><vocation name="Trunks4" /><vocation name="Trunks5" /><vocation name="Trunks G6" /><vocation name="Trunks G7" /><vocation name="Trunks G8" /><vocation name="Trunks G9" /><vocation name="Trunks G10" /><vocation name="Trunks G11" />
+</instant>
+
+<instant group="attack" name="Sphere of Destruction" words="Sphere of Destruction" needtarget="1" level="200" maglv="100" mana="3000" soul="0" cooldown="1500" exhaustion="500" prem="0" enabled="1" script="level 200/sphere of destruction.lua">
+<vocation name="none" /><vocation name="none" /><vocation id="501" /><vocation id="502" /><vocation id="503" /><vocation id="504" /><vocation id="505" /><vocation id="507" /><vocation id="508" />
+<vocation id="509" /><vocation id="510" /><vocation id="511" /><vocation id="512" /><vocation id="514" /><vocation id="515" /><vocation id="516" /><vocation id="517" /><vocation id="518" /><vocation id="519" />
+</instant>
+
+<!--// level 250 \\-->
+<instant group="attack"  name="Genki Renzoku" words="genki renzoku" needtarget="1" level="250" maglv="100" mana="3000" soul="0" exhaustion="500" cooldown="1500" prem="0" enabled="1" script="level 2000/genki renzoku.lua">
+<vocation name="goku1" /><vocation name="goku2" /><vocation name="goku3" /><vocation name="goku4" /><vocation name="goku5" /><vocation name="goku6" /><vocation name="goku7" /><vocation name="goku8" /><vocation name="goku9" /><vocation name="goku10" /><vocation name="goku11" />
+
+</instant>
+
+<instant group="attack"  name="Purgatory Onigiri" words="purgatory onigiri" needtarget="1" level="250" maglv="100" mana="3000" soul="0" exhaustion="500" cooldown="1500" prem="0" enabled="1" script="level 2000/purgatory Onigiri.lua">
+<vocation name="none" />
+</instant>
+
+<instant group="attack"  name="Total Detonation Ball" words="total detonation ball" needtarget="1" level="250" maglv="100" mana="3000" soul="0" exhaustion="500" cooldown="1500" prem="0" enabled="1" script="level 2000/Total Detonation Ball.lua">
+<vocation name="none" />
+</instant>
+
+<instant group="attack"  name="Sunballs" words="sunballs" needtarget="1" level="250" maglv="100" mana="3000" soul="0" exhaustion="500" prem="0" enabled="1" cooldown="1500" script="level 2000/Sunballs.lua">
+<vocation name="none" />
+</instant>
+
+<instant group="attack"  name="Vanishing Rage" words="vanishing rage" needtarget="1" level="200" maglv="100" mana="3000" soul="0" exhaustion="500" prem="0" cooldown="1500" enabled="1" script="level 2000/vanishing rage.lua">
+<vocation name="none" />
+</instant>
+
+<instant group="attack" name="Hakai Blast" words="hakai blast" needtarget="1" level="250" maglv="100" mana="3000" soul="0" exhaustion="500" prem="0" enabled="1" cooldown="1500" script="level 2000/hakai blast.lua">
+<vocation name="none" />
+</instant>
+
+<instant group="attack"  name="Deadly Ball" words="deadly ball" needtarget="1" level="250" maglv="100" mana="3000" soul="0" exhaustion="500" prem="0" enabled="1" cooldown="1500" script="level 2000/deadly ball.lua">
+<vocation name="none" />
+</instant>
+
+<instant group="attack"  name="Namekjin Ball" words="namekjin ball" needtarget="1" level="250" maglv="100" mana="3000" soul="0" exhaustion="500" prem="0" enabled="1" cooldown="1500" script="level 2000/namekjin ball.lua">
+<vocation name="none" />
+</instant>
+
+<instant group="attack"  name="Time Blast" words="time blast" needtarget="1" level="250" maglv="100" mana="3000" soul="0" exhaustion="500" prem="0" enabled="1" cooldown="1500" script="level 2000/time blast.lua">
+<vocation name="none" />
+</instant>
+
+<instant group="attack" name="Ultimate Shine" words="ultimate shine" needtarget="1" level="250" maglv="100" mana="3000" soul="0" exhaustion="500" prem="0" enabled="1" cooldown="1500" script="level 2000/ultimate shine.lua">
+<vocation name="none" />
+</instant>
+
+<instant group="attack" name="Galactic Buster Attack" words="galactic buster attack" needtarget="1" level="250" maglv="100" mana="3000" soul="0" exhaustion="500" prem="0" enabled="1" script="level 2000/galactic buster attack.lua">
+<vocation name="none" />
+</instant>
+
+
+
+<!--// level 300 \\-->
+<instant group="attack" name="Vacuum Flash" words="vacuum flash" direction="1" level="300" maglv="120"  mana="2000" soul="0" cooldown="1500" prem="0" enabled="1" script="level 400/vacuum flash.lua">
+<vocation name="none" />
+</instant>
+
+<instant group="attack" name="Pride Flash" words="pride flash" direction="1" level="300" maglv="120"  mana="2000" soul="0" cooldown="1500" prem="0" enabled="1" script="level 400/chybie kamehameha.lua">
+<vocation name="none" />
+</instant>
+
+<instant group="attack" name="Super Black Kamehameha" words="super black kamehameha" direction="1" level="300" maglv="120"  mana="2000" soul="0" cooldown="1500" prem="0" enabled="1" script="level 400/chybie kamehameha.lua">
+<vocation name="none" />
+</instant>
+
+<instant group="attack" name="God Split Blast" words="god split blast" direction="1" level="300" maglv="120"  mana="2000" soul="0" cooldown="1500" prem="0" enabled="1" script="level 400/chybie kamehameha.lua">
+<vocation name="none" />
+</instant>
+
+<instant group="attack" name="Destruction Wave " words="destruction wave" direction="1" level="300" maglv="120"  mana="2000" soul="0" cooldown="1500" prem="0" enabled="1" script="level 400/destruction wave.lua">
+<vocation name="none" />
+</instant>
+
+<instant group="attack" name="Super Makankosappo" words="super makankosappo" direction="1" level="300" maglv="120"  mana="2000" soul="0" cooldown="1500" prem="0" enabled="1" script="level 400/super makankosappo.lua">
+<vocation name="none" />
+</instant>
+
+<instant group="attack" name="Chybie Kamehameha" words="chybie kamehameha" direction="1" level="300" maglv="120"  mana="2000" soul="0" cooldown="1500" prem="0" enabled="1" script="level 400/chybie kamehameha.lua">
+<vocation name="none" />
+</instant>
+
+<instant group="attack" name="Deadly Blast" words="deadly blast" direction="1" level="300" maglv="120"  mana="2000" soul="0" cooldown="1500" prem="0" enabled="1" script="level 400/deadly blast.lua">
+<vocation name="none" />
+</instant>
+
+<instant group="attack" name="Hyakuhachi Pondo Hou" words="hyakuhachi pondo hou" direction="1" level="300" maglv="120"  mana="2000" soul="0" cooldown="1500" prem="0" enabled="1" script="level 400/Hyakuhachi Pondo Hou.lua">
+<vocation name="none" />
+</instant>
+
+<instant group="attack" name="Vanishing Blast" words="vanishing blast" direction="1" level="300" maglv="120"  mana="2000" soul="0" cooldown="0" prem="0" enabled="1" script="level 400/vanishing blast.lua">
+<vocation name="none" />
+</instant>
+
+<instant group="attack" name="Shine Kameflash" words="shine kameflash" direction="1" level="300" maglv="120"  mana="2000" soul="0" cooldown="1500" prem="0" enabled="1" script="level 400/shine kameflash.lua">
+<vocation name="none" />
+</instant>
+
+<instant group="attack" name="Final Shine" words="final shine" direction="1" level="300" maglv="120"  mana="2000" soul="0" cooldown="1500" prem="0" enabled="1" script="level 400/final shine.lua">
+<vocation name="none" />
+<vocation name="vegeta1" /><vocation name="vegeta2" /><vocation name="vegeta3" /><vocation name="vegeta4" /><vocation name="vegeta5" /><vocation name="vegeta G6" /><vocation name="vegeta G7" /><vocation name="vegeta G8" /><vocation name="vegeta G9" /><vocation name="vegeta G10" /><vocation name="vegeta G11" />
+
+</instant>
+
+<instant group="attack" name="Destruction Flash" words="destruction flash" direction="1" level="300" maglv="120"  mana="2000" soul="0" cooldown="1500" prem="0" enabled="1" script="level 400/destruction flash.lua">
+<vocation name="none" />
+</instant>
+
+<instant group="attack" name="Nova Blast" words="nova blast" direction="1" level="400" maglv="120"  mana="2000" soul="0" cooldown="1500" prem="0" enabled="1" script="level 400/nova blast.lua">
+<vocation name="none" />
+</instant>
+
+<instant group="attack" name="Solar Kamehameha" words="solar kamehameha" direction="1" level="400" maglv="120"  mana="2000" soul="0" cooldown="1500" prem="0" enabled="1" script="level 400/solar kamehameha.lua">
+<vocation name="none" />
+</instant>
+
+<instant group="attack" name="Triangle Danger Beam" words="Triangle Danger Beam" direction="1" level="400" maglv="120"  mana="2000" soul="0" cooldown="1500" prem="0" enabled="1" script="level 400/solar kamehameha.lua">
+<vocation name="none" />
+</instant>
+
+<instant group="attack" name="Full Power Energy Blast Volley" words="Full Power Energy Blast Volley" direction="1" level="400" maglv="120"  mana="2000" soul="0" cooldown="1500" prem="0" enabled="1" script="level 400/solar kamehameha.lua">
+<vocation name="none" />
+</instant>
+
+<instant group="attack" name="Final Spirit Blast" words="final spirit blast" direction="1" level="400" maglv="120"  mana="2000" soul="0" cooldown="1500" prem="0" enabled="1" script="level 400/final spirit blast.lua">
+<vocation name="none" />
+</instant>
+
+<instant group="attack" name="Gigantic Buster" words="gigantic buster" direction="1" level="400" maglv="120"  mana="2000" soul="0" cooldown="1500" prem="0" enabled="1" script="level 400/gigantic buster.lua">
+<vocation name="none" />
+</instant>
+
+<instant group="healing" name="Heal Party" words="heal party" level="28" mana="140" prem="1" aggressive="0" selftarget="1" cooldown="1500" script="heal.lua">
+</instant>
+
+<instant group="attack" name="Demon Blast" words="demon blast" direction="1" level="300" maglv="120"  mana="2000" soul="0" cooldown="1500" prem="0" enabled="1" script="level 400/demon blast.lua">
+<vocation name="none" />
+</instant>
+
+<instant group="attack" name="Combined Energy Wave" words="Combined Energy Wave" direction="1" level="300" maglv="120"  mana="2000" soul="0" cooldown="1500" prem="0" enabled="1" script="level 400/chybie kamehameha.lua">
+<vocation name="none" />
+</instant>
+
+<!--// monster \\-->
+
+<instant name="Death Ball" 				words="death ball" 						direction="1" lvl="200" 	cooldown="1500"			maglv="100"  mana="5000" soul="10" exhaustion="1" prem="1" enabled="1" script="6/death ball.lua">
+<vocation name="Freezer1" /><vocation name="Freezer2" /><vocation name="Freezer3" /><vocation name="Freezer4" /><vocation name="Freezer5" /><vocation name="Freezer G6" /><vocation name="Freezer G7" /><vocation name="Freezer G8" /><vocation name="Freezer G9" /><vocation name="Freezer G10" /><vocation name="Freezer G11" />
+</instant>
+
+<instant name="Renzoku Shine Shine Missile"	words="renzoku shine shine missile"	 needtarget="1"	direction="1" lvl="50" 				maglv="50"	mana="1000"	soul="0" exhaustion="1" prem="0" enabled="1" script="3/renzoku shine shine missile.lua">
+<vocation name="none" />
+</instant>
+<instant name="czerwone pioruny" 				words="czerwone pioruny" 	 selftarget="1"  aggressive="1" level="500" 	maglv="300"  mana="1" soul="0" exhaustion="500" prem="0" enabled="1" script="monsters/ue/czerwone pioruny.lua">
+<vocation name="none" />
+</instant>
+<instant name="czerwone pioruny ue" 				words="czerwone pioruny ue" 	 selftarget="1"  aggressive="1" level="500" 	maglv="300"  mana="1" soul="0" exhaustion="500" prem="0" enabled="1" script="monsters/ue/czerwone pioruny.lua">
+<vocation name="none" />
+</instant>
+<instant name="czrwone pioruny ue" 				words="czrwone pioruny ue" 	 selftarget="1"  aggressive="1" level="500" 	maglv="300"  mana="1" soul="0" exhaustion="500" prem="0" enabled="1" script="monsters/ue/czerwone pioruny.lua">
+<vocation name="none" />
+</instant>
+<instant name="frozen rage" 					words="frozen rage" 	 selftarget="1"  aggressive="1" level="500" 	maglv="300"  mana="1" soul="0" exhaustion="500" prem="0" enabled="1" script="monsters/ue/frozen rage.lua"><vocation name="none" /></instant>
+<instant name="frozen ragex" 					words="frozen ragex" 	 selftarget="1"  aggressive="1" level="500" 	maglv="300"  mana="1" soul="0" exhaustion="500" prem="0" enabled="1" script="monsters/ue/frozen ragex.lua"><vocation name="none" /></instant>
+<instant name="duze zolte ue" 				words="duze zolte ue" 	 selftarget="1"  aggressive="1" level="500" 	maglv="300"  mana="1" soul="0" exhaustion="500" prem="0" enabled="1" script="monsters/ue/duze zolte ue.lua"><vocation name="none" /></instant>
+<instant name="dymek ue" 					words="dymek ue" 	 selftarget="1"  aggressive="1" level="500" 	maglv="300"  mana="1" soul="0" exhaustion="500" prem="0" enabled="1" script="monsters/ue/dymek ue.lua"><vocation name="none" /></instant>
+<instant name="dumek ue" 					words="dumek ue" 	 selftarget="1"  aggressive="1" level="500" 	maglv="300"  mana="1" soul="0" exhaustion="500" prem="0" enabled="1" script="monsters/ue/dymek ue.lua"><vocation name="none" /></instant>
+<instant name="explo" 						words="explo" 	 selftarget="1"  aggressive="1" level="500" 	maglv="300"  mana="1" soul="0" exhaustion="500" prem="0" enabled="1" script="monsters/ue/explo.lua"><vocation name="none" /></instant>
+
+<instant name="xkiaiho" words="xkiaiho" 	 selftarget="1"  aggressive="1" level="500" 	maglv="300"  mana="1" soul="0" exhaustion="500" prem="0" enabled="1" script="monsters/kiaiho.lua"><vocation name="none" /></instant>
+
+<instant name="kolorowe ue" 					words="kolorowe ue" 	 selftarget="1"  aggressive="1" level="500" 	maglv="300"  mana="1" soul="0" exhaustion="500" prem="0" enabled="1" script="monsters/ue/kolorowe ue.lua"><vocation name="none" /></instant>
+<instant name="niebieskie pioruny ue" 			words="niebieskie pioruny ue" 	 selftarget="1"  aggressive="1" level="500" 	maglv="300"  mana="1" soul="0" exhaustion="500" prem="0" enabled="1" script="monsters/ue/niebieskie pioruny ue.lua"><vocation name="none" /></instant>
+<instant name="zolte pioruny ue" 				words="zolte pioruny ue" 	 selftarget="1"  aggressive="1" level="500" 	maglv="300"  mana="1" soul="0" exhaustion="500" prem="0" enabled="1" script="monsters/ue/zolte pioruny ue.lua"><vocation name="none" /></instant>
+<instant name="buu kula" 					words="buu kula" 			 	direction="1" level="500" 				maglv="300"  mana="1" soul="0" exhaustion="500" prem="0" enabled="1" script="monsters/kula/buu kula.lua"><vocation name="none" /></instant>
+<instant name="cell kula" 					words="cell kula" 		 	direction="1" level="500" 				maglv="300"  mana="1" soul="0" exhaustion="500" prem="0" enabled="1" script="monsters/kula/cell kula.lua"><vocation name="none" /></instant>
+<instant name="duza buu kula" 				words="duza buu kula" 			direction="1" level="500" 				maglv="300"  mana="1" soul="0" exhaustion="500" prem="0" enabled="1" script="monsters/kula/duza buu kula.lua"><vocation name="none" /></instant>
+<instant name="janemba fist" 					words="janemba fist" 		 	direction="1" level="500" 				maglv="300"  mana="1" soul="0" exhaustion="500" prem="0" enabled="1" script="monsters/kula/janemba fist.lua"><vocation name="none" /></instant>
+<instant name="mala genki kula" 				words="mala genki kula" 			 	direction="1" level="500" maglv="300"  mana="1" soul="0" exhaustion="500" prem="0" enabled="1" script="monsters/kula/mala genki kula.lua"><vocation name="none" /></instant>
+<instant name="red sword" 					words="red sword" 			 	direction="1" level="500" 				maglv="300"  mana="1" soul="0" exhaustion="500" prem="0" enabled="1" script="monsters/kula/red sword.lua"><vocation name="none" /></instant>
+<instant name="cell jr" 					words="cell jr" 				 needtarget="1"	direction="1" level="500" 				maglv="300"  mana="1" soul="0" exhaustion="500" prem="0" enabled="1" script="monsters/napr/cell jr.lua"><vocation name="none" /></instant>
+<instant name="genki" 						words="genki" 				 needtarget="1"	direction="1" level="500" 				maglv="300"  mana="1" soul="0" exhaustion="500" prem="0" enabled="1" script="monsters/napr/genki.lua"><vocation name="none" /></instant>
+<instant name="gun" 						words="gun" 				 needtarget="1"	direction="1" level="500" 				maglv="300"  mana="1" soul="0" exhaustion="500" prem="0" enabled="1" script="monsters/napr/gun.lua"><vocation name="none" /></instant>
+<instant name="xrevenge" 						words="xrevenge" 				 needtarget="1"	direction="1" level="500" 				maglv="300"  mana="1" soul="0" exhaustion="500" prem="0" enabled="1" script="monsters/xrevenge.lua"><vocation name="none" /></instant>
+<instant name="gund" 						words="gund" 				 needtarget="1"	direction="1" level="500" 				maglv="300"  mana="1" soul="0" exhaustion="500" prem="0" enabled="1" script="monsters/napr/gund.lua"><vocation name="none" /></instant>
+<instant name="miecz" 						words="miecz" 				 needtarget="1"	direction="1" level="500" 				maglv="300"  mana="1" soul="0" exhaustion="500" prem="0" enabled="1" script="monsters/napr/miecz.lua"><vocation name="none" /></instant>
+<instant name="frozen kula" 					words="frozen kula" 				 needtarget="1"	direction="1" level="500" 				maglv="300"  mana="1" soul="0" exhaustion="500" prem="0" enabled="1" script="monsters/napr/frozen kula.lua"><vocation name="none" /></instant>
+<instant name="evil fala" 					words="evil fala" 		 	direction="1" level="500" 				maglv="300"  mana="1" soul="0" exhaustion="500" prem="0" enabled="1" script="monsters/fala/evil fala.lua"><vocation name="none" /></instant>
+<instant name="frozen fala" 					words="frozen fala" 		 	direction="1" level="500" 				maglv="300"  mana="1" soul="0" exhaustion="500" prem="0" enabled="1" script="monsters/fala/frozen fala.lua"><vocation name="none" /></instant>
+<instant name="niebieskie fala" 				words="niebieskie fala" 		direction="1" level="500" 				maglv="300"  mana="1" soul="0" exhaustion="500" prem="0" enabled="1" script="monsters/fala/niebieskie fala.lua"><vocation name="none" /></instant>
+<instant name="noga buu fala" 				words="noga buu fala" 		 	direction="1" level="500" 				maglv="300"  mana="1" soul="0" exhaustion="500" prem="0" enabled="1" script="monsters/fala/noga buu fala.lua"><vocation name="none" /></instant>
+<instant name="rozowe fala" 					words="rozowe fala" 		 	direction="1" level="500" 				maglv="300"  mana="1" soul="0" exhaustion="500" prem="0" enabled="1" script="monsters/fala/rozowe fala.lua"><vocation name="none" /></instant>
+<instant name="zielona fala" 					words="zielona fala" 		 	direction="1" level="500" 				maglv="300"  mana="1" soul="0" exhaustion="500" prem="0" enabled="1" script="monsters/fala/zielona fala.lua"><vocation name="none" /></instant>
+<instant name="zolte ue" 				words="zolte ue" 	 selftarget="1"  aggressive="1" level="500" 	maglv="300"  mana="1" soul="0" exhaustion="500" prem="0" enabled="1" script="monsters/ue/zolte ue.lua"><vocation name="none" /></instant><instant name="blood ue" 				words="blood ue" 	 selftarget="1"  aggressive="1" level="500" 	maglv="300"  mana="1" soul="0" exhaustion="500" prem="0" enabled="1" script="monsters/ue/blood ue.lua"><vocation name="none" /></instant>
+<instant group="attack" name="Big Bang Kamehameha" words="big bang kamehameha" direction="1" level="100" maglv="80"  mana="3000" soul="0" cooldown="1500" prem="0" enabled="1" script="monsters/big bang kamehameha.lua">
+<vocation name="none" />
+</instant>
+
+
+</spells>

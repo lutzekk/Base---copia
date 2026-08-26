@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Gem Trader" script="default.lua" walkinterval="2000" floorchange="0">
+	<health now="150" max="150"/>
+	<look type="373" head="57" body="59" legs="40" feet="76" corpse="2212"/>
+	<parameters>
+		<parameter key="module_shop" value="1"/>
+		<parameter key="shop_sellable" value="
+			violet gem,2153,10000;
+			yellow gem,2154,10000;
+			big emerald,2155,10000;
+			big ruby,2156,10000;
+			blue gem,2158,10000;"/>
+		<parameter key="shop_buyable" value="blue gem,2158,30000;"/>
+		<parameter key="message_greet" value="Hello |PLAYERNAME|. Say {trade}, to see my offer!"/>
+		<parameter key="message_sendtrade" value="Huh it's my offer.."/>
+		<parameter key="message_oncloseshop" value="Good luck while running and hitting!"/>
+	</parameters>
+</npc>

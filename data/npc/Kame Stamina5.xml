@@ -1,0 +1,9 @@
+<npc name="Mestre Kame Senin" script="data/npc/scripts/sta5.lua" walkinterval="0" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="499" head="132" body="79" legs="97" feet="132" addons="3"/>
+        <parameters>
+                <parameter key="message_greet" value="Esta pronto para continuar? Diga {yes} se estiver." />
+                <parameter key="message_farewell" value="Tchau." />
+                <parameter key="message_walkaway" value="Tchau." />
+        </parameters>
+</npc>

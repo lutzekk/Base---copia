@@ -1,0 +1,47 @@
+8
+
+dir
+2293
+https://opentibia.svn.sourceforge.net/svnroot/opentibia/otserv/trunk/data/weapons
+https://opentibia.svn.sourceforge.net/svnroot/opentibia
+
+
+
+2007-06-28T21:00:50.609214Z
+2292
+piterb
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+c77455bc-2124-0410-8220-ac9e7aafbb94
+
+lib
+dir
+
+scripts
+dir
+
+weapons.xml
+file
+
+
+
+
+2007-06-29T13:32:17.359375Z
+c82a2d6df3fd573439124ef299ee108a
+2007-06-28T21:00:50.609214Z
+2292
+piterb
+has-props
+

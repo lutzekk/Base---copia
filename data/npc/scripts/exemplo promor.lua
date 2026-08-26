@@ -1,0 +1,123 @@
+local keywordHandler = KeywordHandler:new()
+local npcHandler = NpcHandler:new(keywordHandler)
+NpcSystem.parseParameters(npcHandler)
+local talkState = {}
+
+local config = {
+        
+        
+        outfit_king = {lookType = 560, lookHead = 0, lookBody = 0, lookLegs = 0, lookFeet = 0, lookTypeEx = 0, lookAddons = 0},
+		outfit_kingg = {lookType = 565, lookHead = 0, lookBody = 0, lookLegs = 0, lookFeet = 0, lookTypeEx = 0, lookAddons = 0},
+        
+
+
+}
+
+local points = 30
+
+function onCreatureAppear(cid)            npcHandler:onCreatureAppear(cid)        end
+function onCreatureDisappear(cid)        npcHandler:onCreatureDisappear(cid)        end
+function onCreatureSay(cid, type, msg)        npcHandler:onCreatureSay(cid, type, msg)    end
+function onThink()                npcHandler:onThink()                end
+
+function creatureSayCallback(cid, type, msg)
+
+    if(not npcHandler:isFocused(cid)) then
+        return false
+    end
+
+    if msgcontains(msg, "hi") then
+        selfSay("Você quer ser como eu? Se sim, diga {king}.", cid)
+
+
+        
+
+      elseif msgcontains(msg, "king") then
+        selfSay("Serão removidos 30 pontos seus, adquiridos no site, você tem certeza?.", cid)
+        talkState[cid] = 1
+
+
+elseif msgcontains(msg, 'yes') and getPlayerStorageValue(cid, 30023) <= 0 and getPlayerStorageValue(cid, 60122) <= 0 and (getAccountPoints(cid)) >= points and talkState[cid] == 1 then
+     doAccountRemovePoints(cid,points)
+     selfSay("Ok!.", cid)
+	 doPlayerAddItem(cid,1998,1)
+	 doPlayerAddItem(cid,2519,1)
+	 doPlayerAddItem(cid,7486,1)
+	 doPlayerAddItem(cid,7487,1)
+	 doPlayerAddItem(cid,7488,1)
+	 doPlayerAddItem(cid,7478,100)
+	 doPlayerAddItem(cid,7478,100)
+	 doPlayerAddItem(cid,7478,100)
+	 doPlayerAddItem(cid,7478,100)
+	 doPlayerAddItem(cid,7478,100)
+	 doPlayerAddItem(cid,2160,100)
+	 doPlayerAddItem(cid,2160,100)
+	 doPlayerAddItem(cid,2160,100)
+	 doPlayerAddItem(cid,2160,100)
+	 doPlayerAddItem(cid,2160,100)
+	 doPlayerAddItem(cid,2493,1)
+	 doPlayerAddPremiumDays(cid, 30)
+     doCreatureChangeOutfit(cid, config.outfit_king)
+     doPlayerSetVocation(cid,343)
+	 setPlayerStorageValue(cid,60122,4)
+     doRemoveCreature(cid,true)
+
+
+elseif msgcontains(msg, 'yes') and getPlayerStorageValue(cid, 30023) == 4 and getPlayerStorageValue(cid, 60122) <= 0 and (getAccountPoints(cid)) >= points and talkState[cid] == 1 then
+     doAccountRemovePoints(cid,points)
+     selfSay("Ok!.", cid)
+	 doPlayerAddItem(cid,1998,1)
+	 doPlayerAddItem(cid,2519,1)
+	 doPlayerAddItem(cid,7486,1)
+	 doPlayerAddItem(cid,7487,1)
+	 doPlayerAddItem(cid,7488,1)
+	 doPlayerAddItem(cid,7478,100)
+	 doPlayerAddItem(cid,7478,100)
+	 doPlayerAddItem(cid,7478,100)
+	 doPlayerAddItem(cid,7478,100)
+	 doPlayerAddItem(cid,7478,100)
+	 doPlayerAddItem(cid,2160,100)
+	 doPlayerAddItem(cid,2160,100)
+	 doPlayerAddItem(cid,2160,100)
+	 doPlayerAddItem(cid,2160,100)
+	 doPlayerAddItem(cid,2160,100)
+	 doPlayerAddItem(cid,2493,1)
+	 doPlayerAddPremiumDays(cid, 30)
+     doCreatureChangeOutfit(cid, config.outfit_kingg)
+     doPlayerSetVocation(cid,348)
+	 setPlayerStorageValue(cid,60122,4)
+     doRemoveCreature(cid,true)
+
+
+
+
+     
+elseif getPlayerStorageValue(cid, 60122) == 4 then
+     selfSay("Você já é king!", cid)
+     talkState[cid] = 0
+     
+elseif (getAccountPoints(cid)) < points then
+    selfSay("Você não tem points suficientes!", cid)
+    talkState[cid] = 0
+
+
+
+
+
+
+
+
+
+
+
+     else
+     selfSay("! Fale comigo pela aba NPC.", cid)
+     talkState[cid] = 0
+     end
+     return TRUE
+     end
+
+
+npcHandler:setCallback(CALLBACK_MESSAGE_DEFAULT, creatureSayCallback)
+npcHandler:addModule(FocusModule:new())
+

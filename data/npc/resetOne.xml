@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Reset One" script="resetOne.lua" walkinterval="0" speechbubble="1">
+	<health now="1000" max="1000" />
+	<look type="1185" head="95" body="86" legs="86" feet="38" addons="3"/>
+	
+</npc>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <monster name="Tsufurjin LvL 6" nameDescription="a tsufurjinn" race="blood" experience="870" speed="295" manacost="0">
+    <health now="35000" max="35000"/>
+    <look type="340" head="1" body="1" legs="1" feet="1" corpse="6020"/>
+    <targetchange interval="60000" chance="0"/>
+    <strategy attack="0" defense="0"/>
+    <flags>
+      <flag attackable="1"/>
+      <flag hostile="1"/>
+      <flag illusionable="0"/>
+      <flag convinceable="0"/>
+      <flag pushable="0"/>
+     <flag canpushitems="1"/>
+      <flag staticattack="50"/>
+      <flag lightlevel="0"/>
+      <flag lightcolor="0"/>
+      <flag targetdistance="1"/>
+      <flag runonhealth="0"/>
+    </flags>
+    <attacks>
+<attack name="melee" interval="1000" min="-1100" max="-1235"/>
+<attack name="niebieskie pioruny ue" chance="50" interval="5000" min="-500" max="-875"/>
+<attack name="evil fala" chance="50" interval="5000" min="-1200" max="-1875"/>
+    </attacks>
+      <immunities>
+      <immunity physical="0"/>
+      <immunity energy="0"/>
+      <immunity fire="0"/>
+      <immunity poison="0"/>
+      <immunity lifedrain="0"/>
+      <immunity paralyze="0"/>
+      <immunity outfit="0"/>
+      <immunity drunk="0"/>
+      <immunity invisible="0"/>
+    </immunities>
+    <loot>
+      <item id="2148" countmax="45" chance1="50000" chancemax="0"/>
+<item id="2453" chance="10000"/>
+<item id="2511" chance="1000"/>
+<item id="2002" chance="100000">
+<inside>
+   <item id="2671" countmax="4" chance1="50000" chancemax="0"/>
+   <item id="2014" chance="5000"/>
+   <item id="2466" chance="5000"/>
+    <item id="2464" chance="1000"/>
+   <item id="2462" chance="5000"/>
+ <item id="2457" chance="5000"/>
+ <item id="2511" chance="5000"/>
+ <item id="7389" chance="5000"/>
+ <item id="2501" chance="5000"/>
+</inside>
+</item>
+    </loot>
+  </monster>

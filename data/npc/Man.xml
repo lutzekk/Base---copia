@@ -1,0 +1,5 @@
+<npc name="Man" script="data/npc/scripts/man.lua" walkinterval="0" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="316" head="132" body="79" legs="97" feet="132" addons="3"/>
+       
+</npc>

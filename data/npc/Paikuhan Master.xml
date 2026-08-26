@@ -1,0 +1,9 @@
+<npc name="Paikuhan Master" script="data/npc/scripts/paikuhan master.lua" walkinterval="0" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="993" head="132" body="79" legs="97" feet="132" addons="3"/>
+        <parameters>
+                <parameter key="message_greet" value="Voce quer chegar a ser como eu um dia? Se sim, diga {paikuhan}." />
+                <parameter key="message_farewell" value="Bye." />
+                <parameter key="message_walkaway" value="Bye." />
+        </parameters>
+</npc>

@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<houses>
+<house name="Small City Street I" houseid="1" entryx="70" entryy="182" entryz="7" rent="0" townid="1" size="120"/>
+<house name="Small City Street II" houseid="2" entryx="76" entryy="182" entryz="7" rent="0" townid="1" size="100"/>
+<house name="Small City Street III" houseid="3" entryx="54" entryy="194" entryz="6" rent="0" townid="1" size="109"/>
+<house name="Small City Street IV" houseid="4" entryx="54" entryy="196" entryz="6" rent="0" townid="1" size="17"/>
+<house name="Small City Street V" houseid="5" entryx="60" entryy="196" entryz="6" rent="0" townid="1" size="16"/>
+<house name="Small City STreet VI" houseid="6" entryx="54" entryy="198" entryz="6" rent="0" townid="1" size="16"/>
+<house name="Small CIty Street VII" houseid="7" entryx="60" entryy="198" entryz="6" rent="0" townid="1" size="17"/>
+<house name="Small City Street VIII" houseid="8" entryx="55" entryy="196" entryz="5" rent="0" townid="1" size="17"/>
+<house name="Small City Street IX" houseid="9" entryx="61" entryy="196" entryz="5" rent="0" townid="1" size="17"/>
+<house name="Small City Street X" houseid="10" entryx="55" entryy="198" entryz="5" rent="0" townid="1" size="17"/>
+<house name="Small City Street XI" houseid="11" entryx="61" entryy="198" entryz="5" rent="0" townid="1" size="16"/>
+<house name="Big City Street I" houseid="13" entryx="72" entryy="104" entryz="7" rent="0" townid="0" size="21"/>
+<house name="Big City Street II" houseid="14" entryx="87" entryy="103" entryz="6" rent="0" townid="0" size="20"/>
+<house name="Big City Street III" houseid="15" entryx="86" entryy="104" entryz="6" rent="0" townid="0" size="7"/>
+<house name="Big City Street IV" houseid="16" entryx="88" entryy="113" entryz="7" rent="0" townid="0" size="19"/>
+<house name="Big City Street V" houseid="17" entryx="115" entryy="115" entryz="7" rent="0" townid="0" size="13"/>
+<house name="Big City Street VI" houseid="18" entryx="115" entryy="95" entryz="7" rent="0" townid="0" size="9"/>
+<house name="Room I" houseid="19" entryx="90" entryy="164" entryz="7" rent="0" townid="0" size="13"/>
+<house name="Room II" houseid="20" entryx="93" entryy="160" entryz="7" rent="0" townid="0" size="13"/>
+<house name="Room III" houseid="21" entryx="93" entryy="156" entryz="7" rent="0" townid="0" size="13"/>
+<house name="Room IV" houseid="22" entryx="93" entryy="152" entryz="7" rent="0" townid="0" size="13"/>
+<house name="Room V" houseid="23" entryx="96" entryy="152" entryz="7" rent="0" townid="0" size="13"/>
+<house name="Room VI" houseid="24" entryx="93" entryy="164" entryz="6" rent="0" townid="0" size="13"/>
+<house name="Room VII" houseid="25" entryx="93" entryy="160" entryz="6" rent="0" townid="0" size="13"/>
+<house name="Room VIII" houseid="26" entryx="93" entryy="156" entryz="6" rent="0" townid="0" size="13"/>
+<house name="Room IX" houseid="27" entryx="93" entryy="152" entryz="6" rent="0" townid="0" size="13"/>
+<house name="Room X" houseid="28" entryx="101" entryy="158" entryz="6" rent="0" townid="0" size="17"/>
+<house name="Room XI" houseid="29" entryx="101" entryy="163" entryz="6" rent="0" townid="0" size="17"/>
+<house name="Room XII" houseid="30" entryx="93" entryy="164" entryz="5" rent="0" townid="0" size="13"/>
+<house name="Room XIII" houseid="31" entryx="93" entryy="160" entryz="5" rent="0" townid="0" size="13"/>
+<house name="Room XIV" houseid="32" entryx="93" entryy="156" entryz="5" rent="0" townid="0" size="13"/>
+<house name="Room XV" houseid="33" entryx="93" entryy="152" entryz="5" rent="0" townid="0" size="13"/>
+<house name="Room XVI" houseid="34" entryx="101" entryy="163" entryz="5" rent="0" townid="0" size="21"/>
+<house name="Room XVII" houseid="35" entryx="101" entryy="158" entryz="5" rent="0" townid="0" size="17"/>
+<house name="Room XVIII" houseid="36" entryx="93" entryy="164" entryz="4" rent="0" townid="0" size="13"/>
+<house name="Room XIX" houseid="37" entryx="93" entryy="160" entryz="4" rent="0" townid="0" size="13"/>
+<house name="Room XX" houseid="38" entryx="93" entryy="156" entryz="4" rent="0" townid="0" size="13"/>
+<house name="Room XXI" houseid="39" entryx="93" entryy="152" entryz="4" rent="0" townid="0" size="13"/>
+<house name="Room XXII" houseid="40" entryx="101" entryy="163" entryz="4" rent="0" townid="0" size="21"/>
+<house name="Room XXIII" houseid="41" entryx="101" entryy="158" entryz="4" rent="0" townid="0" size="17"/>
+<house name="Frozen City Street I" houseid="42" entryx="438" entryy="629" entryz="6" rent="0" townid="0" size="26"/>
+<house name="Frozen City Street II" houseid="43" entryx="442" entryy="629" entryz="6" rent="0" townid="0" size="14"/>
+<house name="Frozen City Street III" houseid="44" entryx="439" entryy="642" entryz="6" rent="0" townid="0" size="13"/>
+<house name="Frozen City Street IV" houseid="45" entryx="444" entryy="642" entryz="6" rent="0" townid="0" size="13"/>
+<house name="Guild House I" houseid="46" entryx="59" entryy="115" entryz="7" rent="0" townid="1" size="641"/>
+<house name="Frozen City Street V" houseid="47" entryx="484" entryy="626" entryz="6" rent="0" townid="0" size="44"/>
+<house name="Hope Coty Street I" houseid="48" entryx="335" entryy="905" entryz="7" rent="0" townid="0" size="41"/>
+<house name="Hope City Street II" houseid="49" entryx="333" entryy="912" entryz="7" rent="0" townid="0" size="60"/>
+<house name="Hope City Street III" houseid="50" entryx="351" entryy="905" entryz="7" rent="0" townid="0" size="77"/>
+<house name="Hope City Street IV" houseid="51" entryx="361" entryy="903" entryz="7" rent="0" townid="0" size="55"/>
+<house name="Hope City Street V" houseid="52" entryx="357" entryy="893" entryz="7" rent="0" townid="0" size="47"/>
+<house name="Hope City Street VI" houseid="53" entryx="347" entryy="893" entryz="7" rent="0" townid="0" size="40"/>
+<house name="Hope CIty Street VII" houseid="54" entryx="369" entryy="925" entryz="7" rent="0" townid="0" size="57"/>
+<house name="Hope City Street VIII" houseid="55" entryx="369" entryy="933" entryz="7" rent="0" townid="0" size="112"/>
+<house name="Hope City Street IX" houseid="56" entryx="381" entryy="928" entryz="7" rent="0" townid="0" size="109"/>
+<house name="Hope City Street X" houseid="57" entryx="381" entryy="935" entryz="7" rent="0" townid="0" size="60"/>
+<house name="Hope City Street XI" houseid="58" entryx="357" entryy="945" entryz="7" rent="0" townid="0" size="29"/>
+<house name="" houseid="59" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="0"/>
+<house name="" houseid="60" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="0"/>
+</houses>

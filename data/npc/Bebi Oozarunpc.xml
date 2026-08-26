@@ -1,0 +1,9 @@
+<npc name="Bebi" script="data/npc/scripts/bebio.lua" walkinterval="0" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="108" head="132" body="79" legs="97" feet="132" addons="3"/>
+        <parameters>
+                <parameter key="message_greet" value="Ok |PLAYERNAME|! Do you want to fight with me?" />
+                <parameter key="message_farewell" value="Bye." />
+                <parameter key="message_walkaway" value="Bye." />
+        </parameters>
+</npc>

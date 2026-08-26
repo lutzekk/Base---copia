@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Power Trader" script="default.lua" walkinterval="2000" floorchange="0">
+	<health now="150" max="150"/>
+	<look type="44" head="57" body="59" legs="40" feet="76" corpse="2212"/>
+	<parameters>
+		<parameter key="module_shop" value="1"/>
+		<parameter key="shop_sellable" value="
+			blaster,2453,1000;
+			saiyan power,2433,50000;
+			makankosappo power,2455,10000;
+			namek power,2456,1000;
+			blue ki,2190,500;
+			blue kix,2188,1000;
+			yellow ki,2189,3000;
+			red ki,2191,5000;
+			stronge ki,2187,10000;"/>
+		<parameter key="shop_buyable" value="strong makankosappo,2547,250,1;makankosappo,2543,50,1;"/>
+		<parameter key="message_greet" value="Hello |PLAYERNAME|. Say {trade}, to see my offer!"/>
+		<parameter key="message_sendtrade" value="Huh it's my offer.."/>
+		<parameter key="message_oncloseshop" value="Good luck while running and hitting!"/>
+	</parameters>
+</npc>

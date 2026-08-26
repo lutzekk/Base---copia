@@ -1,0 +1,311 @@
+<?xml version="1.0"?>
+<monsters>
+<monster name="Dragon LvL 1" file="monsters/Dragon LvL 1.xml" />
+<monster name="Dragon LvL 2" file="monsters/Dragon LvL 2.xml" />
+<monster name="Dragon LvL 3" file="monsters/Dragon LvL 3.xml" />
+<monster name="Dragon LvL 4" file="monsters/Dragon LvL 4.xml" />
+<monster name="Dragon LvL 5" file="monsters/Dragon LvL 5.xml" />
+<monster name="Dragon LvL 6" file="monsters/Dragon LvL 6.xml" />
+
+<monster name="Saibaman Boss" file="monsters/Saibaman Boss.xml" />
+<monster name="Tsufurjin Boss" file="monsters/Tsufurjin Boss.xml" />
+<monster name="Soldier Boss" file="monsters/Soldier Boss.xml" />
+<monster name="Bandit Boss" file="monsters/Bandit Boss.xml" />
+
+
+<monster name="Bug LvL 1" file="monsters/Bug LvL 1.xml" />
+<monster name="Bug LvL 2" file="monsters/Bug LvL 2.xml" />
+<monster name="Bug LvL 3" file="monsters/Bug LvL 3.xml" />
+<monster name="Bug LvL 3" file="monsters/Bug LvL 3.xml" />
+<monster name="Snake LvL 1" file="monsters/Snake LvL 1.xml" />
+<monster name="Snake LvL 2" file="monsters/Snake LvL 2.xml" />
+<monster name="Snake LvL 3" file="monsters/Snake LvL 3.xml" />
+<monster name="Wolf LvL 1" file="monsters/Wolf LvL 1.xml" />
+<monster name="Wolf LvL 2" file="monsters/Wolf LvL 2.xml" />
+<monster name="Wolf LvL 3" file="monsters/Wolf LvL 3.xml" />
+<monster name="Wolf LvL 10" file="monsters/Wolf LvL 10.xml" />
+<monster name="Werewoldf LvL 1" file="monsters/Werewolf LvL 1.xml" />
+<monster name="Werewoldf LvL 2" file="monsters/Werewolf LvL 2.xml" />
+<monster name="Werewoldf LvL 3" file="monsters/Werewolf LvL 3.xml" />
+<monster name="Triceratops LvL 1" file="monsters/Triceratops LvL 1.xml" />
+<monster name="Triceratops LvL 2" file="monsters/Triceratops LvL 2.xml" />
+<monster name="Triceratops LvL 3" file="monsters/Triceratops LvL 3.xml" />
+<monster name="Triceratops LvL 4" file="monsters/Triceratops LvL 4.xml" />
+<monster name="Triceratops LvL 5" file="monsters/Triceratops LvL 5.xml" />
+<monster name="Dinosaur LvL 1" file="monsters/Dinosaur LvL 1.xml" />
+<monster name="Dinosaur LvL 2" file="monsters/Dinosaur LvL 2.xml" />
+<monster name="Dinosaur LvL 3" file="monsters/Dinosaur LvL 3.xml" />
+<monster name="Bandit LvL 1" file="monsters/Bandit LvL 1.xml" />
+<monster name="Bandit LvL 2" file="monsters/Bandit LvL 2.xml" />
+<monster name="Bandit LvL 3" file="monsters/Bandit LvL 3.xml" />
+<monster name="Bandit LvL 4" file="monsters/Bandit LvL 4.xml" />
+<monster name="Bandit LvL 5" file="monsters/Bandit LvL 5.xml" />
+<monster name="Bandit LvL 6" file="monsters/Bandit LvL 6.xml" />
+<monster name="Bandit LvL 7" file="monsters/Bandit LvL 7.xml" />
+<monster name="Bandit LvL 8" file="monsters/Bandit LvL 8.xml" />
+<monster name="Bandit LvL 9" file="monsters/Bandit LvL 9.xml" />
+<monster name="Bandit LvL 10" file="monsters/Bandit LvL 10.xml" />
+<monster name="Skeleton LvL 1" file="monsters/Skeleton LvL 1.xml" />
+<monster name="Skeleton LvL 2" file="monsters/Skeleton LvL 2.xml" />
+<monster name="Mummy LvL 1" file="monsters/Mummy LvL 1.xml" />
+<monster name="Mummy LvL 2" file="monsters/Mummy LvL 2.xml" />
+<monster name="Vampire LvL 1" file="monsters/Vampire LvL 1.xml" />
+<monster name="Vampire LvL 2" file="monsters/Vampire LvL 2.xml" />
+<monster name="Pirate LvL 1" file="monsters/Pirate LvL 1.xml" />
+<monster name="Pirate LvL 2" file="monsters/Pirate LvL 2.xml" />
+<monster name="Pirate LvL 3" file="monsters/Pirate LvL 3.xml" />
+<monster name="Pirate LvL 4" file="monsters/Pirate LvL 4.xml" />
+<monster name="Pirate LvL 5" file="monsters/Pirate LvL 5.xml" />
+<monster name="Assassin LvL 1" file="monsters/Assassin LvL 1.xml" />
+<monster name="Assassin LvL 2" file="monsters/Assassin LvL 2.xml" />
+<monster name="Assassin LvL 3" file="monsters/Assassin LvL 3.xml" />
+<monster name="Assassin LvL 4" file="monsters/Assassin LvL 4.xml" />
+<monster name="Tank LvL 1" file="monsters/Tank LvL 1.xml" />
+<monster name="Tank LvL 2" file="monsters/Tank LvL 2.xml" />
+<monster name="Tank LvL 3" file="monsters/Tank LvL 3.xml" />
+<monster name="Android LvL 1" file="monsters/Android LvL 1.xml" />
+<monster name="Android LvL 2" file="monsters/Android LvL 2.xml" />
+<monster name="Android LvL 3" file="monsters/Android LvL 3.xml" />
+<monster name="Android LvL 4" file="monsters/Android LvL 4.xml" />
+<monster name="Android LvL 5" file="monsters/Android LvL 5.xml" />
+<monster name="Android LvL 6" file="monsters/Android LvL 6.xml" />
+<monster name="Android LvL 7" file="monsters/Android LvL 7.xml" />
+<monster name="Machine LvL 1" file="monsters/Machine LvL 1.xml" />
+<monster name="Machine LvL 2" file="monsters/Machine LvL 2.xml" />
+<monster name="Machine LvL 3" file="monsters/Machine LvL 3.xml" />
+<monster name="Namekjin LvL 1" file="monsters/Namekjin LvL 1.xml" />
+<monster name="Namekjin LvL 2" file="monsters/Namekjin LvL 2.xml" />
+<monster name="Namekjin LvL 3" file="monsters/Namekjin LvL 3.xml" />
+<monster name="Namekjin LvL 4" file="monsters/Namekjin LvL 4.xml" />
+<monster name="Namekjin LvL 5" file="monsters/Namekjin LvL 5.xml" />
+<monster name="Namekjin LvL 6" file="monsters/Namekjin LvL 6.xml" />
+<monster name="Namekjin LvL 7" file="monsters/Namekjin LvL 7.xml" />
+<monster name="Namekjin LvL 8" file="monsters/Namekjin LvL 8.xml" />
+<monster name="Namekjin LvL 9" file="monsters/Namekjin LvL 9.xml" />
+<monster name="Namekjin LvL 9" file="monsters/Namekjin LvL 9.xml" />
+<monster name="Namekjin LvL 10" file="monsters/Namekjin LvL 10.xml" />
+<monster name="Sibaman LvL 1" file="monsters/Saibaman LvL 1.xml" />
+<monster name="Sibaman LvL 2" file="monsters/Saibaman LvL 2.xml" />
+<monster name="Sibaman LvL 3" file="monsters/Saibaman LvL 3.xml" />
+<monster name="Sibaman LvL 4" file="monsters/Saibaman LvL 4.xml" />
+<monster name="Sibaman LvL 5" file="monsters/Saibaman LvL 5.xml" />
+<monster name="Sibaman LvL 6" file="monsters/Saibaman LvL 6.xml" />
+<monster name="Elemental LvL 1" file="monsters/Elemental LvL 1.xml" />
+<monster name="Elemental LvL 2" file="monsters/Elemental LvL 2.xml" />
+<monster name="Elemental LvL 3" file="monsters/Elemental LvL 3.xml" />
+<monster name="Zeltajin LvL 1" file="monsters/Zeltajin LvL 1.xml" />
+<monster name="Zeltajin LvL 2" file="monsters/Zeltajin LvL 2.xml" />
+<monster name="Zeltajin LvL 3" file="monsters/Zeltajin LvL 3.xml" />
+<monster name="Zeltajin LvL 4" file="monsters/Zeltajin LvL 4.xml" />
+<monster name="Soldier LvL 1" file="monsters/Soldier LvL 1.xml" />
+<monster name="Soldier LvL 2" file="monsters/Soldier LvL 2.xml" />
+<monster name="Soldier LvL 3" file="monsters/Soldier LvL 3.xml" />
+<monster name="Soldier LvL 4" file="monsters/Soldier LvL 4.xml" />
+<monster name="Soldier LvL 5" file="monsters/Soldier LvL 5.xml" />
+<monster name="Soldier LvL 6" file="monsters/Soldier LvL 6.xml" />
+<monster name="Saiyan LvL 1" file="monsters/Saiyan LvL 1.xml" />
+<monster name="Saiyan LvL 2" file="monsters/Saiyan LvL 2.xml" />
+<monster name="Saiyan LvL 3" file="monsters/Saiyan LvL 3.xml" />
+<monster name="Saiyan LvL 4" file="monsters/Saiyan LvL 4.xml" />
+<monster name="Saiyan LvL 5" file="monsters/Saiyan LvL 5.xml" />
+<monster name="Saiyan LvL 6" file="monsters/Saiyan LvL 6.xml" />
+<monster name="Saiyan LvL 7" file="monsters/Saiyan LvL 7.xml" />
+<monster name="Oozaru LvL 1" file="monsters/Oozaru LvL 1.xml" />
+<monster name="Oozaru LvL 2" file="monsters/Oozaru LvL 2.xml" />
+<monster name="Oozaru LvL 3" file="monsters/Oozaru LvL 3.xml" />
+<monster name="Oozaru LvL 4" file="monsters/Oozaru LvL 4.xml" />
+<monster name="Oozaru LvL 5" file="monsters/Oozaru LvL 5.xml" />
+<monster name="Oozaru LvL 6" file="monsters/Oozaru LvL 6.xml" />
+<monster name="Oozaru LvL 7" file="monsters/Oozaru LvL 7.xml" />
+<monster name="Janemba LvL 1" file="monsters/Janemba LvL 1.xml" />
+<monster name="Janemba LvL 2" file="monsters/Janemba LvL 2.xml" />
+<monster name="Janemba LvL 3" file="monsters/Janemba LvL 3.xml" />
+<monster name="Janemba LvL 4" file="monsters/Janemba LvL 4.xml" />
+<monster name="Amebo LvL 1" file="monsters/Amebo LvL 1.xml" />
+<monster name="Amebo LvL 2" file="monsters/Amebo LvL 2.xml" />
+<monster name="Scorpion LvL 1" file="monsters/Scorpion LvL 1.xml" />
+<monster name="Scorpion LvL 2" file="monsters/Scorpion LvL 2.xml" />
+<monster name="Scorpion LvL 3" file="monsters/Scorpion LvL 3.xml" />
+<monster name="Android LvL 16" file="monsters/Android LvL 16.xml" />
+<monster name="Android LvL 17" file="monsters/Android LvL 17.xml" />
+<monster name="Android LvL 18" file="monsters/Android LvL 18.xml" />
+<monster name="Majin LvL 1" file="monsters/Majin LvL 1.xml" />
+<monster name="Majin LvL 2" file="monsters/Majin LvL 2.xml" />
+<monster name="Majin LvL 3" file="monsters/Majin LvL 3.xml" />
+<monster name="Majin LvL 4" file="monsters/Majin LvL 4.xml" />
+<monster name="Majin LvL 5" file="monsters/Majin LvL 5.xml" />
+
+<monster name="Goku SSJ MVP" file="monsters/Goku SSJ MVP.xml" />
+<monster name="Trunks SSJ MVP" file="monsters/Trunks SSJ MVP.xml" />
+<monster name="Brolly USSJ MVP" file="monsters/Brolly USSJ MVP.xml" />
+<monster name="Trunks USSJ MVP" file="monsters/Trunks USSJ MVP.xml" />
+<monster name="Gohan SSJ2 MVP" file="monsters/Gohan SSJ2 MVP.xml" />
+<monster name="Goku SSJ2 MVP" file="monsters/Goku SSJ2 MVP.xml" />
+<monster name="Tsuful MVP" file="monsters/Tsuful MVP.xml" />
+<monster name="Kaioshin MVP" file="monsters/Kaioshin MVP.xml" />
+<monster name="Vegetto MVP" file="monsters/Vegetto MVP.xml" />
+<monster name="Majin Buu MVP" file="monsters/Majin Buu MVP.xml" />
+<monster name="Super C17 MVP" file="monsters/Super C17 MVP.xml" />
+<monster name="Gogeta SSJ4 MVP" file="monsters/Gogeta SSJ4 MVP.xml" />
+
+
+
+<monster name="poh" file="monsters/poh.xml" />
+<monster name="Trainer Android" file="monsters/trainer.xml" />
+<monster name="Summon Cell Jr" file="monsters/Summon Cell Jr.xml" />
+<monster name="Summon Ghost" file="monsters/Summon Ghost.xml" />
+
+<monster name="Great Saiyaman MVP" file="monsters/Great Saiyaman MVP.xml" />
+<monster name="Eagle Fighter LvL 3" file="monsters/Eagle Fighter LvL 3.xml" />
+<monster name="Eagle Fighter LvL 2" file="monsters/Eagle Fighter LvL 2.xml" />
+<monster name="Eagle Fighter LvL 1" file="monsters/Eagle Fighter LvL 1.xml" />
+
+<monster name="Goku SSJ5 MVP" file="monsters/Goku SSJ5 MVP.xml" />
+<monster name="Naruto" file="monsters/Naruto.xml" />
+<monster name="Bunshin Naruto" file="monsters/Klon Naruto.xml" />
+
+<monster name="Android LvL 8" file="monsters/Android LvL 8.xml" />
+<monster name="Bandit LvL 11" file="monsters/Bandit LvL 11.xml" />
+<monster name="Bandit LvL 12" file="monsters/Bandit LvL 12.xml" />
+
+<monster name="Heaven Soldier LvL 1" file="monsters/Heaven Soldier LvL 1.xml" />
+<monster name="Heaven Soldier LvL 2" file="monsters/Heaven Soldier LvL 2.xml" />
+<monster name="Heaven Soldier LvL 3" file="monsters/Heaven Soldier LvL 3.xml" />
+<monster name="Heaven Soldier LvL 4" file="monsters/Heaven Soldier LvL 4.xml" />
+<monster name="Heaven Soldier LvL 5" file="monsters/Heaven Soldier LvL 5.xml" />
+
+<monster name="Tsufurjin LvL 1" file="monsters/Tsufurjin LvL 1.xml" />
+<monster name="Tsufurjin LvL 2" file="monsters/Tsufurjin LvL 2.xml" />
+<monster name="Tsufurjin LvL 3" file="monsters/Tsufurjin LvL 3.xml" />
+<monster name="Tsufurjin LvL 4" file="monsters/Tsufurjin LvL 4.xml" />
+<monster name="Tsufurjin LvL 5" file="monsters/Tsufurjin LvL 5.xml" />
+<monster name="Tsufurjin LvL 6" file="monsters/Tsufurjin LvL 6.xml" />
+
+<monster name="Undead LvL 1" file="monsters/Undead LvL 1.xml" />
+<monster name="Undead LvL 2" file="monsters/Undead LvL 2.xml" />
+<monster name="Undead LvL 3" file="monsters/Undead LvL 3.xml" />
+
+<monster name="Assassin LvL 5" file="monsters/Assassin LvL 5.xml" />
+
+<monster name="Janemba LvL 5" file="monsters/Janemba LvL 5.xml" />
+<monster name="Vegeta SSJ2 MVP" file="monsters/Vegeta SSJ2 MVP.xml" />
+
+
+<monster name="Super c18 MVP" file="monsters/Super c18 MVP.xml" />
+<monster name="Goku SSJ3 MVP" file="monsters/Goku SSJ3 MVP.xml" />
+<monster name="Lost Saiyan MVP" file="monsters/Lost Saiyan MVP.xml" />
+<monster name="Li Shenron MVP" file="monsters/Li Shenron MVP.xml" />
+
+
+
+<monster name="Spirit" file="monsters/Spirit.xml" />
+<monster name="Namekjin MVP" file="monsters/Namekjin MVP.xml" />
+<monster name="Frozen Monster LvL 1" file="monsters/Frozen Monster LvL 1.xml" />
+<monster name="Frozen Monster LvL 2" file="monsters/Frozen Monster LvL 2.xml" />
+<monster name="Frozen Elemental" file="monsters/Frozen Elemental.xml" />
+<monster name="Event San Shenron" file="monsters/Event San Shenron.xml" />
+
+<monster name="Raditz Saga" file="monsters/Raditz Saga.xml" />
+<monster name="Monkey Saga" file="monsters/Monkey Saga.xml" />
+<monster name="Gregory Saga" file="monsters/Gregory Saga.xml" />
+<monster name="Saibaman Saga" file="monsters/Saibaman Saga.xml" />
+<monster name="Nappa Saga" file="monsters/Nappa Saga.xml" />
+<monster name="Vegeta Saga" file="monsters/Vegeta Saga.xml" />
+<monster name="Vegeta Oozaru Saga" file="monsters/Vegeta Oozaru Saga.xml" />
+<monster name="Dodoria Saga" file="monsters/Dodoria Saga.xml" />
+<monster name="Zarbon Saga" file="monsters/Zarbon Saga.xml" />
+<monster name="Guldo Saga" file="monsters/Guldo Saga.xml" />
+<monster name="Recoome Saga" file="monsters/Reecome Saga.xml" />
+<monster name="Copassa Saga" file="monsters/Copassa Saga.xml" />
+<monster name="Capitan Ginyu Saga" file="monsters/Capitan Ginyu Saga.xml" />
+<monster name="Capitan Ginyu Saga2" file="monsters/Capitan Ginyu Saga2.xml" />
+<monster name="Freeza1 Saga" file="monsters/Freeza1 Saga.xml" />
+<monster name="Freeza2 Saga" file="monsters/Freeza2 Saga.xml" />
+<monster name="Freeza3 Saga" file="monsters/Freeza3 Saga.xml" />
+<monster name="Freeza4 Saga" file="monsters/Freeza4 Saga.xml" />
+<monster name="Freeza5 Saga" file="monsters/Freeza5 Saga.xml" />
+<monster name="Freeza6 Saga" file="monsters/Freeza6 Saga.xml" />
+<monster name="Freeza7 Saga" file="monsters/Freeza7 Saga.xml" />
+<monster name="C19 Saga" file="monsters/C19 Saga.xml" />
+<monster name="C20 Saga" file="monsters/C20 Saga.xml" />
+<monster name="Cell1 Saga" file="monsters/Cell1 Saga.xml" />
+<monster name="C17 Saga" file="monsters/C17 Saga.xml" />
+<monster name="Cell2 Saga" file="monsters/Cell2 Saga.xml" />
+<monster name="Cell Jr Saga" file="monsters/Cell Jr Saga.xml" />
+<monster name="Cell3 Saga" file="monsters/Cell3 Saga.xml" />
+<monster name="Cell4 Saga" file="monsters/Cell4 Saga.xml" />
+<monster name="Pui Pui Saga" file="monsters/Pui Pui Saga.xml" />
+<monster name="Yakon Saga" file="monsters/Yakon Saga.xml" />
+<monster name="Dabura Saga" file="monsters/Dabura Saga.xml" />
+<monster name="Majin Vegeta Saga" file="monsters/Majin Vegeta Saga.xml" />
+<monster name="Buu1 Saga" file="monsters/Buu1 Saga.xml" />
+<monster name="Buu2 Saga" file="monsters/Buu2 Saga.xml" />
+<monster name="Buu2b Saga" file="monsters/Buu2b Saga.xml" />
+<monster name="Buu2c Saga" file="monsters/Buu2c Saga.xml" />
+<monster name="Buu3 Saga" file="monsters/Buu3 Saga.xml" />
+<monster name="Buu4 Saga" file="monsters/Buu4 Saga.xml" />
+<monster name="Cell from Buu Saga" file="monsters/Cell from Buu Saga.xml" />
+<monster name="Cell from Buu Saga2" file="monsters/Cell from Buu Saga2.xml" />
+<monster name="Uub Saga" file="monsters/Uub Saga.xml" />
+<monster name="Bebi1 Saga" file="monsters/Bebi1 Saga.xml" />
+<monster name="Bebi2 Saga" file="monsters/Bebi2 Saga.xml" />
+<monster name="Super C17 Saga" file="monsters/Super C17 Saga.xml" />
+<monster name="Ryan Shenlong Saga" file="monsters/Ryan Shenlong Saga.xml" />
+<monster name="Chii Shenlong Saga" file="monsters/Chii Shenlong Saga.xml" />
+<monster name="Uu Shenlong Saga" file="monsters/Uu Shenlong Saga.xml" />
+<monster name="Ryuu Shenlong Saga" file="monsters/Ryuu Shenlong Saga.xml" />
+<monster name="Suu Shenron Saga" file="monsters/Suu Shenron Saga.xml" />
+<monster name="San Shenron Saga" file="monsters/San Shenron Saga.xml" />
+<monster name="Li Shenron Saga" file="monsters/Li Shenron Saga.xml" />
+<monster name="Omega Shenron Saga" file="monsters/Omega Shenron Saga.xml" />
+
+<monster name="Goku SSJ Reborn Quest" file="monsters/Goku SSJ Reborn Quest.xml" />
+<monster name="Brolly USSJ Reborn Quest" file="monsters/Brolly USSJ Reborn Quest.xml" />
+<monster name="Vegeta SSJ2 Reborn Quest" file="monsters/Vegeta SSJ2 Reborn Quest.xml" />
+<monster name="Goku SSJ3 Reborn Quest" file="monsters/Goku SSJ3 Reborn Quest.xml" />
+<monster name="Tsuful Reborn Quest" file="monsters/Tsuful Reborn Quest.xml" />
+<monster name="Kaioshin Reborn Quest" file="monsters/Kaioshin Reborn Quest.xml" />
+<monster name="Vegetto Reborn Quest" file="monsters/Vegetto Reborn Quest.xml" />
+<monster name="Majin Buu Reborn Quest" file="monsters/Majin Buu Reborn Quest.xml" />
+<monster name="Super C17 Reborn Quest" file="monsters/Super C17 Reborn Quest.xml" />
+<monster name="Gogeta SSJ4 Reborn Quest" file="monsters/Gogeta SSJ4 Reborn Quest.xml" />
+<monster name="Lost Saiyan MVP2" file="monsters/Lost Saiyan MVP2.xml" />
+
+
+
+<monster name="Buu LvL 1" file="monsters/Buu LvL 1.xml" />
+<monster name="Buu LvL 2" file="monsters/Buu LvL 2.xml" />
+<monster name="Buu LvL 3" file="monsters/Buu LvL 3.xml" />
+<monster name="Buu LvL 4" file="monsters/Buu LvL 4.xml" />
+<monster name="Buu LvL 5" file="monsters/Buu LvL 5.xml" />
+<monster name="Cell LvL 1" file="monsters/Cell LvL 1.xml" />
+<monster name="Cell LvL 2" file="monsters/Cell LvL 2.xml" />
+<monster name="Cell LvL 3" file="monsters/Cell LvL 3.xml" />
+<monster name="Cell LvL 4" file="monsters/Cell LvL 4.xml" />
+<monster name="Cell LvL 5" file="monsters/Cell LvL 5.xml" />
+<monster name="Freeza LvL 1" file="monsters/Freeza LvL 1.xml" />
+<monster name="Freeza LvL 2" file="monsters/Freeza LvL 2.xml" />
+<monster name="Freeza LvL 3" file="monsters/Freeza LvL 3.xml" />
+<monster name="Freeza LvL 4" file="monsters/Freeza LvL 4.xml" />
+<monster name="Freeza LvL 5" file="monsters/Freeza LvL 5.xml" />
+<monster name="Heaven Soldier LvL 6" file="monsters/Heaven Soldier LvL 6.xml" />
+<monster name="Heaven Soldier LvL 7" file="monsters/Heaven Soldier LvL 7.xml" />
+<monster name="Janemba MVP" file="monsters/Janemba MVP.xml" />
+<monster name="Shin Soldier LvL 1" file="monsters/Shin Soldier LvL 1.xml" />
+<monster name="Shin Soldier LvL 2" file="monsters/Shin Soldier LvL 2.xml" />
+<monster name="Shin Soldier LvL 3" file="monsters/Shin Soldier LvL 3.xml" />
+<monster name="Shin Soldier LvL 4" file="monsters/Shin Soldier LvL 4.xml" />
+<monster name="Shin Soldier LvL 5" file="monsters/Shin Soldier LvL 5.xml" />
+<monster name="Shin Soldier LvL 6" file="monsters/Shin Soldier LvL 6.xml" />
+<monster name="Trunks SSJ2 MVP" file="monsters/Trunks SSJ2 MVP.xml" />
+
+<monster name="Trunks Event Monster" file="monsters/Trunks Event Monster.xml" />
+<monster name="Goten Event Monster" file="monsters/Goten Event Monster.xml" />
+<monster name="Piccolo Event Monster" file="monsters/Piccolo Event Monster.xml" />
+<monster name="Gotenks Event Monster" file="monsters/Gotenks Event Monster.xml" />
+<monster name="Goku SSJ3 Event Monster" file="monsters/Goku SSJ3 Event Monster.xml" />
+<monster name="Xicor" file="monsters/Xicor.xml" />
+<monster name="Shina" file="monsters/Shina.xml" />
+<monster name="Tapion" file="monsters/Tapion.xml" />
+<monster name="Tapions Member" file="monsters/Tapions Member.xml" />
+</monsters>

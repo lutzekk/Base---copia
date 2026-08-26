@@ -1,0 +1,13 @@
+local kula = {{x=79, y=30, z=7, stackpos=1}, {x=88, y=91, z=7, stackpos=1}, {x=125, y=131, z=7, stackpos=1}, {x=209, y=68, z=7, stackpos=1}, {x=27, y=206, z=7, stackpos=1}, {x=53, y=364, z=7, stackpos=1}, {x=72, y=435, z=7, stackpos=1}, {x=197, y=319, z=7, stackpos=1}, {x=143, y=416, z=7, stackpos=1}, {x=231, y=389, z=7, stackpos=1}, {x=152, y=516, z=7, stackpos=1}, {x=169, y=572, z=7, stackpos=1}, {x=312, y=584, z=7, stackpos=1}, {x=218, y=544, z=7, stackpos=1}, {x=277, y=454, z=7, stackpos=1}, {x=269, y=289, z=7, stackpos=1}, {x=200, y=237, z=7, stackpos=1}, {x=264, y=166, z=7, stackpos=1}, {x=265, y=128, z=7, stackpos=1}, {x=333, y=230, z=7, stackpos=1}, {x=354, y=94, z=7, stackpos=1} , {x=456, y=568, z=7, stackpos=1}, {x=370, y=570, z=7, stackpos=1}, {x=380, y=868, z=7, stackpos=1}, {x=312, y=826, z=7, stackpos=1}, {x=260, y=877, z=7, stackpos=1}, {x=170, y=888, z=7, stackpos=1}, {x=144, y=864, z=7, stackpos=1}, {x=270, y=774, z=7, stackpos=1}, {x=170, y=754, z=7, stackpos=1} , {x=546, y=678, z=7, stackpos=1}  , {x=213, y=144, z=7, stackpos=1}, {x=171, y=149, z=7, stackpos=1}, {x=118, y=30, z=7, stackpos=1}, {x=273, y=434, z=7, stackpos=1}, {x=57, y=309, z=7, stackpos=1}, {x=175, y=75, z=3, stackpos=1}, {x=419, y=46, z=6, stackpos=1}, {x=547, y=624, z=4, stackpos=1}, {x=316, y=47, z=6, stackpos=1}, {x=393, y=656, z=6, stackpos=1}  , {x=61, y=411, z=6, stackpos=1}, {x=183, y=386, z=6, stackpos=1}, {x=188, y=327, z=6, stackpos=1}, {x=144, y=172, z=7, stackpos=1}}
+	
+function onThink()
+	--if(os.date("%A") == "Wednesday") then
+		local dropBall = math.random(#kula)
+		doCreateItem(7140, 1, kula[dropBall])
+		doBroadcastMessage('Dragon Ball is on earth!')
+		print(kula[dropBall].x)
+		print(kula[dropBall].y)
+		print(kula[dropBall].z)
+	--end
+	return true
+end

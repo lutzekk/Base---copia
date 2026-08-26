@@ -1,0 +1,9 @@
+<npc name="Buu" script="data/npc/scripts/buugohan.lua" walkinterval="0" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="219" head="132" body="79" legs="97" feet="132" addons="3"/>
+        <parameters>
+                <parameter key="message_greet" value="Hahaha!!! Do you want fight which me??" />
+                <parameter key="message_farewell" value="Bye." />
+                <parameter key="message_walkaway" value="Bye." />
+        </parameters>
+</npc>

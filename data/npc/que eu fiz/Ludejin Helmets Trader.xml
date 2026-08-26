@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Ludejin Helmets Trader" script="default.lua" walkinterval="2000" floorchange="0">
+	<health now="150" max="150"/>
+	<look type="290" head="132" body="79" legs="97" feet="132" corpse="2212"/>
+	
+	<parameters>
+		<parameter key="module_shop" value="1"/>
+		<parameter key="shop_sellable" value="
+			sun glasses,2461,20000;
+			eye mask,2482,30000;
+			magic cap,2481,40000;
+			hat,2662,75000;
+			chibi gohan cap,2343,1000000;
+			viking cap,2663,1000000;
+			rr cap,2665,1500000;
+			ninja helmet,24593,2000000;
+			red detector,2457,2500000;
+			green detector,2462,250000;
+			soldier helmet,2479,300000;	
+			pai pai helmet,2480,500000;		
+			paul cap,2474,750000;	
+			turban,2502,1000000;	
+			piccolo cap,2475,3000000;		
+			bardock bandana,2471,5000000;           
+			piccolo helmet,2491,5000000;          
+			frozen helmet,2490,7500000;              
+			brolly amulation,2496,10000000;   
+			kuririn cap,3972,300000;           
+			bandana,2520,300000;           
+			c19,2436,1500000;"/>
+		<parameter key="shop_buyable" value="tunic,2467,5000;"/>
+		<parameter key="message_greet" value="Hello |PLAYERNAME|. Say {trade}, to see my offer!"/>
+		<parameter key="message_sendtrade" value="Huh it's my offer.."/>
+		<parameter key="message_oncloseshop" value="Good luck while running and hitting!"/>
+	</parameters>
+</npc>

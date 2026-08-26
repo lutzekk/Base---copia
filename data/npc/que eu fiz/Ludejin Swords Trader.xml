@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Ludejin Swords Trader" script="default.lua" walkinterval="2000" floorchange="0">
+	<health now="150" max="150"/>
+	<look type="290" head="132" body="79" legs="97" feet="132" corpse="2212"/>
+	<parameters>
+		<parameter key="module_shop" value="1"/>
+		<parameter key="shop_sellable" value="
+			jin sword,3278,2000;
+			rock sword,7449,5000;
+			rapier,2396,100000;
+			saiyan sword,2442,300000;
+			white sword,2411,500000;
+			scimithar,2395,750000;
+			soldier sword,2393,1000000;
+			demon sword,2392,3000000;
+			z sword,2403,5000000;
+			janemba sword,2390,1000000;
+			vulcanic sword,2397,3000000;
+			brolly sword,2385,5000000;
+			fire sword,2377,1500000;
+			power janemb sword,2421,8000000;"/>
+		<parameter key="shop_buyable" value="small,2376,2000;"/>
+		<parameter key="message_greet" value="Hello |PLAYERNAME|. Say {trade}, to see my offer!"/>
+		<parameter key="message_sendtrade" value="Huh it's my offer.."/>
+		<parameter key="message_oncloseshop" value="Good luck while running and hitting!"/>
+	</parameters>
+</npc>

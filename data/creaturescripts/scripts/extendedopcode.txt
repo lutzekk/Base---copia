@@ -1,0 +1,7 @@
+local crafting = require("scripts/crafting")
+
+function onExtendedOpcode(player, opcode, buffer)
+    if opcode == 107 then
+        crafting.onExtendedOpcode(player, opcode, buffer)
+    end
+end

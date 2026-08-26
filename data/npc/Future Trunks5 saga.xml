@@ -1,0 +1,5 @@
+<npc name="Future Trunks" script="trunks5.lua" walkinterval="0" floorchange="0" speechbubble="1" access="5" level="1" maglevel="1">
+	<health now="150" max="150"/>
+	<look type="1198" head="132" body="79" legs="97" feet="132" corpse="2212"/>
+
+</npc>

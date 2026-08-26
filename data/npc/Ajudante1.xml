@@ -1,0 +1,7 @@
+<npc name="Ajudante do Noel" script="ajudante1.lua" walkinterval="0" floorchange="0"> 
+  <health now="200" max="200" /> 
+   <look type="614" head="132" body="79" legs="97" feet="132" addons="3"/> 
+  <parameters> 
+    <parameter key="message_greet" value="Oi amiguinho |PLAYERNAME|. Voce me leva ate o papai noel??" /> 
+  </parameters> 
+</npc>

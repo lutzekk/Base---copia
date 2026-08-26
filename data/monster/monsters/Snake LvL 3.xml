@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <monster name="Snake LvL 3" nameDescription="a snake" race="blood" experience="20" speed="200" manacost="0">
+    <health now="50" max="50"/>
+    <look type="26" head="0" body="0" legs="0" feet="0" corpse="3077"/>
+    <targetchange interval="60000" chance="0"/>
+    <strategy attack="0" defense="0"/>
+    <flags>
+       <flag attackable="1"/>
+      <flag hostile="1"/>
+      <flag illusionable="0"/>
+      <flag convinceable="0"/>
+      <flag pushable="0"/>
+     <flag canpushitems="1"/>
+      <flag staticattack="50"/>
+      <flag lightlevel="0"/>
+      <flag lightcolor="0"/>
+      <flag targetdistance="1"/>
+      <flag runonhealth="0"/>
+    </flags>
+    <attacks>
+           <attack name="melee" interval="1000" min="-9" max="-10"/>
+    </attacks>
+      <immunities>
+      <immunity physical="0"/>
+      <immunity energy="0"/>
+      <immunity fire="0"/>
+      <immunity poison="0"/>
+      <immunity lifedrain="0"/>
+      <immunity paralyze="0"/>
+      <immunity outfit="0"/>
+      <immunity drunk="0"/>
+      <immunity invisible="0"/>
+    </immunities>
+    <loot>
+      <item id="2677" countmax="14" chance1="20000" chancemax="0"/>
+      <item id="2787" countmax="1" chance1="15000" chancemax="0"/>
+        <item id="2144" countmax="1" chance1="15000" chancemax="0"/>
+      <item id="2145" countmax="1" chance1="15000" chancemax="0"/>
+
+
+    </loot>
+  </monster>

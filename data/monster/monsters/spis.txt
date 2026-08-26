@@ -1,0 +1,165 @@
+Bug LvL 1: 5-20
+Bug LvL 2: 8-30
+Bug LvL 3: 10-40
+Snake LvL 1: 10-/30
+Snake LvL 2: 15-/40
+Snake LvL 3: 20-/50
+Wolf LvL 1: 20-/60
+Wolf LvL 2: 25-/80
+Wolf LvL 3: 30-/100
+Triceratops LvL 1: 30-/120
+Triceratops LvL 2: 35-/250
+Triceratops LvL 3: 40-/350
+Triceratops LvL 4: 50-/500
+Triceratops LvL 5: 70-/800
+Dinosaur LvL 1: 65-/500
+Dinosaur LvL 2: 80-/800
+Dinosaur LvL 3: 100-/1300
+Bandit LvL 1: 20-/90
+Bandit LvL 2: 40-/200
+Bandit LvL 3: 75-/280
+Bandit LvL 4: 90-/350
+Bandit LvL 5: 110-/400
+Bandit LvL 6: 130-/500
+Bandit LvL 7: 160-/700
+Bandit LvL 8: 195-/900
+Bandit LvL 9: 220-/1500
+Bandit LvL 10: 265-/2000
+Skeleton LvL 1: 80-/350
+Skeleton LvL 2: 140-/650
+Mummy LvL 1: 95-/400
+Mummy LvL 2: 130-/800
+Vampire LvL 1: 155-/600
+Vampire LvL 2: 190-/900
+Pirate LvL 1: 210-/1000
+Pirate LvL 2: 310-/2500
+Assassin LvL 1: 100-/500
+Assassin LvL 2: 200-/1000
+Assassin LvL 3: 300-/2000
+Assassin LvL 4: 400-/3000
+Tank LvL 1: 210-/1000
+Tank LvL 2: 330-/2500
+Tank LvL 3: 450-/3500
+Android LvL 1: 140-/800
+Android LvL 2: 165-/1200
+Android LvL 3: 190-/1600
+Android LvL 4: 240-/2000
+Android LvL 5: 310-/3000
+Android LvL 6: 390-/4000
+Android LvL 7: 480-/5000
+Machine LvL 1: 450-/3000
+Machine LvL 2: 520-/4000
+Machine LvL 3: 630-/5000
+Namekjin LvL 1: 280-/2500
+Namekjin LvL 2: 340-/3200
+Namekjin LvL 3: 420-/3700
+Namekjin LvL 4: 510-/4000
+Namekjin LvL 5: 590-/6000
+Namekjin LvL 6: 640-/8000
+Namekjin LvL 7: 690-/11000
+Namekjin LvL 8: 760-/14000
+Namekjin LvL 9: 900-/18000
+Namekjin LvL 10: 1400-/25000
+Saibaman LvL 1: 100-/1000 
+Saibaman LvL 2: 200-/3000   
+Saibaman LvL 3: 300-/5000 
+Saibaman LvL 4: 500-/7000  
+Saibaman LvL 5: 650-/10000 
+Saibaman LvL 6: 850-/15000 
+Elemental LvL 1: 600-/1100
+Elemental LvL 2: 900-/20000
+Elemental LvL 3: 1200-/30000
+Zeltajin LvL 1: 350-/5000
+Zeltajin LvL 2: 590-/7000
+Zeltajin LvL 3: 700-/10000
+Zeltajin LvL 4: 900-/15000
+Soldier LvL 1: 700-/10000   
+Soldier LvL 2: 950-/20000
+Soldier LvL 3: 1250-/30000
+Saiyan LvL 1: 320-/3500
+Saiyan LvL 2: 460-/5000
+Saiyan LvL 3: 550-/8000
+Saiyan LvL 4: 640-/15000
+Saiyan LvL 5: 780-/20000
+Saiyan LvL 6: 840-/25000
+Saiyan LvL 7: 1110-/35000
+Oozaru LvL 1: 300-/15000
+Oozaru LvL 2: 600-/25000
+Oozaru LvL 3: 900-/50000
+Oozaru LvL 4: 1200-/75000
+Oozaru LvL 5: 1450-/100000
+Oozaru LvL 6: 1750-/200000
+Oozaru LvL 7: 2000-/300000
+Janemba LvL 1: 360-/4000
+Janemba LvL 2: 580-/10000
+Janemba LvL 3: 800-/25000
+Janemba LvL 4: 1100-/40000
+Amebo LvL 1: 300-/5000
+Amebo LvL 2: 600-/12000
+Scorpion LvL 1 250-/3000
+Scorpion LvL 2 350-/5000
+Scorpion LvL 3 500-/8000
+Android LvL 16: 2200-/35000
+Android LvL 17: 2300-/40000
+Android LvL 18: 2500-/45000
+Majin LvL 1: 260-/3500
+Majin LvL 2: 580-/10000
+Majin LvL 3: 1300-/35000
+Majin LvL 4: 2300-/50000
+Majin LvL 5: 3500-/350000
+--------------------------------
+Goku SSJ MVP: 1000-/400000
+Trunks SSJ MVP: 1500-/500000
+Brolly USSJ MVP: 2500-/1000000
+Trunks USSJ MVP: 4000-/1000000
+Gohan SSJ2 MVP: 5000-/3000000
+Goku SSJ2 MVP: 5000-/3000000
+Tsuful MVP: 7500-/5000000
+Kaioshin MVP: 10000-/10000000
+Vegetto MVP: 15000-/30000000
+Majin Buu MVP: 20000-/30000000
+Super C17 MVP: 25000-/50000000
+Gogeta SSJ4 MVP: 50000-/150000000
+---------------------------------
+Raditz Saga: 1000-/5000
+Nappa Saga: 2000-/10000
+Vegeta Saga: 3000-/20000
+Dodoria Saga: 4000-/25000
+Zarbon Saga: 5000-/40000
+Ginyu Squad Saga: 6000-/50000
+Capitan Ginyu Saga: 7000-/10000
+Freeza1 Saga: 8000-/100000
+Freeza2 Saga: 9000-/300000
+Freeza3 Saga: 10000-/500000
+Freeza4 Saga: 11000-/1000000
+Freeza5 Saga: 12000-/3000000
+Freeza6 Saga: 13000-/5000000
+Freeza7 Saga: 14000-/10000000
+C19 and C20 Saga: 15000-/5000000
+Cell1 Saga: 17000-/10000000
+C17 Saga: 18000-/30000000
+Cell2 Saga: 19000-/30000000
+Cell Jr Saga: 20000-/30000000
+Cell3 Saga: 21000-/50000000
+Pui Pui Saga: 22000-/20000
+Yakon Saga: 23000-/5000000
+Dabura Saga: 24000-/30000000
+Buu1 Saga: 25000-/50000000
+Buu2 Saga: 26000-/70000000
+Buu3 Saga: 27000-/100000000
+Buu4 Saga: 28000-/150000000
+Uub Saga: 29000-/50000000
+Bebi1 Saga: 30000-/70000000
+Bebi2 Saga: 31000-/100000000
+Super C17 Saga: 32000-/100000000
+Ryan Shenlong Saga: 33000-/30000000
+Chii Shenlong Saga: 34000-/50000000
+Uu Shenlong Saga: 35000-/100000000
+Ryuu Shenlong Saga: 36000-/150000000
+Suu Shenron Saga: 37000-/200000000
+San Shenron Saga: 38000-/200000000
+Li Shenron Saga: 40000-/500000000
+
+
+
+

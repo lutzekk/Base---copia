@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<monster name="Giant Spider" race="venom" experience="900" speed="240">
+<health now="2300" max="2300"/>
+<look type="38" corpse="2857"/>
+
+<flags>	
+	<flag pushable="0"/>
+	<flag canpushitems="1"/>
+	<flag targetdistance="1"/>
+</flags>
+
+<attacks>
+	<attack name="melee" speed="2000" chance="90" min="-100" max="-450"/>
+	<attack name="poison spit" speed="2000" chance="50"/>
+</attacks>
+
+<defense armor="30" defense="35">
+</defense>
+
+<immunities>
+	<immunity name="poison"/>
+	<immunity name="paralyze"/>
+	<immunity name="invisible"/>
+	<immunity name="drunk"/>
+	<immunity name="outfit"/>
+</immunities>
+
+<loot>
+ 	<item id="2148" countmax="50" chance1="100000" chancemax="0"/>
+ 	<item id="2463" chance="4000"/>
+ 	<item id="2171" chance="666"/>
+ 	<item id="2459" chance="20000"/>
+
+ 	<item id="1987" chance="100000">
+ 	<inside>
+ 	<item id="2148" countmax="40" chance1="100000" chancemax="0"/>
+ 	<item id="2476" chance="1428"/>
+ 	<item id="2477" chance="1000"/>
+	<item id="0000" countmax="2" chance1="20000" chancemax="0"/>
+ 	<item id="2478" chance="10000"/>
+ 	<item id="2169" chance="800"/>
+ 	</inside>
+ 	</item>
+</loot>
+
+<summons maxSummons="2">
+	<summon name="poison spider" speed="5000" chance="20"/>
+</summons>
+
+</monster>

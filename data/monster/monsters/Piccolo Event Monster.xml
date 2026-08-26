@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <monster name="Piccolo Event Monster" nameDescription="a Piccolo Event Monster" race="blood" experience="7000000" speed="295" manacost="0">
+    <health now="30000000" max="30000000"/>
+    <look type="377" head="0" body="0" legs="0" feet="0" corpse="3046"/>
+    <targetchange interval="60000" chance="0"/>
+    <strategy attack="0" defense="0"/>
+    <flags>
+      <flag attackable="1"/>
+      <flag hostile="1"/>
+      <flag illusionable="0"/>
+      <flag convinceable="0"/>
+      <flag pushable="0"/>
+     <flag canpushitems="1"/>
+      <flag staticattack="50"/>
+      <flag lightlevel="0"/>
+      <flag lightcolor="0"/>
+      <flag targetdistance="1"/>
+      <flag runonhealth="0"/>
+    </flags>
+    <attacks>
+<attack name="melee" interval="1000" min="-100" max="-1000"/>
+<attack name="kienzan" interval="3000" min="-10000" max="-30000"/>
+<attack name="barrier" interval="2000" min="-15000" max="-20000"/>
+<attack name="Mafuba" interval="5000" min="-15000" max="-30000"/>
+<attack name="furie" interval="10000" min="-10000" max="-20000"/>
+<attack name="demon rage" interval="4000" min="-10000" max="-20000"/>
+    </attacks>
+      <immunities>
+      <immunity physical="0"/>
+      <immunity energy="0"/>
+      <immunity fire="0"/>
+      <immunity poison="0"/>
+      <immunity lifedrain="0"/>
+      <immunity paralyze="0"/>
+      <immunity outfit="0"/>
+      <immunity drunk="0"/>
+      <immunity invisible="0"/>
+    </immunities>
+       <loot>
+      <item id="2673" countmax="1" chance1="100000" chancemax="0"/>
+<item id="2164" chance="100000"/>
+<item id="1996" chance="100000">
+<inside>
+<item id="2521" chance="100000"/>
+<item id="2656" chance="100000"/>
+<item id="2634" chance="100000"/>
+</inside>
+</item>
+    </loot>
+  </monster>

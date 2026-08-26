@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Task Man" script="data/npc/scripts/tasks.lua" walkinterval="3000" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="663" head="115" body="95" legs="113" feet="0" addons="3"/>
+    <parameters>
+  <parameter key="message_greet" value="Ei, |PLAYERNAME|, quer uma {nova task}, {informacoes} ou {cancelar} uma task? Ou sera que quer {completar} sua task? Huum... talvez ver quantos {pontos} voce tem?"/>
+  <parameter key="message_farewell" value="Boa sorte em suas aventuras, |PLAYERNAME|."/>
+  <parameter key="message_walkaway" value="Tchau..."/>
+  </parameters>
+</npc>

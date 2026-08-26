@@ -1,0 +1,239 @@
+<formats>
+<format name="Base" version="-1">
+<property header="0" name="Ground"><child size="2" name="Speed" tooltip="Requires Ground"/></property>
+<property header="1" name="Top Order 1"/>
+<property header="2" name="Top Order 2"/>
+<property header="3" name="Top Order 3"/>
+<property header="4" name="Container"/>
+<property header="5" name="Stackable"/>
+<property header="6" name="Corpse"/>
+<property header="7" name="Useable"/>
+<property header="8" name="Rune"/>
+<property header="9" name="Writeable"><child size="2" name="Write Length" tooltip="Requires Writeable"/></property>
+<property header="10" name="Readable"><child size="2" name="Read Length" tooltip="Requires Readable"/></property>
+<property header="11" name="Fluid"/>
+<property header="12" name="Splash"/>
+<property header="13" name="Blocking"/>
+<property header="14" name="Immobile"/>
+<property header="15" name="Blocks Missile"/>
+<property header="16" name="Blocks Path"/>
+<property header="17" name="Pickupable"/>
+<property header="18" name="Hangable"/>
+<property header="19" name="Horizontal"/>
+<property header="20" name="Vertical"/>
+<property header="21" name="Rotatable"/>
+<property header="22" name="Light"><child size="2" name="Lightlevel" tooltip="Requires Light"/><child size="2" name="Lightcolor" tooltip="Requires Light"/></property>
+<property header="23" name="Unknown"/>
+<property header="24" name="Floor Change"/>
+<property header="25" name="Offset"><child size="2" name="Offset X" tooltip="Requires Offset"/><child size="2" name="Offset Y" tooltip="Requires Offset"/></property>
+<property header="26" name="Heighted"><child size="2" name="Height" tooltip="Requires Height"/></property>
+<property header="27" name="Bottom Layer"/>
+<property header="28" name="Idle Animation"/>
+<property header="29" name="Minimap"><child size="2" name="Minimap" tooltip="Requires Minimap"/></property>
+<property header="30" name="Actioned"><child size="1" name="Action" tooltip="Requires Actioned"/><child size="1" name="Action 2" tooltip="Requires Actioned"/></property>
+<property header="31" name="Ground item"/>
+<property header="32" name="Ladder"/>
+<property header="33" name="Solid floor"/>
+<property header="34" name="Adjusted"/>
+<property header="35" name="Wall Item"/>
+<property header="36" name="Mount South"/>
+<property header="37" name="Mount East"/>
+<property header="38" name="Look through"/>
+<property header="39" name="Unknown"/>
+</format>
+
+<format name="Version 8.54" version="854" redirect="850" signature="4B28B89E"/>
+<format name="Version 8.52" version="852" redirect="850" signature="4A4CC0DC"/>
+
+<format name="Version 8.50" version="850" signature="4A4B808D">
+<property header="0" base="0"/>
+<property header="1" base="1"/>
+<property header="2" base="2"/>
+<property header="3" base="3"/>
+<property header="4" base="4"/>
+<property header="5" base="5"/>
+<property header="6" base="6"/>
+<property header="7" base="7"/>
+<property header="8" base="8"/>
+<property header="9" base="9"/>
+<property header="10" base="10"/>
+<property header="11" base="11"/>
+<property header="12" base="12"/>
+<property header="13" base="13"/>
+<property header="14" base="14"/>
+<property header="15" base="15"/>
+<property header="16" base="16"/>
+<property header="17" base="17"/>
+<property header="18" base="18"/>
+<property header="19" base="19"/>
+<property header="20" base="20"/>
+<property header="21" base="21"/>
+<property header="22" base="22"/>
+<property header="23" base="23"/>
+<property header="24" base="24"/>
+<property header="25" base="25"/>
+<property header="26" base="26"/>
+<property header="27" base="27"/>
+<property header="28" base="28"/>
+<property header="29" base="29"/>
+<property header="30" base="30"/>
+<property header="31" base="31"/>
+<property header="32" base="38"/>
+</format>
+
+<format name="Version 8.40" version="840" redirect="780" signature="493D607A"/>
+<format name="Version 8.31" version="831" redirect="780" signature="48DA1FB6"/>
+<format name="Version 8.30" version="830" redirect="780" signature="48DA1FB6"/>
+<format name="Version 8.23" version="823" redirect="780" signature="48DA1FB6"/>
+<format name="Version 8.22" version="822" redirect="780" signature="489980A1"/>
+<format name="Version 8.21" version="821" redirect="780" signature="486CCA2B"/>
+<format name="Version 8.20" version="820" redirect="780" signature="486905AA"/>
+<format name="Version 8.11" version="811" redirect="780" signature="47F60E37"/>
+<format name="Version 8.10" version="810" redirect="780" signature="475D3747"/>
+<format name="Version 8.00" version="800" redirect="780" signature="467FD7E6"/>
+
+<format name="Version 7.80" version="780" signature="44CE4743">
+<property header="0" base="0"/>
+<property header="1" base="1"/>
+<property header="2" base="2"/>
+<property header="3" base="3"/>
+<property header="4" base="4"/>
+<property header="5" base="5"/>
+<property header="6" base="6"/>
+<property header="7" base="7"/>
+<property header="8" base="8"/>
+<property header="9" base="9"/>
+<property header="10" base="10"/>
+<property header="11" base="11"/>
+<property header="12" base="12"/>
+<property header="13" base="13"/>
+<property header="14" base="14"/>
+<property header="15" base="15"/>
+<property header="16" base="16"/>
+<property header="17" base="17"/>
+<property header="18" base="18"/>
+<property header="19" base="19"/>
+<property header="20" base="20"/>
+<property header="21" base="21"/>
+<property header="22" base="22"/>
+<property header="24" base="24"/>
+<property header="25" base="25"/>
+<property header="26" base="26"/>
+<property header="27" base="27"/>
+<property header="28" base="28"/>
+<property header="29" base="29"/>
+<property header="30" base="30"/>
+<property header="31" base="31"/>
+</format>
+
+<format name="Version 7.72" version="772" redirect="755" signature="439D5A33"/>
+<format name="Version 7.70" version="770" redirect="755" signature="439D5A33"/>
+<format name="Version 7.60" version="760" redirect="755" signature="439D5A33"/>
+
+<format name="Version 7.55" version="755" signature="437B2B8F">
+<property header="0" base="0"/>
+<property header="1" base="1"/>
+<property header="2" base="2"/>
+<property header="3" base="3"/>
+<property header="4" base="4"/>
+<property header="5" base="5"/>
+<property header="6" base="7"/>
+<property header="8" base="9"/>
+<property header="9" base="10"/>
+<property header="10" base="11"/>
+<property header="11" base="12"/>
+<property header="12" base="13"/>
+<property header="13" base="14"/>
+<property header="14" base="15"/>
+<property header="15" base="16"/>
+<property header="16" base="17"/>
+<property header="17" base="18"/>
+<property header="18" base="19"/>
+<property header="19" base="20"/>
+<property header="20" base="21"/>
+<property header="21" base="22"/>
+<property header="23" base="24"/>
+<property header="24" base="25"/>
+<property header="25" base="26"/>
+<property header="26" base="27"/>
+<property header="27" base="28"/>
+<property header="28" base="29"/>
+<property header="29" base="30"/>
+<property header="30" base="31"/>
+<property header="-1" base="6"/>
+<property header="-1" base="8"/>
+<property header="7" base="32"/>
+</format>
+
+<format name="Version 7.50" version="750" redirect="740" signature="42F81973"/>
+
+<format name="Version 7.41" version="741" zdiv="0" redirect="740" signature="41BF619C"/>
+
+<format name="Version 7.40" version="740" zdiv="0" signature="41BF619C">
+<property header="0" base="0"/>
+<property header="1" base="1"/>
+<property header="2" base="2"/>
+<property header="3" base="4"/>
+<property header="4" base="5"/>
+<property header="5" base="7"/>
+<property header="6" base="32"/>
+<property header="7" base="9"/>
+<property header="8" base="10"/>
+<property header="9" base="11"/>
+<property header="10" base="12"/>
+<property header="11" base="13"/>
+<property header="12" base="14"/>
+<property header="13" base="15"/>
+<property header="14" base="16"/>
+<property header="15" base="17"/>
+<property header="16" base="22"/>
+<property header="17" base="24"/>
+<property header="18" base="33"/>
+<property header="19" base="26"/>
+<property header="20" base="34"/>
+<property header="22" base="29"/>
+<property header="23" base="21"/>
+<property header="24" base="27"/>
+<property header="25" base="35"/>
+<property header="26" base="36"/>
+<property header="27" base="37"/>
+<property header="28" base="28"/>
+<property header="29" base="30"/>
+</format>
+
+<format name="Version 7.30" version="730" zdiv="0" redirect="710" signature="411A6233"/>
+<format name="Version 7.27" version="727" zdiv="0" redirect="710" signature="404E1C14"/>
+<format name="Version 7.26" version="726" zdiv="0" redirect="710" signature="404E1C14"/>
+<format name="Version 7.24" version="724" zdiv="0" redirect="710" signature="404E1C14"/>
+<format name="Version 7.21" version="721" zdiv="0" redirect="710" signature="3FDF40C6"/>
+<format name="Version 7.13" version="713" zdiv="0" redirect="710" signature="3FD4FB91"/>
+
+<format name="Version 7.10" version="710" zdiv="0" signature="3DFF4B2A">
+<property header="0" base="0"/>
+<property header="1" base="1"/>
+<property header="2" base="2"/>
+<property header="3" base="4"/>
+<property header="4" base="5"/>
+<property header="5" base="7"/>
+<property header="6" base="32"/>
+<property header="7" base="9"/>
+<property header="8" base="10"/>
+<property header="9" base="11"/>
+<property header="10" base="12"/>
+<property header="11" base="13"/>
+<property header="12" base="14"/>
+<property header="13" base="15"/>
+<property header="14" base="16"/>
+<property header="15" base="17"/>
+<property header="16" base="22"/>
+<property header="17" base="24"/>
+<property header="18" base="33"/>
+<property header="19" base="26"/>
+<property header="20" base="34"/>
+<property header="22" base="29"/>
+<property header="23" base="21"/>
+<property header="24" base="27"/>
+<property header="25" base="28"/>
+<property header="26" base="30"/>
+</format>
+</formats>

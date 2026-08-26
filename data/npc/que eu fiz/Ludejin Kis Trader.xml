@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Ludejin Kis Trader" script="default.lua" walkinterval="2000" floorchange="0">
+	<health now="150" max="150"/>
+	<look type="290" head="132" body="79" legs="97" feet="132" corpse="2212"/>
+	<parameters>
+		<parameter key="module_shop" value="1"/>
+		<parameter key="shop_sellable" value="
+			blue ki,2190,5000;
+			blue ki,2188,10000;
+			yellow ki,2189,30000;
+			red ki,2191,40000;
+			stronge ki,2187,50000;
+			saiyan power,2433,10000;"/>
+		<parameter key="shop_buyable" value="blue ki,2190,2000;"/>
+		<parameter key="message_greet" value="Hello |PLAYERNAME|. Say {trade}, to see my offer!"/>
+		<parameter key="message_sendtrade" value="Huh it's my offer.."/>
+		<parameter key="message_oncloseshop" value="Good luck while running and hitting!"/>
+	</parameters>
+</npc>

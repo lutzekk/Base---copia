@@ -1,0 +1,4 @@
+<npc name="Dende" script="sagadbz3.lua" walkinterval="0" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="223" head="132" body="79" legs="97" feet="132" addons="3"/>
+</npc>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <monster name="Cell Third Saga" nameDescription="a Cell saga" race="blood" experience="1" speed="295" manacost="0">
+    <health now="100000000" max="100000000"/>
+    <look type="142" head="0" body="0" legs="0" feet="0" corpse="1903"/>
+    <targetchange interval="60000" chance="0"/>
+    <strategy attack="0" defense="0"/>
+    <flags>
+      <flag attackable="1"/>
+      <flag hostile="1"/>
+      <flag illusionable="0"/>
+      	 <flag sagamonster = "1" />
+	 <flag saganumber = "36" />
+      <flag convinceable="0"/>
+      <flag pushable="0"/>
+     <flag canpushitems="1"/>
+      <flag staticattack="50"/>
+      <flag lightlevel="0"/>
+      <flag lightcolor="0"/>
+      <flag targetdistance="1"/>
+      <flag runonhealth="0"/>
+    </flags>
+    <attacks>
+<attack name="melee" interval="1000" min="-3000" max="-3500"/>
+<attack name="barrier" chance="50" interval="3000" min="-8000" max="-9000"/>
+<attack name="daichiretsuzan" chance="50" interval="5000" min="-6000" max="-7000"/>
+<attack name="tsubi kienzan" chance="50" interval="7000" min="-5000" max="-6000"/>
+<attack name="kienzan" chance="50" interval="8000" min="-6000" max="-7000"/>
+<attack name="cell jr" chance="50" interval="11000" min="-8000" max="-9000"/>
+<attack name="niebieskie fala" chance="50" interval="2000" min="-9000" max="-10000"/>
+    </attacks>
+      <immunities>
+      <immunity physical="0"/>
+      <immunity energy="0"/>
+      <immunity fire="0"/>
+      <immunity poison="0"/>
+      <immunity lifedrain="0"/>
+      <immunity paralyze="0"/>
+      <immunity outfit="0"/>
+      <immunity drunk="0"/>
+      <immunity invisible="0"/>
+    </immunities>
+
+  </monster>

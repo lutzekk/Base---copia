@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<monster name="Minotaur Archer" race="blood" experience="65" manacost="200" speed="170">
+<health now="100" max="100"/>
+<look type="24" corpse="2871"/>
+
+<flags>
+	<flag pushable="1"/>
+	<flag summonable="1"/>
+	<flag convinceable="1"/>
+	<flag illusionable="1"/>
+	<flag canpushitems="0"/>
+	<flag staticattack="50"/>
+	<flag targetdistance="3"/>
+	<flag runonhealth="80"/>
+</flags>
+
+<attacks>
+	<attack name="bolt" min="0" max="-100" speed="2000" chance="100" range="7"/>
+</attacks>
+
+<defenses armor="15" defense="20">
+</defenses>
+
+<loot>
+ 	<item id="2148" countmax="28" chance1="100000" chancemax="0"/>
+ 	<item id="2543" countmax="18" chance1="70000" chancemax="0"/>
+ 	<item id="2666" countmax="3" chance1="50000" chancemax="0"/>
+ 	<item id="2483" chance="10000"/>
+ 	<item id="2481" chance="6666"/>
+
+ 	<item id="1987" chance="100000">
+	<inside>
+	 	<item id="2455" chance="6666"/>
+		<item id="0000" countmax="2" chance1="20000" chancemax="0"/>
+	 	<item id="2465" chance="5000"/>
+ 		<item id="2464" chance="10000"/>
+	 	<item id="2648" chance="4000"/>
+ 		<item id="2458" chance="10000"/>
+ 	</inside>
+ 	</item>
+</loot>
+</monster>

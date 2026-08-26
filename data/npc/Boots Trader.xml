@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Boots Trader" script="default.lua" walkinterval="2000" floorchange="0">
+	<health now="150" max="150"/>
+	<look type="770" head="57" body="59" legs="40" feet="76" corpse="2212"/>
+	<parameters>
+		<parameter key="module_shop" value="1"/>
+		<parameter key="shop_sellable" value="
+			saiyan boots,2195,5000;
+			human boots,3982,500;
+			Future Trunks Boots,2641,20000;
+			experial boots,2501,15000;
+			c17 boots,2645,15000;
+			future trunks boots,2641,30000;
+			super c17 boots,2358,200000;
+			bardock boots,2643,10000;
+			c16 boots,2529,10000;
+			majin boots,2646,60000;
+			android boots,2173,1000;
+			janemba boots,2499,200000;
+			gotenks boots,2515,200000;
+			future corporation boots,2419,200000;
+			corporation boots,7435,200000;
+			piccolo boots,2644,200000;
+			shin boots,7387,50000;
+			elite saiyan boots,2525,100000;
+			tsufurin boots,2511,20000;
+			paul boots,3967,50000;
+			stron bardock boots,7380,20000;
+			goku ssj5 boots,7383,80000;
+			xicor boots,9127,200000;
+			fusion boots,6132,200000;
+			goku boots,7457,200000;"/>
+		<parameter key="shop_buyable" value="boots,2644,1500;"/>
+		<parameter key="message_greet" value="Hello |PLAYERNAME|. Say {trade}, to see my offer!"/>
+		<parameter key="message_sendtrade" value="Huh it's my offer.."/>
+		<parameter key="message_oncloseshop" value="Good luck while running and hitting!"/>
+	</parameters>
+</npc>

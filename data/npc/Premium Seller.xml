@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Premium Seller" script="premium.lua" walkinterval="0" floorchange="0">
+	<health now="150" max="150"/>
+	<look type="326" head="132" body="79" legs="97" feet="132" corpse="2212"/>
+	<parameters>
+		
+		<parameter key="message_greet" value="Ola |PLAYERNAME|.  Eu troco seus premium points adquiridos no site por itens! Diga {trade} ." />
+		
+	</parameters>
+</npc>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Ludejin legs Trader" script="default.lua" walkinterval="2000" floorchange="0">
+	<health now="150" max="150"/>
+	<look type="290" head="132" body="79" legs="97" feet="132" corpse="2212"/>
+	<parameters>
+		<parameter key="module_shop" value="1"/>
+		<parameter key="shop_sellable" value="
+			leather trousers,2649,500;
+			fighter legs,2536,500;
+			green scale legs,2495,750;
+			scale legs,2495,7500;
+			leather legs,2517,1000;
+			majin legs,2647,10000;
+			soldier legs,2468,1200;
+			bardock legs,2460,60000;
+			vilage legs,2540,60000;
+			majin buu legs,2539,500000;
+			strong iron ice legs,2525,60000;
+			goku legs,2504,750000;
+			brolly legs,2470,750000;
+			speed legs,2430,70000;
+			elite legs,2523,75000;
+			shadow legs,2522,7500;
+			bandit legs,2425,7500;
+			vegeta legs,2647,1000;
+			c17 legs,2477,2500;
+			bardock legs,2460,1000;
+			gohan legs,2478,1000;
+			soldier legs,2468,5000;
+			piccolo legs,2488,6500;
+			goku legs,2504,5000;
+			brolly legs,2470,5000;
+			ussj legs,2648,50000;"/>
+		<parameter key="shop_buyable" value="goku ssj5 legs,2469,150000;"/>
+		<parameter key="message_greet" value="Hello |PLAYERNAME|. Say {trade}, to see my offer!"/>
+		<parameter key="message_sendtrade" value="Huh it's my offer.."/>
+		<parameter key="message_oncloseshop" value="Good luck while running and hitting!"/>
+	</parameters>
+</npc>
+
+

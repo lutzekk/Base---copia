@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <monster name="Janemba MVP" nameDescription="a janemba mvp" race="blood" experience="20000" speed="295" manacost="0">
+    <health now="10000000" max="10000000"/>
+    <look type="372" head="0" body="0" legs="0" feet="0" corpse="5967"/>
+    <targetchange interval="60000" chance="0"/>
+    <strategy attack="0" defense="0"/>
+    <flags>
+      <flag attackable="1"/>
+      <flag hostile="1"/>
+      <flag illusionable="0"/>
+      <flag convinceable="0"/>
+      <flag pushable="0"/>
+     <flag canpushitems="1"/>
+      <flag staticattack="50"/>
+      <flag lightlevel="0"/>
+      <flag lightcolor="0"/>
+      <flag targetdistance="1"/>
+      <flag runonhealth="0"/>
+    </flags>
+    <attacks>
+<attack name="melee" interval="1000" min="-3500" max="-4000"/>
+<attack name="demon rage" chance="50" interval="2000" min="-15000" max="-20000"/>
+<attack name="red sword" chance="50" interval="3000" min="-3000" max="-7500"/>
+<attack name="miecz" chance="50" interval="5000" min="-7500" max="-9800"/>
+
+    </attacks>
+      <immunities>
+      <immunity physical="0"/>
+      <immunity energy="0"/>
+      <immunity fire="0"/>
+      <immunity poison="0"/>
+      <immunity lifedrain="0"/>
+      <immunity paralyze="0"/>
+      <immunity outfit="0"/>
+      <immunity drunk="0"/>
+      <immunity invisible="0"/>
+    </immunities>
+    <loot>
+      <item id="2673" countmax="1" chance1="10000" chancemax="0"/>
+<item id="2156" chance="1000"/>
+<item id="1996" chance="50000">
+<inside>
+<item id="2444" chance="111"/>
+<item id="2445" chance="111"/>
+<item id="2458" chance="1000"/>
+<item id="2498" chance="1000"/>
+<item id="2499" chance="1000"/>
+<item id="2443" chance="1000"/>
+   </inside>
+</item>
+    </loot>
+  </monster>

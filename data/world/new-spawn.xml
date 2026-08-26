@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<spawns>
+<spawn centerx="32" centery="24" centerz="7" radius="5">
+<npc name="241" x="4" y="0"/>
+<npc name="328" x="4" y="1"/>
+<npc name="341" x="4" y="2"/>
+<npc name="80" x="4" y="3"/>
+<npc name="328" x="5" y="0"/>
+<npc name="80" x="5" y="1"/>
+<npc name="342" x="5" y="3"/>
+<npc name="80" x="5" y="2"/>
+<npc name="334" x="3" y="0"/>
+<npc name="334" x="2" y="0"/>
+<npc name="336" x="2" y="1"/>
+<npc name="336" x="3" y="1"/>
+<npc name="335" x="2" y="2"/>
+<npc name="335" x="3" y="2"/>
+<npc name="337" x="2" y="3"/>
+<npc name="337" x="3" y="3"/>
+<npc name="337" x="2" y="4"/>
+<npc name="286" x="3" y="4"/>
+<npc name="42" x="1" y="4"/>
+<npc name="327" x="1" y="0"/>
+<npc name="44" x="1" y="1"/>
+<npc name="49" x="1" y="2"/>
+<npc name="42" x="1" y="3"/>
+<npc name="259" x="0" y="4"/>
+</spawn>
+<spawn centerx="40" centery="24" centerz="7" radius="5">
+<npc name="329" x="-2" y="0"/>
+<npc name="102" x="-2" y="1"/>
+<npc name="332" x="-2" y="4"/>
+<npc name="331" x="-2" y="3"/>
+<npc name="330" x="-2" y="2"/>
+<npc name="102" x="-1" y="0"/>
+<npc name="330" x="-1" y="1"/>
+<npc name="331" x="-1" y="2"/>
+<npc name="332" x="-1" y="3"/>
+<npc name="333" x="-1" y="4"/>
+<npc name="326" x="0" y="0"/>
+<npc name="326" x="1" y="0"/>
+<npc name="280" x="0" y="1"/>
+<npc name="280" x="1" y="1"/>
+<npc name="120" x="1" y="2"/>
+<npc name="110" x="0" y="3"/>
+<npc name="110" x="1" y="3"/>
+<npc name="134" x="0" y="4"/>
+<npc name="134" x="1" y="4"/>
+</spawn>
+<spawn centerx="42" centery="31" centerz="7" radius="5">
+<npc name="46" x="-3" y="-1"/>
+</spawn>
+</spawns>

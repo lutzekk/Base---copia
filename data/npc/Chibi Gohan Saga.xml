@@ -1,0 +1,6 @@
+
+
+<npc name="Chibi Gohan" script="saga1.lua" walkinterval="0" floorchange="0" speechbubble="3" >
+  <health now="150" max="150"/>
+  <look type="28" head="114" body="119" legs="114" feet="114" corpse="2212"/>
+</npc>

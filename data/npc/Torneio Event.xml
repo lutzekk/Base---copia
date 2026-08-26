@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Jack" script="_bwnpc.lua" walkinterval="0" floorchange="0">
+	<health now="2000" max="2000"/>
+	<look type="317" head="114" body="119" legs="0" feet="0" corpse="2212"/>
+    <parameters>
+		<parameter key="message_greet" value="Hello |PLAYERNAME|. Would you like to participate in Torneio event? Say {torneio} or {event}.."/>
+    </parameters>
+</npc>

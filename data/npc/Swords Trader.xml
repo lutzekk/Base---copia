@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Swords Trader" script="default.lua" walkinterval="2000" floorchange="0">
+	<health now="150" max="150"/>
+	<look type="1660" head="57" body="59" legs="40" feet="76" corpse="2212"/>
+	<parameters>
+		<parameter key="module_shop" value="1"/>
+		<parameter key="shop_sellable" value="
+			small sword,2376,100;
+			jin sword,2386,400;
+			demon sword,2392,1000;
+			short sword,2406,1500;
+			share sword,2408,1500;
+			scimithar,2395,3000;
+			z sword,2403,4000;
+			rapier,2396,5000;
+			light sword,2400,4000;
+			janemba sword,2390,6000;
+			gohan sword,2451,7000;
+			sword of ice,7386,10000;
+			soldier sword,2393,10000;
+			sword of fire,7384,10000;"/>
+		<parameter key="shop_buyable" value="small sword,2376,300;"/>
+		<parameter key="message_greet" value="Hello |PLAYERNAME|. Say {trade}, to see my offer!"/>
+		<parameter key="message_sendtrade" value="Huh it's my offer.."/>
+		<parameter key="message_oncloseshop" value="Good luck while running and hitting!"/>
+	</parameters>
+</npc>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Ludejin Guns Trader" script="default.lua" walkinterval="2000" floorchange="0">
+	<health now="150" max="150"/>
+	<look type="290" head="132" body="79" legs="97" feet="132" corpse="2212"/>
+	<parameters>
+		<parameter key="module_shop" value="1"/>
+		<parameter key="shop_sellable" value="
+			yellow,2378,2000;
+			red,2423,5000;
+			box,2429,7500;
+			glove,2381,10000;
+			green,2380,30000;
+			stronge,2387,50000;
+			saibamen clav,2427,75000;
+			bardock,2435,100000;
+			white,7433,300000;
+			saiyan,2430,500000;
+			majin,2431,7500000;"/>
+		<parameter key="shop_buyable" value="yellow,3278,2000;"/>
+		<parameter key="message_greet" value="Hello |PLAYERNAME|. Say {trade}, to see my offer!"/>
+		<parameter key="message_sendtrade" value="Huh it's my offer.."/>
+		<parameter key="message_oncloseshop" value="Good luck while running and hitting!"/>
+	</parameters>
+</npc>

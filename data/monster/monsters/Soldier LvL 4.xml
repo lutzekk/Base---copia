@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <monster name="Soldier LvL 4" nameDescription="a soldier" race="blood" experience="1450" speed="295" manacost="0">
+    <health now="40000" max="40000"/>
+    <look type="391" head="0" body="0" legs="0" feet="0" corpse="3010"/>
+    <targetchange interval="60000" chance="0"/>
+    <strategy attack="0" defense="0"/>
+    <flags>
+      <flag attackable="1"/>
+      <flag hostile="1"/>
+      <flag illusionable="0"/>
+      <flag convinceable="0"/>
+      <flag pushable="0"/>
+     <flag canpushitems="1"/>
+      <flag staticattack="50"/>
+      <flag lightlevel="0"/>
+      <flag lightcolor="0"/>
+      <flag targetdistance="1"/>
+      <flag runonhealth="0"/>
+    </flags>
+    <attacks>
+<attack name="melee" interval="1000" min="-1000" max="-1200"/>
+<attack name="red sword" chance="50" interval="3000" min="-5500" max="-5800"/>
+<attack name="gund" chance="50" interval="5000" min="-3500" max="-4100"/>
+<attack name="bakuhatsuha" chance="50" interval="7000" min="-4300" max="-4400"/>
+    </attacks>
+      <immunities>
+      <immunity physical="0"/>
+      <immunity energy="0"/>
+      <immunity fire="0"/>
+      <immunity poison="0"/>
+      <immunity lifedrain="0"/>
+      <immunity paralyze="0"/>
+      <immunity outfit="0"/>
+      <immunity drunk="0"/>
+      <immunity invisible="0"/>
+    </immunities>
+    <loot>
+      <item id="2148" countmax="40" chance1="50000" chancemax="0"/>
+<item id="2156" chance="1000"/>
+<item id="2159" chance="25000"/>
+<item id="2001" chance="50000">
+<inside>
+   <item id="2681" countmax="6" chance1="50000" chancemax="0"/>
+   <item id="2660" chance="2000"/>
+   <item id="2468" chance="2000"/>
+   <item id="2393" chance="2000"/>
+   <item id="2387" chance="2000"/>
+   <item id="2434" chance="2000"/>
+   </inside>
+</item>
+    </loot>
+  </monster>

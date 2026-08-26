@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <monster name="Android LvL 7" nameDescription="a android" race="blood" experience="480" speed="295" manacost="0">
+    <health now="10000" max="10000"/>
+    <look type="279" head="0" body="0" legs="0" feet="0" corpse="5999"/>
+    <targetchange interval="60000" chance="0"/>
+    <strategy attack="0" defense="0"/>
+    <flags>
+      <flag attackable="1"/>
+      <flag hostile="1"/>
+      <flag illusionable="0"/>
+      <flag convinceable="0"/>
+      <flag pushable="0"/>
+     <flag canpushitems="1"/>
+      <flag staticattack="50"/>
+      <flag lightlevel="0"/>
+      <flag lightcolor="0"/>
+      <flag targetdistance="1"/>
+      <flag runonhealth="0"/>
+    </flags>
+    <attacks>
+<attack name="melee" interval="1000" min="-820" max="-910"/>
+<attack name="czerwone pioruny ue" chance="50" interval="5000" min="-900" max="-1110"/>
+    </attacks>
+      <immunities>
+      <immunity physical="0"/>
+      <immunity energy="0"/>
+      <immunity fire="0"/>
+      <immunity poison="0"/>
+      <immunity lifedrain="0"/>
+      <immunity paralyze="0"/>
+      <immunity outfit="0"/>
+      <immunity drunk="0"/>
+      <immunity invisible="0"/>
+    </immunities>
+    <loot>
+      <item id="2148" countmax="25" chance1="50000" chancemax="0"/>
+<item id="6570" chance="10000"/>
+<item id="2187" chance="10000"/>
+<item id="2171" chance="1000"/>
+<item id="2173" chance="1000"/>
+<item id="2201" chance="1000"/>
+<item id="1992" chance="50000">
+<inside>
+   <item id="2687" countmax="3" chance1="50000" chancemax="0"/>
+   <item id="2480" chance="1000"/>
+   <item id="2479" chance="1000"/>
+   <item id="2512" chance="1000"/>
+   <item id="2517" chance="1000"/>
+   <item id="2424" chance="1000"/>
+   <item id="2412" chance="1000"/>
+   <item id="6558" chance="1000"/>
+</inside>
+</item>
+    </loot>
+  </monster>

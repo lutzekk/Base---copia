@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Ludejin Potions Trader" script="default.lua" walkinterval="2000" floorchange="0">
+	<health now="150" max="150"/>
+	<look type="290" head="132" body="79" legs="97" feet="132" corpse="2212"/>
+	<parameters>
+		<parameter key="module_shop" value="1"/>
+		<parameter key="shop_sellable" value="power potion,2685,2000;
+			hp potion,2686,5000;
+			ki potion,2689,50000;
+			strong potion,7440,10000;
+			mega potion,7443,20000;
+			ultimate potion,6558,30000;
+			senzu leaf,2795,50000;
+			senzu root,2796,100000;
+			senzu,2673,5000000;
+			red bands,2214,1000;
+			two tones bands,2166,1000;"/>
+		<parameter key="shop_buyable" value="
+			power potion,2685,2000;
+			hp potion,2686,5000;
+			ki potion,2689,50000;
+			strong potion,7440,10000;
+			mega potion,7443,20000;
+			ultimate potion,6558,30000;
+			senzu leaf,2795,50000;
+			senzu root,2796,100000;
+			senzu,2673,5000000;
+			red bands,2214,1000;
+			two tones bands,2166,1000;"/>
+		<parameter key="message_greet" value="Hello |PLAYERNAME|. Say {trade}, to see my offer!"/>
+		<parameter key="message_sendtrade" value="Huh it's my offer.."/>
+		<parameter key="message_oncloseshop" value="My prices is low!"/>
+	</parameters>
+</npc>

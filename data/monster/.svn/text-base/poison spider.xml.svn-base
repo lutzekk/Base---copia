@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<monster name="Poison Spider" race="venom" experience="22" speed="160" manacost="200">
+<health now="26" max="26"/>
+<look type="36" corpse="2848"/>
+
+<flags>
+	<flag pushable="1"/>
+	<flag summonable="1"/>
+	<flag convinceable="1"/>
+	<flag illusionable="1"/>
+	<flag canpushitems="0"/>
+	<flag staticattack="50"/>
+	<flag targetdistance="1"/>
+	<flag runonhealth="0"/>
+</flags>
+
+<attacks>
+	<attack name="spider bite" speed="2000" range="1" chance="100" min="0" max="-20"/>
+</attacks>
+
+
+<defenses armor="15" defense="20">
+</defenses>
+
+<immunities>
+	<immunity name="poison"/>
+</immunities>
+
+<loot>
+ 	<item id="2148" countmax="10" chance1="80000" chancemax="0"/>
+</loot>
+</monster>

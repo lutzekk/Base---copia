@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Legs Trader" script="default.lua" walkinterval="2000" floorchange="0">
+	<health now="150" max="150"/>
+	<look type="1328" head="57" body="59" legs="40" feet="76" corpse="2212"/>
+	<parameters>
+		<parameter key="module_shop" value="1"/>
+		<parameter key="shop_sellable" value="
+			saiyan legs,2649,1000;
+			green scale legs,2495,1000;
+			majin legs,2647,9000;
+			c17 legs,2477,15000;
+			bardock legs,2460,15000;
+			gohan legs,2478,15000;
+			soldier legs,2468,10000;
+			piccolo legs,2488,200000;
+			goku legs,2504,200000;
+			brolly legs,2470,200000;
+			ussj legs,2648,9000;
+			corporation legs,7392,15000;
+			janemba legs,2498,200000;
+			red ribbon army legs,7402,200000;
+			super c17 legs,2379,200000;
+			xicor legs,9126,200000;
+			fusion legs,7382,1000000;
+			goku ssj5 legs,2469,200000;"/>
+		<parameter key="shop_buyable" value="ninja helmet,2459,1000;"/>
+		<parameter key="message_greet" value="Hello |PLAYERNAME|. Say {trade}, to see my offer!"/>
+		<parameter key="message_sendtrade" value="Huh it's my offer.."/>
+		<parameter key="message_oncloseshop" value="Good luck while running and hitting!"/>
+	</parameters>
+</npc>

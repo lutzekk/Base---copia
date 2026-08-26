@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Armors Trader" script="default.lua" walkinterval="2000" floorchange="0">
+	<health now="150" max="150"/>
+	<look type="642" head="57" body="59" legs="40" feet="76" corpse="2212"/>
+	<parameters>
+		<parameter key="module_shop" value="1"/>
+		<parameter key="shop_sellable" value="
+			black coat,2651,800;
+			elven jacket,2505,100;
+			figther armor,2534,500;
+			tunic,2467,600;
+			goten armor,2654,8000;
+			black power armor,2464,1000;
+			red power armor,2500,2000;
+			saiyan armor,2466,10000;
+			raditz armor,2486,10000;
+			piccolo armor,2489,200000;
+			c16 armor,2664,15000;
+			c17 armor,2476,20000;
+			c18 armor,2508,15000;
+			bardock armor,2658,20000;
+			janemba armor,2458,200000;
+			piccolo robe,2656,100000;
+			majin armor,2463,200000;
+			goku armor,2472,200000;
+			future trunks shirt,3968,30000;
+			corporation coat,7436,200000;
+			shin armor,2653,200000;
+			vilage armor,2513,20000;
+			super c17 armor,2655,200000;
+			fusion armor,2510,1000000;"/>
+		<parameter key="shop_buyable" value="tunic,2467,1000;"/>
+		<parameter key="message_greet" value="Hello |PLAYERNAME|. Say {trade}, to see my offer!"/>
+		<parameter key="message_sendtrade" value="Huh it's my offer.."/>
+		<parameter key="message_oncloseshop" value="Good luck while running and hitting!"/>
+	</parameters>
+</npc>

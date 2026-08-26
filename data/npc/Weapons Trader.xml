@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Armors Trader" script="default.lua" walkinterval="2000" floorchange="0">
+	<health now="150" max="150"/>
+	<look type="854" head="57" body="59" legs="40" feet="76" corpse="2212"/>
+	<parameters>
+		<parameter key="module_shop" value="1"/>
+		<parameter key="shop_sellable" value="
+			staff,2398,1000;
+			castet,2432,2000;
+			mace,2394,3000;
+			roshi staff,2448,4000;
+			full,2434,5000;
+			nunhacko,2391,2000;
+			strong staff,7421,6000;"/>
+		<parameter key="shop_buyable" value="staff,2398,500;"/>
+		<parameter key="message_greet" value="Hello |PLAYERNAME|. Say {trade}, to see my offer!"/>
+		<parameter key="message_sendtrade" value="Huh it's my offer.."/>
+		<parameter key="message_oncloseshop" value="Good luck while running and hitting!"/>
+	</parameters>
+</npc>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<auras>
+<!--	<aura id="1" clientid="368" name="Widow Queen" speed="20" />
+	<aura id="2" clientid="369" name="Racing Bird" speed="20" />-->
+	
+	<aura id="4" clientid="1571" name="Saiyan" speed="300"   />
+	<aura id="5" clientid="1578" name="Saiyan1" speed="300"   />
+	<aura id="6" clientid="1585" name="SaiyanV" speed="300"   />
+	<aura id="7" clientid="1592" name="SaiyanR" speed="300"   />
+	<aura id="8" clientid="1599" name="SaiyanP" speed="300"   />
+	<aura id="9" clientid="1606" name="SaiyanA" speed="300"   />
+	<aura id="10" clientid="1609" name="SaiyanAa" speed="300"   />
+	<aura id="11" clientid="1610" name="Pulse" speed="300"   />
+	<aura id="12" clientid="1611" name="SaiyanY" speed="300"   />
+	<aura id="13" clientid="1612" name="Ultra I" speed="300"   />
+	<aura id="14" clientid="1629" name="Red" speed="300"   />
+	<aura id="15" clientid="1637" name="Purpura" speed="300"   />
+	<aura id="16" clientid="1638" name="Red" speed="300"   />
+	<aura id="17" clientid="1639" name="Negra" speed="300"   />
+	<aura id="18" clientid="1640" name="Roja" speed="300"   />
+	<aura id="19" clientid="1641" name="RedV2" speed="300"   />
+	<aura id="20" clientid="1642" name="RedV3" speed="300"   />
+	<aura id="21" clientid="1643" name="Azul" speed="300"   />
+	<aura id="22" clientid="1644" name="RedV2" speed="300"   />
+	<aura id="23" clientid="1595" name="RedV2" speed="300"   />
+	<aura id="24" clientid="1645" name="Red" speed="300"   />
+	<aura id="25" clientid="1646" name="Red" speed="300"   />
+	<aura id="26" clientid="1647" name="Red" speed="300"   />
+	<aura id="27" clientid="1648" name="Super Pink" speed="300"   />
+	<aura id="28" clientid="1649" name="Super Saiyan" speed="300"   />
+	<aura id="29" clientid="1650" name="Bubbles" speed="300"   />
+	<aura id="30" clientid="1651" name="Bubbles Blue" speed="300"   />
+	<aura id="31" clientid="1652" name="Bubbles Red" speed="300"   />
+
+</auras>

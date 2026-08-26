@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Helmets Trader" script="default.lua" walkinterval="2000" floorchange="0">
+	<health now="150" max="150"/>
+	<look type="530" head="57" body="59" legs="40" feet="76" corpse="2212"/>
+	<parameters>
+		<parameter key="module_shop" value="1"/>
+		<parameter key="shop_sellable" value="
+			ninja helmet,2459,500;
+			green detector,2462,600;
+			chibi gohan cap,2343,1000;
+			soldier helmet,2479,2500;
+			viking cap,2663,1000;
+			red detector,2457,1000;
+			pai pai helmet,2480,5000;
+			bardock bandana,2471,6500;
+			piccolo helmet,2491,5000;
+			piccolo cap,2475,5000;
+			great saiyan helmet,2493,50000;"/>
+		<parameter key="shop_buyable" value="ninja helmet,2459,1000;"/>
+		<parameter key="message_greet" value="Hello |PLAYERNAME|. Say {trade}, to see my offer!"/>
+		<parameter key="message_sendtrade" value="Huh it's my offer.."/>
+		<parameter key="message_oncloseshop" value="Good luck while running and hitting!"/>
+	</parameters>
+</npc>

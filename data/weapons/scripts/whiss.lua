@@ -1,0 +1,10 @@
+local combat = createCombatObject()
+setCombatParam(combat, COMBAT_PARAM_HITCOLOR, 180)
+setCombatParam(combat, COMBAT_PARAM_TYPE, COMBAT_PHYSICALDAMAGE)
+setCombatParam(combat, COMBAT_PARAM_EFFECT, 3)
+setCombatParam(combat, COMBAT_PARAM_DISTANCEEFFECT, 7)
+setCombatFormula(combat, COMBAT_FORMULA_SKILL, -0, -18000,-0, -19500)
+local area = createCombatArea( { {0, 0, 0}, {0, 3, 0}, {0, 0, 0} } )
+function onUseWeapon(cid, var)
+	return doCombat(cid, combat, var)
+end
